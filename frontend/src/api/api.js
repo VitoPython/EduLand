@@ -1,0 +1,54 @@
+import axios from "axios";
+
+// Создаем инстанс axios
+const api = axios.create({
+  baseURL: 'http://localhost:8000'
+});
+
+// Функция для настройки интерцепторов
+export const setupInterceptors = (getToken, session) => {
+  // Удаляем предыдущие интерцепторы
+  api.interceptors.request.eject(api.interceptors.request.handlers[0]);
+  api.interceptors.response.eject(api.interceptors.response.handlers[0]);
+
+  // Добавляем интерцептор для запросов
+  api.interceptors.request.use(async (config) => {
+    const token = await getToken();
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+  });
+
+  // Добавляем интерцептор для ответов
+  api.interceptors.response.use(
+    (response) => response,
+    async (error) => {
+      const originalRequest = error.config;
+
+      // Если получили 401 и это не повторный запрос
+      if (error.response?.status === 401 && !originalRequest._retry) {
+        originalRequest._retry = true;
+
+        try {
+          // Пробуем получить новый токен
+          const token = await session.refresh();
+          
+          // Обновляем заголовок с новым токеном
+          originalRequest.headers.Authorization = `Bearer ${token}`;
+          
+          // Повторяем исходный запрос с новым токеном
+          return api(originalRequest);
+        } catch (refreshError) {
+          // Если не удалось обновить токен, перенаправляем на страницу входа
+          window.location.href = '/sign-in';
+          return Promise.reject(refreshError);
+        }
+      }
+
+      return Promise.reject(error);
+    }
+  );
+};
+
+export default api; 
