@@ -60,9 +60,55 @@ module.exports = {
                     },
                 },
             },
+            animation: {
+                fadeIn: 'fadeIn 0.8s ease-in',
+                fadeInUp: 'fadeInUp 0.8s ease',
+                bounceIn: 'bounceIn 0.9s ease',
+                slideInRight: 'slideInRight 1s ease-out',
+                slideInLeft: 'slideInLeft 1s ease-out',
+                slideInUp: 'slideInUp 1s ease-out',
+                pulse: 'pulse 1.5s ease-in-out infinite',
+            },
+            keyframes: {
+                fadeIn: {
+                    '0%': { opacity: '0' },
+                    '100%': { opacity: '1' },
+                },
+                fadeInUp: {
+                    '0%': { transform: 'translateY(20px)', opacity: '0' },
+                    '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                bounceIn: {
+                    '0%': { transform: 'scale(0.8)', opacity: '0' },
+                    '60%': { transform: 'scale(1.1)', opacity: '1' },
+                    '100%': { transform: 'scale(1)' },
+                },
+                slideInRight: {
+                    '0%': { transform: 'translateX(100%)', opacity: '0' },
+                    '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                slideInLeft: {
+                    '0%': { transform: 'translateX(-100%)', opacity: '0' },
+                    '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                slideInUp: {
+                    '0%': { transform: 'translateY(100%)', opacity: '0' },
+                    '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                pulse: {
+                    '0%, 100%': { transform: 'scale(1)' },
+                    '50%': { transform: 'scale(1.05)' },
+                },
+            },
+            boxShadow: {
+                sm: '0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06)',
+                md: '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)',
+                lg: '0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05)',
+            },
         },
     },
     plugins: [
         require('@tailwindcss/typography'),
+        require('@tailwindcss/backdrop-blur'),
     ],
-} 
+}

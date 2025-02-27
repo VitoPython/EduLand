@@ -1,25 +1,47 @@
 import { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { 
+    HiChevronLeft, 
+    HiBookOpen, 
+    HiCode, 
+    HiPlay,
+    HiArrowLeft,
+    HiArrowRight 
+} from 'react-icons/hi';
 import { useAssignmentStore } from '../stores/assignmentStore';
 import CodeEditor from '../_components/CodeEditor';
 
 const AssignmentDetail = () => {
     const { courseId, lessonId, assignmentId } = useParams();
     const navigate = useNavigate();
-    const {
-        currentAssignment,
-        isLoading,
+    const { 
+        currentAssignment, 
+        isLoading, 
         error,
-        fetchAssignment
+        fetchAssignment,
+        fetchAssignments,
+        getAdjacentAssignments 
     } = useAssignmentStore();
 
     useEffect(() => {
-        if (!assignmentId) {
-            navigate(`/courses/${courseId}/lessons/${lessonId}/assignments`);
-            return;
+        const loadData = async () => {
+            if (lessonId && assignmentId) {
+                await fetchAssignments(lessonId); // Загружаем все задания
+                await fetchAssignment(assignmentId);
+            }
+        };
+        loadData();
+    }, [lessonId, assignmentId, fetchAssignments, fetchAssignment]);
+
+    // Получаем соседние задания
+    const { prev, next } = currentAssignment ? getAdjacentAssignments(currentAssignment.id) : { prev: null, next: null };
+
+    // Функция навигации
+    const navigateToAssignment = (assignment) => {
+        if (assignment) {
+            navigate(`/courses/${courseId}/lessons/${lessonId}/assignments/${assignment.id}`);
         }
-        fetchAssignment(assignmentId);
-    }, [assignmentId, courseId, lessonId, navigate, fetchAssignment]);
+    };
 
     if (isLoading) {
         return (
@@ -31,102 +53,139 @@ const AssignmentDetail = () => {
 
     if (error) {
         return (
-            <div className="flex justify-center items-center min-h-screen">
-                <div className="text-red-600">Error: {error}</div>
+            <div className="text-red-600 text-center py-4">
+                Error: {error}
+            </div>
+        );
+    }
+
+    if (!currentAssignment) {
+        return (
+            <div className="text-center py-4">
+                Assignment not found
             </div>
         );
     }
 
     return (
-        <div className="max-w-[95%] mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            {/* Навигация */}
-            <div className="mb-8 flex items-center justify-between">
-                <button
-                    onClick={() => navigate(`/courses/${courseId}/lessons/${lessonId}/assignments`)}
-                    className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors group"
-                >
-                    <svg className="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                    </svg>
-                    Back to Assignments
-                </button>
-                <div className="flex items-center space-x-4">
-                    <span className="text-sm text-gray-500">
-                        Last updated: {new Date(currentAssignment?.updated_at).toLocaleDateString()}
-                    </span>
+        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+            {/* Header */}
+            <div className="bg-white shadow-md border-b border-gray-200">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                    <div className="flex flex-col space-y-4">
+                        {/* Navigation */}
+                        <div className="flex items-center justify-between">
+                            <div className="flex items-center space-x-4">
+                                <Link
+                                    to={`/courses/${courseId}/lessons/${lessonId}/assignments`}
+                                    className="flex items-center text-indigo-600 hover:text-indigo-900 transition-colors duration-200"
+                                >
+                                    <HiChevronLeft className="h-5 w-5" />
+                                    <span className="font-medium">Back to Assignments</span>
+                                </Link>
+                            </div>
+                            
+                            {/* Assignment Navigation */}
+                            <div className="flex items-center space-x-4">
+                                <button
+                                    onClick={() => navigateToAssignment(prev)}
+                                    disabled={!prev}
+                                    className={`flex items-center px-4 py-2 rounded-lg transition-all duration-200 ${
+                                        prev 
+                                            ? 'text-gray-700 hover:bg-gray-100' 
+                                            : 'text-gray-400 cursor-not-allowed'
+                                    }`}
+                                >
+                                    <HiArrowLeft className="h-5 w-5 mr-2" />
+                                    <span className="font-medium">Previous</span>
+                                </button>
+                                
+                                <button
+                                    onClick={() => navigateToAssignment(next)}
+                                    disabled={!next}
+                                    className={`flex items-center px-4 py-2 rounded-lg transition-all duration-200 ${
+                                        next 
+                                            ? 'text-gray-700 hover:bg-gray-100' 
+                                            : 'text-gray-400 cursor-not-allowed'
+                                    }`}
+                                >
+                                    <span className="font-medium">Next</span>
+                                    <HiArrowRight className="h-5 w-5 ml-2" />
+                                </button>
+                            </div>
+                        </div>
+
+                        {/* Assignment Title с индикатором прогресса */}
+                        <div className="border-t border-gray-200 pt-6">
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <h1 className="text-3xl font-bold text-gray-900 tracking-tight">
+                                        {currentAssignment.title}
+                                    </h1>
+                                    {/* Добавляем индикатор прогресса */}
+                                    <p className="mt-2 text-sm text-gray-500">
+                                        Assignment {prev ? prev.length + 1 : 1} of {prev ? prev.length + 2 : next ? 2 : 1}
+                                    </p>
+                                </div>
+                                <div className="flex items-center space-x-4">
+                                    <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold bg-green-100 text-green-800 ring-1 ring-green-200">
+                                        <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                                        Active
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-[calc(100vh-200px)]">
-                {/* Левая панель с заданием */}
-                <div className="flex flex-col h-full">
-                    <div className="bg-white rounded-xl shadow-sm overflow-hidden flex-grow">
-                        {/* Заголовок задания */}
-                        <div className="px-8 py-6 bg-gradient-to-r from-indigo-600 to-indigo-800">
-                            <h1 className="text-2xl font-bold text-white">
-                                {currentAssignment?.title}
-                            </h1>
-                        </div>
-
-                        {/* Контент задания */}
-                        <div className="p-8 space-y-8 overflow-auto max-h-[calc(100vh-300px)]">
-                            <div className="prose prose-indigo max-w-none">
-                                <div className="space-y-6">
-                                    {/* Task Description */}
-                                    <div className="bg-indigo-50/50 rounded-lg p-8">
-                                        <div className="text-base text-indigo-600 font-medium mb-4">
-                                            Task Description
-                                        </div>
-                                        <div 
-                                            className="prose-base prose-p:my-3 prose-headings:mt-6 prose-headings:mb-4"
-                                            dangerouslySetInnerHTML={{ __html: currentAssignment?.description || '' }}
-                                        />
-                                    </div>
-
-                                    {/* Initial Code */}
-                                    <div className="bg-gray-50 rounded-lg p-8">
-                                        <div className="text-base text-gray-600 font-medium mb-4">
-                                            Initial Code
-                                        </div>
-                                        <div className="bg-gray-900 rounded-lg">
-                                            <pre className="text-base font-mono text-gray-300 p-6 overflow-x-auto">
-                                                <code>{currentAssignment?.code_editor || '# Write your code here'}</code>
-                                            </pre>
+            <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="grid grid-cols-12 gap-8">
+                    {/* Левая колонка с описанием (расширенная) */}
+                    <div className="col-span-12 lg:col-span-7">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                            <div className="px-6 py-4 bg-gradient-to-r from-indigo-600 to-indigo-700">
+                                <div className="flex items-center text-white">
+                                    <HiBookOpen className="h-6 w-6" />
+                                    <h2 className="ml-2 text-xl font-semibold tracking-wide">Assignment Description</h2>
+                                </div>
+                            </div>
+                            <div className="p-8">
+                                <div className="prose prose-lg max-w-none">
+                                    <div className="bg-gray-50 rounded-xl p-8 border border-gray-200 shadow-inner">
+                                        <div className="whitespace-pre-wrap text-gray-700 leading-relaxed">
+                                            {currentAssignment.description}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                {/* Правая панель с редактором */}
-                <div className="bg-white rounded-xl shadow-sm overflow-hidden h-full">
-                    <div className="h-full flex flex-col">
-                        <div className="px-8 py-6 bg-gray-800 flex items-center justify-between flex-shrink-0">
-                            <div className="flex items-center space-x-3">
-                                <div className="flex space-x-2">
-                                    <div className="w-3.5 h-3.5 rounded-full bg-red-500"></div>
-                                    <div className="w-3.5 h-3.5 rounded-full bg-yellow-500"></div>
-                                    <div className="w-3.5 h-3.5 rounded-full bg-green-500"></div>
+                    {/* Правая колонка с редактором */}
+                    <div className="col-span-12 lg:col-span-5">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                            <div className="px-6 py-4 bg-gradient-to-r from-gray-800 to-gray-900">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex items-center text-white">
+                                        <HiCode className="h-6 w-6" />
+                                        <h2 className="ml-2 text-xl font-semibold tracking-wide">Code Editor</h2>
+                                    </div>
+                                    <button 
+                                        className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-all duration-200 flex items-center shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                                        onClick={() => {/* Handle run */}}
+                                    >
+                                        <HiPlay className="h-5 w-5 mr-2" />
+                                        Run Code
+                                    </button>
                                 </div>
-                                <span className="text-base font-medium text-gray-300">Python Editor</span>
                             </div>
-                            <button className="px-5 py-2 bg-indigo-600 text-white text-base rounded-md hover:bg-indigo-700 transition-colors flex items-center">
-                                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                                Run Code
-                            </button>
-                        </div>
-                        <div className="flex-grow overflow-hidden">
-                            <CodeEditor
-                                initialCode={currentAssignment?.code_editor || ''}
-                                onCodeChange={(code) => {
-                                    console.log('Code changed:', code);
-                                }}
-                            />
+                            <div className="p-6 bg-gray-900">
+                                <CodeEditor
+                                    initialCode={currentAssignment.code_editor || '# Your code here'}
+                                    onRun={(code) => console.log('Running code:', code)}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

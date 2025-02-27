@@ -1,28 +1,19 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import { HiX } from 'react-icons/hi';
+import { 
+    HiOutlineDocumentText, 
+    HiOutlineCurrencyDollar, 
+    HiOutlineClock,
+    HiOutlineBookOpen
+} from 'react-icons/hi';
 
-const EditModal = ({ user, onClose, onSubmit, isLoading }) => {
-    EditModal.propTypes = {
-        user: PropTypes.shape({
-            clerk_id: PropTypes.string.isRequired,
-            first_name: PropTypes.string.isRequired,
-            last_name: PropTypes.string.isRequired,
-            email: PropTypes.string.isRequired,
-            phone: PropTypes.string.isRequired,
-            comment: PropTypes.string
-        }).isRequired,
-        onClose: PropTypes.func.isRequired,
-        onSubmit: PropTypes.func.isRequired,
-        isLoading: PropTypes.bool
-    };
-    const [formData, setFormData] = useState({
-        first_name: user.first_name,
-        last_name: user.last_name,
-        email: user.email,
-        phone: user.phone,
-        comment: user.comment || '',
-        clerk_id: user.clerk_id
-    });
+const EditModal = ({ title, fields, initialData, onSubmit, onClose }) => {
+    const [formData, setFormData] = useState({});
+
+    useEffect(() => {
+        setFormData(initialData || {});
+    }, [initialData]);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -34,103 +25,93 @@ const EditModal = ({ user, onClose, onSubmit, isLoading }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        
-        // Фильтруем только измененные поля
-        const changedFields = {};
-        Object.keys(formData).forEach(key => {
-            if (formData[key] !== user[key]) {
-                changedFields[key] = formData[key];
-            }
-        });
-
-        // Проверяем, есть ли изменения
-        if (Object.keys(changedFields).length === 0) {
+        try {
+            await onSubmit(formData);
             onClose();
-            return;
+        } catch (error) {
+            console.error('Error submitting form:', error);
         }
-        
-        await onSubmit(changedFields);
+    };
+
+    const getFieldIcon = (fieldName) => {
+        switch (fieldName) {
+            case 'title':
+                return <HiOutlineBookOpen className="h-5 w-5 text-indigo-500" />;
+            case 'description':
+                return <HiOutlineDocumentText className="h-5 w-5 text-indigo-500" />;
+            case 'duration':
+                return <HiOutlineClock className="h-5 w-5 text-indigo-500" />;
+            case 'price':
+                return <HiOutlineCurrencyDollar className="h-5 w-5 text-indigo-500" />;
+            default:
+                return null;
+        }
     };
 
     return (
-        <div className="fixed inset-0 backdrop-blur-sm overflow-y-auto h-full w-full flex items-center justify-center">
-            <div className="relative bg-white/80 backdrop-blur-sm rounded-lg shadow-xl p-8 max-w-md w-full">
-                <h2 className="text-2xl font-bold mb-6 text-center text-indigo-600">Edit Student</h2>
-                <form onSubmit={handleSubmit}>
-                    <div className="mb-4">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">
-                            First Name
-                        </label>
-                        <input
-                            type="text"
-                            name="first_name"
-                            value={formData.first_name}
-                            onChange={handleChange}
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500"
-                        />
-                    </div>
-                    <div className="mb-4">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">
-                            Last Name
-                        </label>
-                        <input
-                            type="text"
-                            name="last_name"
-                            value={formData.last_name}
-                            onChange={handleChange}
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500"
-                        />
-                    </div>
-                    <div className="mb-4">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">
-                            Email
-                        </label>
-                        <input
-                            type="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500"
-                        />
-                    </div>
-                    <div className="mb-4">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">
-                            Phone
-                        </label>
-                        <input
-                            type="text"
-                            name="phone"
-                            value={formData.phone}
-                            onChange={handleChange}
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500"
-                        />
-                    </div>
-                    <div className="mb-4">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">
-                            Comment
-                        </label>
-                        <textarea
-                            name="comment"
-                            value={formData.comment}
-                            onChange={handleChange}
-                            rows={3}
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500"
-                        />
-                    </div>
-                    <div className="flex justify-end space-x-4">
+        <div className="fixed inset-0 backdrop-blur-sm bg-black/30 overflow-y-auto h-full w-full z-50 flex items-center justify-center">
+            <div className="relative mx-auto p-8 w-full max-w-xl bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl transform transition-all">
+                <div className="absolute top-4 right-4">
+                    <button
+                        onClick={onClose}
+                        className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
+                    >
+                        <HiX className="h-6 w-6" />
+                    </button>
+                </div>
+
+                <h3 className="text-2xl font-semibold text-gray-900 mb-8">{title}</h3>
+
+                <form onSubmit={handleSubmit} className="space-y-8">
+                    {fields.map((field) => (
+                        <div key={field.name} className="relative">
+                            <label htmlFor={field.name} className="block text-sm font-medium text-gray-700 mb-2">
+                                {field.label}
+                            </label>
+                            <div className="relative">
+                                <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                    {getFieldIcon(field.name)}
+                                </div>
+                                {field.type === 'textarea' ? (
+                                    <textarea
+                                        id={field.name}
+                                        name={field.name}
+                                        value={formData[field.name] || ''}
+                                        onChange={handleChange}
+                                        required={field.required}
+                                        rows={4}
+                                        className="pl-12 block w-full rounded-lg border-gray-300 bg-white/50 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-base py-3 transition-all duration-200"
+                                        placeholder={`Enter ${field.label.toLowerCase()}`}
+                                    />
+                                ) : (
+                                    <input
+                                        type={field.type}
+                                        id={field.name}
+                                        name={field.name}
+                                        value={formData[field.name] || ''}
+                                        onChange={handleChange}
+                                        required={field.required}
+                                        className="pl-12 h-12 block w-full rounded-lg border-gray-300 bg-white/50 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-base transition-all duration-200"
+                                        placeholder={`Enter ${field.label.toLowerCase()}`}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                    ))}
+
+                    <div className="flex justify-end space-x-4 mt-10">
                         <button
                             type="button"
                             onClick={onClose}
-                            className="bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition-colors duration-200"
+                            className="px-6 py-3 rounded-lg text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-all duration-200 text-base"
                         >
                             Cancel
                         </button>
                         <button
                             type="submit"
-                            className="bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200"
-                            disabled={isLoading}
+                            className="px-6 py-3 rounded-lg text-white bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-200 shadow-lg hover:shadow-xl text-base"
                         >
-                            {isLoading ? 'Saving...' : 'Save'}
+                            Save
                         </button>
                     </div>
                 </form>
@@ -139,8 +120,17 @@ const EditModal = ({ user, onClose, onSubmit, isLoading }) => {
     );
 };
 
-EditModal.defaultProps = {
-    isLoading: false
+EditModal.propTypes = {
+    title: PropTypes.string.isRequired,
+    fields: PropTypes.arrayOf(PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        label: PropTypes.string.isRequired,
+        type: PropTypes.string.isRequired,
+        required: PropTypes.bool
+    })).isRequired,
+    initialData: PropTypes.object,
+    onSubmit: PropTypes.func.isRequired,
+    onClose: PropTypes.func.isRequired
 };
 
 export default EditModal;

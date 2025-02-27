@@ -1,60 +1,51 @@
-import { useEffect, useState } from "react";
-import api from '../api/api';
+import { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
-import EditModal from '../_components/editModal';
+import { useStudentStore } from '../stores/studentStore';
+import { useEnrollmentStore } from '../stores/enrollmentStore';
+import { useCourseStore } from '../stores/courseStore';
 
 const Students = () => {
-    const [students, setStudents] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-    const [selectedStudent, setSelectedStudent] = useState(null);
     const navigate = useNavigate();
+    const { students, isLoading, error, fetchStudents, deleteStudent } = useStudentStore();
+    const { enrollments, fetchStudentEnrollments } = useEnrollmentStore();
+    const { courses, fetchCourses } = useCourseStore();
 
     useEffect(() => {
         fetchStudents();
-    }, []);
+        fetchCourses();
+    }, [fetchStudents, fetchCourses]);
 
-    const fetchStudents = async () => {
-        try {
-            const response = await api.get('/students');
-            setStudents(response.data);
-        } catch (error) {
-            console.error('Error fetching students:', error);
-            if (error.response?.status === 401) {
-                navigate('/sign-in');
-            }
-        } finally {
-            setIsLoading(false);
-        }
+    const handleStudentClick = (studentId) => {
+        navigate(`/students/${studentId}`);
     };
 
-    const handleDelete = async (id) => {
+    const handleEdit = (e, studentId) => {
+        e.stopPropagation(); // Предотвращаем всплытие события
+        navigate(`/students/${studentId}/edit`);
+    };
+
+    const handleDelete = async (e, studentId) => {
+        e.stopPropagation(); // Предотвращаем всплытие события
         if (window.confirm('Are you sure you want to delete this student?')) {
-            try {
-                await api.delete(`/students/${id}`);
-                setStudents(students.filter(student => student.id !== id));
-            } catch (error) {
-                console.error('Error deleting student:', error);
-                alert('Failed to delete student');
-            }
+            await deleteStudent(studentId);
         }
     };
 
-    const handleEdit = (student) => {
-        setSelectedStudent(student);
+    const getStudentCourses = (studentId) => {
+        const studentEnrollments = enrollments.filter(e => e.student_id === studentId);
+        return studentEnrollments.map(e => {
+            const course = courses.find(c => c.id === e.course_id);
+            return course ? course.title : '';
+        }).join(', ');
     };
 
-    const handleUpdate = async (updatedData) => {
-        try {
-            const response = await api.put(`/students/${selectedStudent.id}`, updatedData);
-            setStudents(students.map(student => 
-                student.id === selectedStudent.id ? response.data : student
-            ));
-            setSelectedStudent(null);
-        } catch (error) {
-            console.error('Error updating student:', error);
-            alert('Failed to update student');
-        }
-    };
+    if (error) {
+        return (
+            <div className="flex justify-center items-center min-h-screen text-red-600">
+                Error: {error}
+            </div>
+        );
+    }
 
     if (isLoading) {
         return (
@@ -90,35 +81,39 @@ const Students = () => {
                             <table className="min-w-full divide-y divide-gray-300">
                                 <thead className="bg-gray-50">
                                     <tr>
-                                        <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Username</th>
-                                        <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">First Name</th>
-                                        <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Last Name</th>
-                                        <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
-                                        <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Phone</th>
-                                        <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Comment</th>
-                                        <th className="relative py-3.5 pl-3 pr-4 sm:pr-6">
-                                            <span className="sr-only">Actions</span>
-                                        </th>
+                                        <th scope="col" className="w-1/8 py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Username</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">First Name</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Last Name</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Phone</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Courses</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Comment</th>
+                                        <th scope="col" className="w-1/8 px-3 py-3.5 text-right text-sm font-semibold text-gray-900">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-gray-200 bg-white">
                                     {students.map((student) => (
-                                        <tr key={student.id}>
-                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{student.username}</td>
+                                        <tr 
+                                            key={student.id} 
+                                            onClick={() => handleStudentClick(student.id)}
+                                            className="cursor-pointer hover:bg-gray-50"
+                                        >
+                                            <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">{student.username}</td>
                                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{student.first_name}</td>
                                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{student.last_name}</td>
                                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{student.email}</td>
                                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{student.phone}</td>
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{getStudentCourses(student.id)}</td>
                                             <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{student.comment}</td>
-                                            <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500 text-right">
                                                 <button
-                                                    onClick={() => handleEdit(student)}
+                                                    onClick={(e) => handleEdit(e, student.id)}
                                                     className="text-indigo-600 hover:text-indigo-900 mr-4"
                                                 >
                                                     Edit
                                                 </button>
                                                 <button
-                                                    onClick={() => handleDelete(student.id)}
+                                                    onClick={(e) => handleDelete(e, student.id)}
                                                     className="text-red-600 hover:text-red-900"
                                                 >
                                                     Delete
@@ -132,14 +127,6 @@ const Students = () => {
                     </div>
                 </div>
             </div>
-
-            {selectedStudent && (
-                <EditModal
-                    user={selectedStudent}
-                    onClose={() => setSelectedStudent(null)}
-                    onSubmit={handleUpdate}
-                />
-            )}
         </div>
     );
 };

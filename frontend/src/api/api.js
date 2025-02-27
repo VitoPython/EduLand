@@ -2,7 +2,29 @@ import axios from "axios";
 
 // Создаем инстанс axios
 const api = axios.create({
-  baseURL: 'http://localhost:8000'
+  baseURL: import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  withCredentials: true
+});
+
+// Добавим логирование для отладки
+api.interceptors.request.use(request => {
+  console.log('Starting Request', request);
+  return request;
+});
+
+api.interceptors.response.use(response => {
+  console.log('Response:', response);
+  return response;
+}, error => {
+  console.error('API Error:', error);
+  if (error.response?.status === 401) {
+    // Перенаправляем на страницу входа при ошибке аутентификации
+    window.location.href = '/sign-in';
+  }
+  return Promise.reject(error);
 });
 
 // Функция для настройки интерцепторов
