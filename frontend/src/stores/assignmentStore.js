@@ -15,17 +15,18 @@ export const useAssignmentStore = create((set, get) => ({
   fetchAssignments: async (lessonId) => {
     try {
       set({ isLoading: true, error: null });
-      const response = await api.get(`/assignments/lessons/${lessonId}`);
+      const response = await api.get(`/api/assignments/lessons/${lessonId}`);
       set({ assignments: response.data, isLoading: false });
     } catch (error) {
       set({ error: error.message, isLoading: false });
+      console.error('Error fetching assignments:', error);
     }
   },
 
   createAssignment: async (lessonId, assignmentData) => {
     try {
       set({ isLoading: true, error: null });
-      const response = await api.post(`/assignments/lessons/${lessonId}`, assignmentData);
+      const response = await api.post(`/api/assignments/lessons/${lessonId}`, assignmentData);
       set(state => ({
         assignments: [...state.assignments, response.data],
         isLoading: false
@@ -33,6 +34,7 @@ export const useAssignmentStore = create((set, get) => ({
       return response.data;
     } catch (error) {
       set({ error: error.message, isLoading: false });
+      console.error('Error creating assignment:', error);
       throw error;
     }
   },
@@ -40,43 +42,20 @@ export const useAssignmentStore = create((set, get) => ({
   updateAssignment: async (assignmentData) => {
     try {
       set({ isLoading: true, error: null });
-      if (!assignmentData?.id) {
-        const error = new Error('Assignment ID is required');
-        error.code = 'MISSING_ID';
-        throw error;
-      }
+      const dataToSend = { ...assignmentData };
+      delete dataToSend.id;
 
-      // Проверяем обязательные поля
-      if (!assignmentData.title?.trim()) {
-        const error = new Error('Title is required');
-        error.code = 'MISSING_TITLE';
-        throw error;
-      }
-
-      const dataToSend = {
-        title: assignmentData.title.trim(),
-        description: assignmentData.description || '',
-        code_editor: assignmentData.code_editor || ''
-      };
-
-      const response = await api.put(`/assignments/${assignmentData.id}`, dataToSend);
-      
+      const response = await api.put(`/api/assignments/${assignmentData.id}`, dataToSend);
       set(state => ({
-        assignments: state.assignments.map(a => 
+        assignments: state.assignments.map(a =>
           a.id === assignmentData.id ? response.data : a
         ),
-        currentAssignment: state.currentAssignment?.id === assignmentData.id 
-          ? response.data 
-          : state.currentAssignment,
         isLoading: false
       }));
-      
       return response.data;
     } catch (error) {
-      set({ 
-        error: error.code ? error.message : (error.response?.data?.detail || 'Failed to update assignment'), 
-        isLoading: false 
-      });
+      set({ error: error.message, isLoading: false });
+      console.error('Error updating assignment:', error);
       throw error;
     }
   },
@@ -84,13 +63,14 @@ export const useAssignmentStore = create((set, get) => ({
   deleteAssignment: async (assignmentId) => {
     try {
       set({ isLoading: true, error: null });
-      await api.delete(`/assignments/${assignmentId}`);
+      await api.delete(`/api/assignments/${assignmentId}`);
       set(state => ({
         assignments: state.assignments.filter(a => a.id !== assignmentId),
         isLoading: false
       }));
     } catch (error) {
       set({ error: error.message, isLoading: false });
+      console.error('Error deleting assignment:', error);
       throw error;
     }
   },
@@ -102,15 +82,24 @@ export const useAssignmentStore = create((set, get) => ({
         return;
     }
 
+    // Проверяем формат ID
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(assignmentId);
+    if (!isValidObjectId) {
+        console.log('Invalid ObjectId format:', assignmentId);
+        set({ error: 'Invalid assignment ID format', currentAssignment: null });
+        return;
+    }
+
     try {
         set({ isLoading: true, error: null });
-        console.log('Fetching assignment:', assignmentId);
-        const response = await api.get(`/assignments/${assignmentId}`);
+        console.log('Fetching assignment with ID:', assignmentId);
+        const response = await api.get(`/api/assignments/${assignmentId}`);
         console.log('Fetched assignment data:', response.data);
         set({ 
             currentAssignment: response.data,
             isLoading: false 
         });
+        return response.data;
     } catch (error) {
         console.error('Error fetching assignment:', error);
         set({ 
@@ -118,6 +107,7 @@ export const useAssignmentStore = create((set, get) => ({
             isLoading: false,
             currentAssignment: null
         });
+        throw error;
     }
   },
 

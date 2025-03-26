@@ -4,7 +4,7 @@ import { useStudentStore } from '../stores/studentStore';
 import { HiUserAdd, HiX, HiSearch, HiMail, HiAcademicCap, HiStatusOnline } from 'react-icons/hi';
 import PropTypes from 'prop-types';
 
-const AddStudentModal = ({ groupId, onClose }) => {
+const AddStudentModal = ({ groupId, onClose, onSuccess }) => {
     const { addStudentToGroup } = useGroupStore();
     const { students, fetchStudents } = useStudentStore();
     const [selectedStudent, setSelectedStudent] = useState('');
@@ -22,15 +22,38 @@ const AddStudentModal = ({ groupId, onClose }) => {
         setIsLoading(true);
         try {
             const student = students.find(s => s.id === selectedStudent);
-            await addStudentToGroup(groupId, {
-                student_id: student.id,
+            if (!student) {
+                console.error('Selected student not found');
+                return;
+            }
+
+            const studentId = student._id || student.id;
+            console.log('Adding student with data:', {
+                student_id: studentId,
                 first_name: student.first_name,
                 last_name: student.last_name,
                 email: student.email
             });
-            onClose();
+
+            await addStudentToGroup(groupId, {
+                student_id: studentId,
+                first_name: student.first_name,
+                last_name: student.last_name,
+                email: student.email,
+                balance: 0,
+                progress: {},
+                total_points: 0,
+                status: "Admitted"
+            });
+            
+            if (onSuccess) {
+                await onSuccess();
+            } else {
+                onClose();
+            }
         } catch (error) {
             console.error('Error adding student:', error);
+            alert(error.response?.data?.detail || 'Failed to add student to group');
         } finally {
             setIsLoading(false);
         }
@@ -44,11 +67,14 @@ const AddStudentModal = ({ groupId, onClose }) => {
     return (
         <div className="fixed inset-0 z-50 overflow-y-auto">
             {/* Анимированный backdrop с размытием */}
-            <div className="fixed inset-0 bg-gradient-to-br from-indigo-900/50 via-purple-900/50 to-pink-900/50 backdrop-blur-sm transition-all duration-300"></div>
+            <div 
+                className="fixed inset-0 bg-gradient-to-br from-indigo-900/50 via-purple-900/50 to-pink-900/50 backdrop-blur-sm transition-all duration-300"
+                onClick={onClose}
+            ></div>
 
             {/* Модальное окно */}
-            <div className="flex min-h-screen items-center justify-center p-4">
-                <div className="relative w-full max-w-md transform overflow-hidden rounded-2xl bg-white shadow-2xl transition-all">
+            <div className="flex min-h-screen items-center justify-center p-4" onClick={(e) => e.stopPropagation()}>
+                <div className="relative w-full max-w-md transform overflow-hidden rounded-2xl bg-white shadow-2xl transition-all" onClick={(e) => e.stopPropagation()}>
                     {/* Градиентный заголовок */}
                     <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 p-6">
                         <div className="flex items-center justify-between">
@@ -59,6 +85,7 @@ const AddStudentModal = ({ groupId, onClose }) => {
                                 <h3 className="text-xl font-semibold text-white">Add Student to Group</h3>
                             </div>
                             <button
+                                type="button"
                                 onClick={onClose}
                                 className="rounded-full p-2 text-white hover:bg-white/20 transition-colors duration-200"
                             >
@@ -165,7 +192,8 @@ const AddStudentModal = ({ groupId, onClose }) => {
 
 AddStudentModal.propTypes = {
     groupId: PropTypes.string.isRequired,
-    onClose: PropTypes.func.isRequired
+    onClose: PropTypes.func.isRequired,
+    onSuccess: PropTypes.func
 };
 
 export default AddStudentModal; 

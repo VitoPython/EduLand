@@ -3,8 +3,12 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useGroupStore } from '../stores/groupStore';
 import { useCourseStore } from '../stores/courseStore';
 import { useLessonStore } from '../stores/lessonStore';
+import { useAuth } from "@clerk/clerk-react";
 import AddStudentModal from '../components/AddStudentModal';
 import AttendanceTable from '../components/AttendanceTable';
+import GradesTable from '../components/GradesTable';
+import api from '../services/api';
+import { Select } from 'antd';
 
 import {
     HiChevronLeft,
@@ -19,45 +23,144 @@ import {
     HiUserAdd,
 } from 'react-icons/hi';
 
+const { Option } = Select;
+
 const GroupDetail = () => {
     const navigate = useNavigate();
     const { groupId } = useParams();
-    const { currentGroup, fetchGroup, removeStudentFromGroup, isLoading: groupLoading } = useGroupStore();
-    const { courses, fetchCourses, isLoading: coursesLoading } = useCourseStore();
+    const { getToken } = useAuth();
+    const { currentGroup, fetchGroup, removeStudentFromGroup } = useGroupStore();
+    const { courses, fetchCourses } = useCourseStore();
     const { fetchLessons, lessons } = useLessonStore();
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentCourse, setCurrentCourse] = useState(null);
+    const [assignments, setAssignments] = useState([]);
+    const [currentAssignment, setCurrentAssignment] = useState(null);
+    const [activeTab, setActiveTab] = useState('students');
+    const [loading, setLoading] = useState(true);
 
+    // Загрузка данных группы и курсов
     useEffect(() => {
-        console.log('Fetching group and courses');
-        fetchGroup(groupId);
-        fetchCourses();
+        const loadData = async () => {
+            try {
+                setLoading(true);
+                await Promise.all([
+                    fetchGroup(groupId),
+                    fetchCourses()
+                ]);
+            } catch (error) {
+                console.error('Error loading data:', error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        loadData();
     }, [groupId, fetchGroup, fetchCourses]);
 
+    // Установка текущего курса при изменении группы или списка курсов
     useEffect(() => {
         if (currentGroup?.course_id && courses.length > 0) {
             const course = courses.find(c => c.id === currentGroup.course_id);
             setCurrentCourse(course);
-            console.log('Current course set:', course);
         }
     }, [currentGroup, courses]);
 
+    // Загрузка уроков при изменении курса
     useEffect(() => {
-        if (currentCourse) {
-            console.log('Fetching lessons for course:', currentCourse.id);
+        if (currentCourse?.id) {
             fetchLessons(currentCourse.id);
         }
     }, [currentCourse, fetchLessons]);
 
-    useEffect(() => {
-        console.log('Lessons updated:', lessons);
-        console.log('Total lessons count:', lessons.length);
-    }, [lessons]);
+    // Загрузка заданий для урока
+    const fetchAssignmentsForLesson = async (lessonId) => {
+        try {
+            const token = await getToken();
+            const response = await api.get(`/assignments/lessons/${lessonId}`, {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            });
+            setAssignments(response.data);
+            if (response.data.length > 0) {
+                setCurrentAssignment(response.data[0]);
+            }
+        } catch (error) {
+            console.error('Error fetching assignments:', error);
+        }
+    };
 
-    console.log('Rendering GroupDetail with lessons:', lessons);
-    console.log('Total lessons count before passing to AttendanceTable:', lessons.length);
+    // Обработчик изменения урока
+    const handleLessonChange = async (lessonId) => {
+        await fetchAssignmentsForLesson(lessonId);
+    };
 
-    if (!currentGroup) {
+    // Обработчик изменения задания
+    const handleAssignmentChange = (assignmentId) => {
+        const selected = assignments.find(a => a.id === assignmentId);
+        setCurrentAssignment(selected);
+    };
+
+    // Обработчик удаления студента
+    const handleRemoveStudent = async (studentId, studentName) => {
+        if (window.confirm(`Are you sure you want to remove ${studentName} from the group?`)) {
+            try {
+                await removeStudentFromGroup(groupId, studentId);
+                await fetchGroup(groupId); // Обновляем данные группы после удаления
+            } catch (error) {
+                console.error('Error removing student:', error);
+            }
+        }
+    };
+
+    // Обновленный компонент выбора урока и задания
+    const renderAssignmentSelector = () => {
+        return (
+            <div className="mb-6 space-y-4">
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Select Lesson
+                            </label>
+                            <Select
+                                className="w-full"
+                                onChange={handleLessonChange}
+                                placeholder="Choose a lesson"
+                            >
+                                {lessons.map(lesson => (
+                                    <Option key={lesson.id} value={lesson.id}>
+                                        {lesson.title}
+                                    </Option>
+                                ))}
+                            </Select>
+                        </div>
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">
+                                Select Assignment
+                            </label>
+                            <Select
+                                className="w-full"
+                                onChange={handleAssignmentChange}
+                                value={currentAssignment?.id}
+                                placeholder="Choose an assignment"
+                                disabled={!assignments.length}
+                            >
+                                {assignments.map(assignment => (
+                                    <Option key={assignment.id} value={assignment.id}>
+                                        {assignment.title}
+                                    </Option>
+                                ))}
+                            </Select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    };
+
+    // Отображение загрузки
+    if (loading && !currentGroup) {
         return (
             <div className="flex justify-center items-center min-h-screen">
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
@@ -65,12 +168,22 @@ const GroupDetail = () => {
         );
     }
 
-    const handleRemoveStudent = async (studentId, studentName) => {
-        if (window.confirm(`Are you sure you want to remove ${studentName} from the group?`)) {
-            await removeStudentFromGroup(groupId, studentId);
-        }
-    };
-
+    // Отображение отсутствия группы
+    if (!currentGroup) {
+        return (
+            <div className="flex justify-center items-center min-h-screen">
+                <div className="text-center">
+                    <h2 className="text-2xl font-bold text-gray-800 mb-4">Group not found</h2>
+                    <Link
+                        to="/groups"
+                        className="text-indigo-600 hover:text-indigo-800 transition-all duration-200"
+                    >
+                        Return to Groups
+                    </Link>
+                </div>
+            </div>
+        );
+    }
 
     // Вычисляем прогресс группы
     const groupProgress = currentGroup.total_lessons 
@@ -100,12 +213,13 @@ const GroupDetail = () => {
                                     {currentCourse ? currentCourse.title : 'No course assigned'}
                                 </p>
                             </div>
-                            <Link
-                                to={`/groups/${groupId}/edit`}
-                                className="px-4 py-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-colors duration-200"
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className="px-4 py-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-colors duration-200 flex items-center"
                             >
-                                Edit Group
-                            </Link>
+                                <HiUserAdd className="h-5 w-5 mr-2" />
+                                Add Student
+                            </button>
                         </div>
                         {/* Progress Bar */}
                         <div className="w-full bg-white/20 rounded-full h-2.5">
@@ -199,130 +313,162 @@ const GroupDetail = () => {
                     </div>
                 </div>
 
-                {/* Students Section */}
-                <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-                    <div className="px-8 py-6 border-b border-gray-200 flex justify-between items-center">
-                        <div>
-                            <h2 className="text-xl font-semibold text-gray-900">Students</h2>
-                            <p className="text-sm text-gray-500 mt-1">
-                                {currentGroup.students?.length || 0} of {currentGroup.max_students} spots filled
-                            </p>
-                        </div>
-                        <button
-                            onClick={() => setIsModalOpen(true)}
-                            disabled={currentGroup.students?.length >= currentGroup.max_students}
-                            className={`inline-flex items-center px-4 py-2 rounded-lg transition-all duration-200 ${
-                                currentGroup.students?.length >= currentGroup.max_students
-                                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                                    : 'bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white hover:from-indigo-700 hover:via-purple-700 hover:to-pink-600'
-                            }`}
-                        >
-                            <HiUserAdd className="h-5 w-5 mr-2" />
-                            Add Student
-                        </button>
+                {/* Tabs and Content */}
+                <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div className="border-b border-gray-200">
+                        <nav className="-mb-px flex" aria-label="Tabs">
+                            <button
+                                onClick={() => setActiveTab('students')}
+                                className={`${
+                                    activeTab === 'students'
+                                        ? 'border-indigo-500 text-indigo-600'
+                                        : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                                } w-1/3 py-4 px-1 text-center border-b-2 font-medium text-sm`}
+                            >
+                                Students
+                            </button>
+                            <button
+                                onClick={() => setActiveTab('attendance')}
+                                className={`${
+                                    activeTab === 'attendance'
+                                        ? 'border-indigo-500 text-indigo-600'
+                                        : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                                } w-1/3 py-4 px-1 text-center border-b-2 font-medium text-sm`}
+                            >
+                                Attendance
+                            </button>
+                            <button
+                                onClick={() => setActiveTab('grades')}
+                                className={`${
+                                    activeTab === 'grades'
+                                        ? 'border-indigo-500 text-indigo-600'
+                                        : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                                } w-1/3 py-4 px-1 text-center border-b-2 font-medium text-sm`}
+                            >
+                                Grades
+                            </button>
+                        </nav>
                     </div>
 
                     <div className="p-6">
-                        <div className="overflow-x-auto">
-                            <table className="min-w-full divide-y divide-gray-200">
-                                <thead>
-                                    <tr className="bg-gray-50">
-                                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Student
-                                        </th>
-                                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Email
-                                        </th>
-                                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Progress
-                                        </th>
-                                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Status
-                                        </th>
-                                        <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Joined
-                                        </th>
-                                        <th scope="col" className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Actions
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody className="bg-white divide-y divide-gray-200">
-                                    {currentGroup.students?.map((student) => (
-                                        <tr 
-                                            key={student.student_id}
-                                            onClick={() => navigate(`/students/${student.student_id}`)}
-                                            className="hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
-                                        >
-                                            <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                                                {student.first_name}
-                                            </td>
-                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                                {student.last_name}
-                                            </td>
-                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                                {student.email}
-                                            </td>
-                                            <td className="px-6 py-4 whitespace-nowrap">
-                                                <div className="w-32">
-                                                    <div className="flex justify-between items-center mb-1">
-                                                        <span className="text-xs font-medium text-gray-900">
-                                                            {typeof student.progress === 'number' ? student.progress : 0}%
-                                                        </span>
-                                                    </div>
-                                                    <div className="w-full bg-gray-200 rounded-full h-1.5">
-                                                        <div 
-                                                            className="bg-gradient-to-r from-indigo-500 to-purple-500 h-1.5 rounded-full transition-all duration-500"
-                                                            style={{ width: `${typeof student.progress === 'number' ? student.progress : 0}%` }}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td className="px-6 py-4 whitespace-nowrap">
-                                                <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                                                    student.status === 'active'
-                                                        ? 'bg-green-100 text-green-800'
-                                                        : 'bg-yellow-100 text-yellow-800'
-                                                }`}>
-                                                    {typeof student.status === 'string' ? student.status : 'active'}
-                                                </span>
-                                            </td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                                {student.created_at ? new Date(student.created_at).toLocaleDateString() : 'Recently'}
-                                            </td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-right">
-                                                <button
-                                                    onClick={(e) => {
-                                                        e.stopPropagation();
-                                                        handleRemoveStudent(student.student_id, `${student.first_name} ${student.last_name}`);
-                                                    }}
-                                                    className="text-red-500 hover:text-red-700 transition-colors duration-200 p-1 rounded-full hover:bg-red-50"
-                                                >
-                                                    <HiTrash className="h-5 w-5" />
-                                                </button>
-                                            </td>
+                        {activeTab === 'students' ? (
+                            <div className="overflow-x-auto">
+                                <table className="min-w-full divide-y divide-gray-200">
+                                    <thead>
+                                        <tr className="bg-gray-50">
+                                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Student
+                                            </th>
+                                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Email
+                                            </th>
+                                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Progress
+                                            </th>
+                                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Status
+                                            </th>
+                                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Joined
+                                            </th>
+                                            <th scope="col" className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Actions
+                                            </th>
                                         </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
+                                    </thead>
+                                    <tbody className="bg-white divide-y divide-gray-200">
+                                        {currentGroup.students?.map((student) => (
+                                            <tr 
+                                                key={student.student_id}
+                                                onClick={() => navigate(`/students/${student.student_id}`)}
+                                                className="hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
+                                            >
+                                                <td className="px-6 py-4 whitespace-nowrap">
+                                                    <div className="flex items-center">
+                                                        <div>
+                                                            <div className="text-sm font-medium text-gray-900">
+                                                                {student.first_name} {student.last_name}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="px-6 py-4 whitespace-nowrap">
+                                                    <div className="text-sm text-gray-500">{student.email}</div>
+                                                </td>
+                                                <td className="px-6 py-4 whitespace-nowrap">
+                                                    <div className="w-32">
+                                                        <div className="flex justify-between items-center mb-1">
+                                                            <span className="text-xs font-medium text-gray-900">
+                                                                {typeof student.progress === 'number' ? student.progress : 0}%
+                                                            </span>
+                                                        </div>
+                                                        <div className="w-full bg-gray-200 rounded-full h-1.5">
+                                                            <div 
+                                                                className="bg-gradient-to-r from-indigo-500 to-purple-500 h-1.5 rounded-full transition-all duration-500"
+                                                                style={{ width: `${typeof student.progress === 'number' ? student.progress : 0}%` }}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="px-6 py-4 whitespace-nowrap">
+                                                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                                                        student.status === 'active'
+                                                            ? 'bg-green-100 text-green-800'
+                                                            : 'bg-yellow-100 text-yellow-800'
+                                                    }`}>
+                                                        {student.status || 'Active'}
+                                                    </span>
+                                                </td>
+                                                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                                    {student.created_at ? new Date(student.created_at).toLocaleDateString() : 'Recently'}
+                                                </td>
+                                                <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                                    <button
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            handleRemoveStudent(student.student_id, `${student.first_name} ${student.last_name}`);
+                                                        }}
+                                                        className="text-red-500 hover:text-red-700 transition-colors duration-200"
+                                                    >
+                                                        <HiTrash className="h-5 w-5" />
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        ) : activeTab === 'attendance' ? (
+                            <AttendanceTable 
+                                groupId={groupId} 
+                                students={currentGroup.students}
+                                courseName={currentCourse?.title}
+                                totalLessonsCount={lessons.length}
+                            />
+                        ) : (
+                            <div>
+                                {renderAssignmentSelector()}
+                                {currentAssignment && currentGroup.students && (
+                                    <GradesTable
+                                        assignmentId={currentAssignment.id}
+                                        assignmentName={currentAssignment.title}
+                                        students={currentGroup.students}
+                                    />
+                                )}
+                            </div>
+                        )}
                     </div>
                 </div>
 
+                {/* Add Student Modal */}
                 {isModalOpen && (
                     <AddStudentModal
                         groupId={groupId}
                         onClose={() => setIsModalOpen(false)}
-                    />
-                )}
-
-                {/* Обновляем компонент AttendanceTable */}
-                {currentGroup && (
-                    <AttendanceTable 
-                        groupId={groupId} 
-                        students={currentGroup.students}
-                        courseName={currentCourse?.title}
-                        totalLessonsCount={lessons.length}
+                        onSuccess={() => {
+                            setIsModalOpen(false);
+                            fetchGroup(groupId);
+                        }}
                     />
                 )}
             </div>

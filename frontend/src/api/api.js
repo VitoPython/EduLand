@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Создаем инстанс axios
 const api = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000',
+  baseURL: 'http://127.0.0.1:8000',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -11,6 +11,12 @@ const api = axios.create({
 
 // Добавим логирование для отладки
 api.interceptors.request.use(request => {
+  if (request.url) {
+    // Убедимся, что ID в URL корректно закодирован
+    request.url = request.url.replace(/\/([^\/]+)\//, (match, id) => {
+      return `/${encodeURIComponent(id)}/`;
+    });
+  }
   console.log('Starting Request', request);
   return request;
 });

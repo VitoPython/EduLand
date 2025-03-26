@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api import users, courses, lessons, assignments, students, enrollments, groups, attendance
+from api import users, courses, lessons, assignments, students, enrollments, groups, attendance, grades
 from dotenv import load_dotenv
 import os
 
@@ -12,7 +12,22 @@ CLERK_PEM_PUBLIC_KEY = os.getenv("CLERK_PEM_PUBLIC_KEY")
 CLERK_AUDIENCE = os.getenv("CLERK_AUDIENCE")
 CLERK_ISSUER = os.getenv("CLERK_ISSUER")
 
-app = FastAPI()
+app = FastAPI(
+    title="Student Back Portal API",
+    description="API для управления студентами, курсами, оценками и посещаемостью",
+    version="1.0.0",
+    openapi_tags=[
+        {"name": "users", "description": "Операции с пользователями"},
+        {"name": "courses", "description": "Операции с курсами"},
+        {"name": "lessons", "description": "Операции с уроками"},
+        {"name": "assignments", "description": "Операции с заданиями"},
+        {"name": "students", "description": "Операции со студентами"},
+        {"name": "enrollments", "description": "Операции с зачислениями"},
+        {"name": "groups", "description": "Операции с группами"},
+        {"name": "attendance", "description": "Операции с посещаемостью"},
+        {"name": "grades", "description": "Операции с оценками"}
+    ]
+)
 
 # Настройка CORS
 app.add_middleware(
@@ -32,6 +47,7 @@ app.include_router(students.router)
 app.include_router(enrollments.router)
 app.include_router(groups.router)
 app.include_router(attendance.router)
+app.include_router(grades.router)
 
 if __name__ == "__main__":
     import uvicorn
