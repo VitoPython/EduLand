@@ -1,0 +1,4071 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Security",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRecord",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceStatus",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRecord",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceStatus",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "attendance_crud",
+        "importPath": "crud.attendance_crud",
+        "description": "crud.attendance_crud",
+        "isExtraImport": true,
+        "detail": "crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "models.course",
+        "description": "models.course",
+        "isExtraImport": true,
+        "detail": "models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.course",
+        "description": "models.course",
+        "isExtraImport": true,
+        "detail": "models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "models.course",
+        "description": "models.course",
+        "isExtraImport": true,
+        "detail": "models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "models.course",
+        "description": "models.course",
+        "isExtraImport": true,
+        "detail": "models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Assignment",
+        "importPath": "models.course",
+        "description": "models.course",
+        "isExtraImport": true,
+        "detail": "models.course",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "auth.clerk",
+        "description": "auth.clerk",
+        "isExtraImport": true,
+        "detail": "auth.clerk",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "auth.clerk",
+        "description": "auth.clerk",
+        "isExtraImport": true,
+        "detail": "auth.clerk",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "importPath": "models.enrollment",
+        "description": "models.enrollment",
+        "isExtraImport": true,
+        "detail": "models.enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollmentUpdate",
+        "importPath": "models.enrollment",
+        "description": "models.enrollment",
+        "isExtraImport": true,
+        "detail": "models.enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "importPath": "models.enrollment",
+        "description": "models.enrollment",
+        "isExtraImport": true,
+        "detail": "models.enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "enrollment_crud",
+        "importPath": "crud.enrollment_crud",
+        "description": "crud.enrollment_crud",
+        "isExtraImport": true,
+        "detail": "crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupStudent",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupUpdate",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupStudent",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupUpdate",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "group_crud",
+        "importPath": "crud.group_crud",
+        "description": "crud.group_crud",
+        "isExtraImport": true,
+        "detail": "crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUser",
+        "importPath": "models.regular_user",
+        "description": "models.regular_user",
+        "isExtraImport": true,
+        "detail": "models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserInDB",
+        "importPath": "models.regular_user",
+        "description": "models.regular_user",
+        "isExtraImport": true,
+        "detail": "models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserUpdate",
+        "importPath": "models.regular_user",
+        "description": "models.regular_user",
+        "isExtraImport": true,
+        "detail": "models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUser",
+        "importPath": "models.regular_user",
+        "description": "models.regular_user",
+        "isExtraImport": true,
+        "detail": "models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserInDB",
+        "importPath": "models.regular_user",
+        "description": "models.regular_user",
+        "isExtraImport": true,
+        "detail": "models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "regular_user_crud",
+        "importPath": "crud.regular_user_crud",
+        "description": "crud.regular_user_crud",
+        "isExtraImport": true,
+        "detail": "crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdate",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentLogin",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentResponse",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCreate",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdate",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "user_crud",
+        "importPath": "crud.user_crud",
+        "description": "crud.user_crud",
+        "isExtraImport": true,
+        "detail": "crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "discord",
+        "importPath": "services",
+        "description": "services",
+        "isExtraImport": true,
+        "detail": "services",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "RSAAlgorithm",
+        "importPath": "jwt.algorithms",
+        "description": "jwt.algorithms",
+        "isExtraImport": true,
+        "detail": "jwt.algorithms",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "GetJsonSchemaHandler",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "core_schema",
+        "importPath": "pydantic_core",
+        "description": "pydantic_core",
+        "isExtraImport": true,
+        "detail": "pydantic_core",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "courses",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "lessons",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "assignments",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "enrollments",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "groups",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "attendance",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "TTFont",
+        "importPath": "fontTools.ttLib",
+        "description": "fontTools.ttLib",
+        "isExtraImport": true,
+        "detail": "fontTools.ttLib",
+        "documentation": {}
+    },
+    {
+        "label": "sfnt",
+        "importPath": "fontTools.ttLib",
+        "description": "fontTools.ttLib",
+        "isExtraImport": true,
+        "detail": "fontTools.ttLib",
+        "documentation": {}
+    },
+    {
+        "label": "TTFont",
+        "importPath": "fontTools.ttLib",
+        "description": "fontTools.ttLib",
+        "isExtraImport": true,
+        "detail": "fontTools.ttLib",
+        "documentation": {}
+    },
+    {
+        "label": "timestampNow",
+        "importPath": "fontTools.misc.timeTools",
+        "description": "fontTools.misc.timeTools",
+        "isExtraImport": true,
+        "detail": "fontTools.misc.timeTools",
+        "documentation": {}
+    },
+    {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "parse_tfm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "parse_tfm",
+        "description": "parse_tfm",
+        "detail": "parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.auth",
+        "description": "api.auth",
+        "isExtraImport": true,
+        "detail": "api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.courses",
+        "description": "api.courses",
+        "isExtraImport": true,
+        "detail": "api.courses",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.lessons",
+        "description": "api.lessons",
+        "isExtraImport": true,
+        "detail": "api.lessons",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.assignments",
+        "description": "api.assignments",
+        "isExtraImport": true,
+        "detail": "api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.assignments",
+        "description": "backend.api.assignments",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/assignments\",\n    tags=[\"assignments\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.get(\"/lessons/{lesson_id}\")\nasync def get_lesson_assignments(lesson_id: str):\n    try:\n        assignments = await course_crud.get_lesson_assignments(lesson_id)\n        return assignments",
+        "detail": "backend.api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.attendance",
+        "description": "backend.api.attendance",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/attendance\",\n    tags=[\"attendance\"]\n)\n@router.post(\"/{group_id}/record\")\nasync def record_attendance(\n    group_id: str,\n    attendance: AttendanceRecord,\n    current_user = Depends(get_current_user)\n):",
+        "detail": "backend.api.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.courses",
+        "description": "backend.api.courses",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/courses\",\n    tags=[\"courses\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.post(\"/\")\nasync def create_course(course: Course):\n    try:\n        created_course = await course_crud.create_course(course)\n        return created_course",
+        "detail": "backend.api.courses",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "backend.api.dependencies",
+        "description": "backend.api.dependencies",
+        "peekOfCode": "def get_current_user():\n    async def dependency(user: dict = Depends(verify_token)):\n        if not user:\n            raise HTTPException(\n                status_code=401,\n                detail=\"Could not validate credentials\",\n                headers={\"WWW-Authenticate\": \"Bearer\"},\n            )\n        return user\n    return dependency",
+        "detail": "backend.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.enrollments",
+        "description": "backend.api.enrollments",
+        "peekOfCode": "router = APIRouter(prefix=\"/enrollments\", tags=[\"enrollments\"])\n@router.post(\"/\", response_model=Enrollment)\nasync def create_enrollment(\n    enrollment: Enrollment,\n    current_user: dict = Depends(get_current_user)\n):\n    # Проверяем существование студента\n    student = await student_crud.get_user_by_id(enrollment.student_id)\n    if not student:\n        raise HTTPException(status_code=404, detail=\"Student not found\")",
+        "detail": "backend.api.enrollments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.groups",
+        "description": "backend.api.groups",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/groups\",\n    tags=[\"groups\"]\n)\n@router.post(\"/\", response_model=Group)\nasync def create_group(group: Group):\n    try:\n        return await group_crud.create_group(group)\n    except Exception as e:\n        raise HTTPException(status_code=400, detail=str(e))",
+        "detail": "backend.api.groups",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.lessons",
+        "description": "backend.api.lessons",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/lessons\",\n    tags=[\"lessons\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.get(\"/course/{course_id}\")\nasync def get_course_lessons(course_id: str):\n    try:\n        lessons = await course_crud.get_course_lessons(course_id)\n        return lessons",
+        "detail": "backend.api.lessons",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.regular_users",
+        "description": "backend.api.regular_users",
+        "peekOfCode": "router = APIRouter(prefix=\"/regular-users\", tags=[\"regular-users\"])\n@router.post(\"/\", response_model=RegularUserInDB)\nasync def create_regular_user(\n    user: RegularUser,\n    current_user: dict = Depends(get_current_user)\n):\n    existing_user = await regular_user_crud.get_user_by_email(user.email)\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    existing_username = await regular_user_crud.get_user_by_username(user.username)",
+        "detail": "backend.api.regular_users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.students",
+        "description": "backend.api.students",
+        "peekOfCode": "router = APIRouter(prefix=\"/students\", tags=[\"students\"])\n@router.post(\"/\", response_model=StudentInDB)\nasync def create_student(\n    student: Student,\n    current_user: dict = Depends(get_current_user)\n):\n    existing_student = await student_crud.get_user_by_email(student.email)\n    if existing_student:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    existing_username = await student_crud.get_user_by_username(student.username)",
+        "detail": "backend.api.students",
+        "documentation": {}
+    },
+    {
+        "label": "protected_route",
+        "kind": 2,
+        "importPath": "backend.api.users",
+        "description": "backend.api.users",
+        "peekOfCode": "def protected_route(user: dict = Depends(verify_token)):\n    return {\"message\": \"Access granted\", \"user\": user}",
+        "detail": "backend.api.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.users",
+        "description": "backend.api.users",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"users\"])\n@router.post(\"/\", response_model=User)\nasync def create_user(\n    user: User,\n    current_user: dict = Depends(get_current_user)\n):\n    existing_user = await user_crud.get_user_by_clerk_id(user.clerk_id)\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"User already exists\")\n    await webhook.notify_discord(user)",
+        "detail": "backend.api.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_clerk_public_keys",
+        "kind": 2,
+        "importPath": "backend.auth.clerk",
+        "description": "backend.auth.clerk",
+        "peekOfCode": "def get_clerk_public_keys():\n    try:\n        response = requests.get(os.getenv(\"CLERK_JWKS_URL\"))\n        if response.status_code == 200:\n            return response.json()\n        else:\n            raise HTTPException(\n                status_code=500, \n                detail=\"Failed to fetch Clerk public keys\"\n            )",
+        "detail": "backend.auth.clerk",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "backend.auth.clerk",
+        "description": "backend.auth.clerk",
+        "peekOfCode": "security = HTTPBearer()\ndef get_clerk_public_keys():\n    try:\n        response = requests.get(os.getenv(\"CLERK_JWKS_URL\"))\n        if response.status_code == 200:\n            return response.json()\n        else:\n            raise HTTPException(\n                status_code=500, \n                detail=\"Failed to fetch Clerk public keys\"",
+        "detail": "backend.auth.clerk",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "backend.auth.dependencies",
+        "description": "backend.auth.dependencies",
+        "peekOfCode": "security = HTTPBearer()\nasync def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):\n    return await verify_token(credentials)",
+        "detail": "backend.auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "class AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()\n        # Проверяем существующую запись\n        existing = await attendance_collection.find_one({\n            \"student_id\": attendance.student_id,\n            \"group_id\": attendance.group_id,\n            \"lesson_number\": attendance.lesson_number\n        })",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nattendance_collection = db.attendance\nclass AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nattendance_collection = db.attendance\nclass AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()\n        # Проверяем существующую запись",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nattendance_collection = db.attendance\nclass AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()\n        # Проверяем существующую запись\n        existing = await attendance_collection.find_one({",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nattendance_collection = db.attendance\nclass AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()\n        # Проверяем существующую запись\n        existing = await attendance_collection.find_one({\n            \"student_id\": attendance.student_id,",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "db = client.crm_database\nattendance_collection = db.attendance\nclass AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()\n        # Проверяем существующую запись\n        existing = await attendance_collection.find_one({\n            \"student_id\": attendance.student_id,\n            \"group_id\": attendance.group_id,",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "attendance_collection",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "attendance_collection = db.attendance\nclass AttendanceCRUD:\n    async def record_attendance(self, attendance: AttendanceRecord) -> AttendanceRecord:\n        attendance_dict = attendance.model_dump()\n        attendance_dict['created_at'] = datetime.utcnow()\n        # Проверяем существующую запись\n        existing = await attendance_collection.find_one({\n            \"student_id\": attendance.student_id,\n            \"group_id\": attendance.group_id,\n            \"lesson_number\": attendance.lesson_number",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "attendance_crud",
+        "kind": 5,
+        "importPath": "backend.crud.attendance_crud",
+        "description": "backend.crud.attendance_crud",
+        "peekOfCode": "attendance_crud = AttendanceCRUD()",
+        "detail": "backend.crud.attendance_crud",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "class CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses\n        self.lessons = self.db.lessons\n        self.assignments = self.db.assignments\n        # Добавим проверку подключения при инициализации\n        self._check_connection()\n    async def _check_connection(self):\n        try:",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ncourses_collection = db.courses\nclass CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ncourses_collection = db.courses\nclass CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses\n        self.lessons = self.db.lessons",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ncourses_collection = db.courses\nclass CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses\n        self.lessons = self.db.lessons\n        self.assignments = self.db.assignments",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ncourses_collection = db.courses\nclass CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses\n        self.lessons = self.db.lessons\n        self.assignments = self.db.assignments\n        # Добавим проверку подключения при инициализации",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "db = client.crm_database\ncourses_collection = db.courses\nclass CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses\n        self.lessons = self.db.lessons\n        self.assignments = self.db.assignments\n        # Добавим проверку подключения при инициализации\n        self._check_connection()",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "courses_collection",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "courses_collection = db.courses\nclass CourseCRUD:\n    def __init__(self, client: AsyncIOMotorClient, database_name: str):\n        self.db = client[database_name]\n        self.courses = self.db.courses\n        self.lessons = self.db.lessons\n        self.assignments = self.db.assignments\n        # Добавим проверку подключения при инициализации\n        self._check_connection()\n    async def _check_connection(self):",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "course_crud = CourseCRUD(client, \"crm_database\")",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollmentCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "class EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({\n            \"student_id\": enrollment.student_id,\n            \"course_id\": enrollment.course_id\n        })\n        if existing:\n            return None\n        enrollment_dict = enrollment.model_dump()",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nenrollments_collection = db.enrollments\nclass EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nenrollments_collection = db.enrollments\nclass EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({\n            \"student_id\": enrollment.student_id,",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nenrollments_collection = db.enrollments\nclass EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({\n            \"student_id\": enrollment.student_id,\n            \"course_id\": enrollment.course_id",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nenrollments_collection = db.enrollments\nclass EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({\n            \"student_id\": enrollment.student_id,\n            \"course_id\": enrollment.course_id\n        })",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "db = client.crm_database\nenrollments_collection = db.enrollments\nclass EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({\n            \"student_id\": enrollment.student_id,\n            \"course_id\": enrollment.course_id\n        })\n        if existing:",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "enrollments_collection",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "enrollments_collection = db.enrollments\nclass EnrollmentCRUD:\n    async def create_enrollment(self, enrollment: Enrollment) -> Enrollment:\n        # Проверяем, не записан ли уже студент на этот курс\n        existing = await enrollments_collection.find_one({\n            \"student_id\": enrollment.student_id,\n            \"course_id\": enrollment.course_id\n        })\n        if existing:\n            return None",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "enrollment_crud",
+        "kind": 5,
+        "importPath": "backend.crud.enrollment_crud",
+        "description": "backend.crud.enrollment_crud",
+        "peekOfCode": "enrollment_crud = EnrollmentCRUD()",
+        "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "GroupCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "class GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()\n        group_dict['updated_at'] = datetime.utcnow()\n        result = await groups_collection.insert_one(group_dict)\n        created_group = await groups_collection.find_one({\"_id\": result.inserted_id})\n        created_group[\"id\"] = str(created_group[\"_id\"])\n        del created_group[\"_id\"]\n        return Group(**created_group)",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ngroups_collection = db.groups\nclass GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ngroups_collection = db.groups\nclass GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()\n        group_dict['updated_at'] = datetime.utcnow()",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ngroups_collection = db.groups\nclass GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()\n        group_dict['updated_at'] = datetime.utcnow()\n        result = await groups_collection.insert_one(group_dict)",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ngroups_collection = db.groups\nclass GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()\n        group_dict['updated_at'] = datetime.utcnow()\n        result = await groups_collection.insert_one(group_dict)\n        created_group = await groups_collection.find_one({\"_id\": result.inserted_id})",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "db = client.crm_database\ngroups_collection = db.groups\nclass GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()\n        group_dict['updated_at'] = datetime.utcnow()\n        result = await groups_collection.insert_one(group_dict)\n        created_group = await groups_collection.find_one({\"_id\": result.inserted_id})\n        created_group[\"id\"] = str(created_group[\"_id\"])",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "groups_collection",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "groups_collection = db.groups\nclass GroupCRUD:\n    async def create_group(self, group: Group) -> Group:\n        group_dict = group.model_dump()\n        group_dict['created_at'] = datetime.utcnow()\n        group_dict['updated_at'] = datetime.utcnow()\n        result = await groups_collection.insert_one(group_dict)\n        created_group = await groups_collection.find_one({\"_id\": result.inserted_id})\n        created_group[\"id\"] = str(created_group[\"_id\"])\n        del created_group[\"_id\"]",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "group_crud",
+        "kind": 5,
+        "importPath": "backend.crud.group_crud",
+        "description": "backend.crud.group_crud",
+        "peekOfCode": "group_crud = GroupCRUD()",
+        "detail": "backend.crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "class RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)\n        # Создаем словарь с данными пользователя\n        user_dict = user.model_dump(exclude={'password'})\n        user_dict['hashed_password'] = hashed_password\n        # Добавляем временные метки\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nregular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nregular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nregular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)\n        # Создаем словарь с данными пользователя",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nregular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)\n        # Создаем словарь с данными пользователя\n        user_dict = user.model_dump(exclude={'password'})",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nregular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)\n        # Создаем словарь с данными пользователя\n        user_dict = user.model_dump(exclude={'password'})\n        user_dict['hashed_password'] = hashed_password",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "db = client.crm_database\nregular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)\n        # Создаем словарь с данными пользователя\n        user_dict = user.model_dump(exclude={'password'})\n        user_dict['hashed_password'] = hashed_password\n        # Добавляем временные метки",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "regular_users_collection",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "regular_users_collection = db.regular_users\nclass RegularUserCRUD:\n    async def create_user(self, user: RegularUser) -> RegularUserInDB:\n        # Хешируем пароль\n        hashed_password = pwd_context.hash(user.password)\n        # Создаем словарь с данными пользователя\n        user_dict = user.model_dump(exclude={'password'})\n        user_dict['hashed_password'] = hashed_password\n        # Добавляем временные метки\n        user_dict['created_at'] = datetime.utcnow()",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "regular_user_crud",
+        "kind": 5,
+        "importPath": "backend.crud.regular_user_crud",
+        "description": "backend.crud.regular_user_crud",
+        "peekOfCode": "regular_user_crud = RegularUserCRUD()",
+        "detail": "backend.crud.regular_user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "class StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})\n        student_dict['hashed_password'] = hashed_password\n        student_dict['created_at'] = datetime.utcnow()\n        student_dict['updated_at'] = datetime.utcnow()\n        result = await students_collection.insert_one(student_dict)\n        created_student = await students_collection.find_one({\"_id\": result.inserted_id})\n        return StudentInDB(id=str(created_student[\"_id\"]), **created_student)",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nstudents_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nstudents_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nstudents_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})\n        student_dict['hashed_password'] = hashed_password",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nstudents_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})\n        student_dict['hashed_password'] = hashed_password\n        student_dict['created_at'] = datetime.utcnow()",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nstudents_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})\n        student_dict['hashed_password'] = hashed_password\n        student_dict['created_at'] = datetime.utcnow()\n        student_dict['updated_at'] = datetime.utcnow()",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "db = client.crm_database\nstudents_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})\n        student_dict['hashed_password'] = hashed_password\n        student_dict['created_at'] = datetime.utcnow()\n        student_dict['updated_at'] = datetime.utcnow()\n        result = await students_collection.insert_one(student_dict)",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "students_collection",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "students_collection = db.students  # Изменили коллекцию на students\nclass StudentCRUD:\n    async def create_user(self, student: Student) -> StudentInDB:\n        hashed_password = pwd_context.hash(student.password)\n        student_dict = student.model_dump(exclude={'password'})\n        student_dict['hashed_password'] = hashed_password\n        student_dict['created_at'] = datetime.utcnow()\n        student_dict['updated_at'] = datetime.utcnow()\n        result = await students_collection.insert_one(student_dict)\n        created_student = await students_collection.find_one({\"_id\": result.inserted_id})",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "student_crud = StudentCRUD()",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "UserCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "class UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()\n        await users_collection.insert_one(user_dict)\n        return user\n    async def get_users(self, skip: int = 0, limit: int = 10) -> List[User]:\n        users = []\n        cursor = users_collection.find().skip(skip).limit(limit)",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nclass UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nclass UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nclass UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()\n        await users_collection.insert_one(user_dict)",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nclass UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()\n        await users_collection.insert_one(user_dict)\n        return user",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "db = client.crm_database\nusers_collection = db.users\nclass UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()\n        await users_collection.insert_one(user_dict)\n        return user\n    async def get_users(self, skip: int = 0, limit: int = 10) -> List[User]:",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "users_collection = db.users\nclass UserCRUD:\n    async def create_user(self, user: User) -> User:\n        user_dict = user.model_dump()\n        user_dict['created_at'] = datetime.utcnow()\n        user_dict['updated_at'] = datetime.utcnow()\n        await users_collection.insert_one(user_dict)\n        return user\n    async def get_users(self, skip: int = 0, limit: int = 10) -> List[User]:\n        users = []",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "user_crud",
+        "kind": 5,
+        "importPath": "backend.crud.user_crud",
+        "description": "backend.crud.user_crud",
+        "peekOfCode": "user_crud = UserCRUD()\nasync def create_user(user: User):\n    user_dict = user.dict() \n    result = await users_collection.insert_one(user_dict)\n    return User(id=str(result.inserted_id), **user_dict)\nasync def get_users():\n    users = []\n    async for user in users_collection.find():\n        users.append(User(id=str(user[\"_id\"]), **user)) \n    return users",
+        "detail": "backend.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.migrations.add_clerk_id",
+        "description": "backend.migrations.add_clerk_id",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},",
+        "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.migrations.add_clerk_id",
+        "description": "backend.migrations.add_clerk_id",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},\n        {",
+        "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.migrations.add_clerk_id",
+        "description": "backend.migrations.add_clerk_id",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},\n        {\n            \"$set\": {",
+        "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.migrations.add_clerk_id",
+        "description": "backend.migrations.add_clerk_id",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI) \ndb = client.crm_database\nusers_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},\n        {\n            \"$set\": {\n                \"clerk_id\": None,",
+        "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.migrations.add_clerk_id",
+        "description": "backend.migrations.add_clerk_id",
+        "peekOfCode": "db = client.crm_database\nusers_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},\n        {\n            \"$set\": {\n                \"clerk_id\": None,\n                \"updated_at\": datetime.utcnow()",
+        "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "kind": 5,
+        "importPath": "backend.migrations.add_clerk_id",
+        "description": "backend.migrations.add_clerk_id",
+        "peekOfCode": "users_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},\n        {\n            \"$set\": {\n                \"clerk_id\": None,\n                \"updated_at\": datetime.utcnow()\n            }",
+        "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceStatus",
+        "kind": 6,
+        "importPath": "backend.models.attendance",
+        "description": "backend.models.attendance",
+        "peekOfCode": "class AttendanceStatus(str, Enum):\n    UNASSIGNED = \"unassigned\"\n    PRESENT = \"present\"\n    NOTIFIED = \"notified\"\n    ABSENT = \"absent\"\nclass AttendanceRecord(BaseModel):\n    student_id: str\n    group_id: str\n    lesson_number: int\n    status: AttendanceStatus",
+        "detail": "backend.models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRecord",
+        "kind": 6,
+        "importPath": "backend.models.attendance",
+        "description": "backend.models.attendance",
+        "peekOfCode": "class AttendanceRecord(BaseModel):\n    student_id: str\n    group_id: str\n    lesson_number: int\n    status: AttendanceStatus\n    date: datetime = datetime.utcnow()\n    comment: Optional[str] = None\nclass StudentAttendance(BaseModel):\n    student_id: str\n    first_name: str",
+        "detail": "backend.models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "StudentAttendance",
+        "kind": 6,
+        "importPath": "backend.models.attendance",
+        "description": "backend.models.attendance",
+        "peekOfCode": "class StudentAttendance(BaseModel):\n    student_id: str\n    first_name: str\n    last_name: str\n    attendance: List[AttendanceRecord]",
+        "detail": "backend.models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentBase",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class AssignmentBase(BaseModel):\n    title: str\n    description: str\n    code_editor: Optional[str] = None\n    lesson_id: Optional[str] = None\n    created_at: Optional[datetime] = Field(default_factory=datetime.utcnow)\n    updated_at: Optional[datetime] = Field(default_factory=datetime.utcnow)\nclass Assignment(BaseModel):\n    id: Optional[str] = None\n    title: str",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Assignment",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class Assignment(BaseModel):\n    id: Optional[str] = None\n    title: str\n    description: Optional[str] = \"\"\n    code_editor: Optional[str] = \"\"\n    lesson_id: str\n    created_at: Optional[datetime] = None\n    updated_at: Optional[datetime] = None\n    class Config:\n        from_attributes = True",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "LessonBase",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class LessonBase(BaseModel):\n    title: str\n    course_id: Optional[str] = None\n    created_at: Optional[datetime] = Field(default_factory=datetime.utcnow)\n    updated_at: Optional[datetime] = Field(default_factory=datetime.utcnow)\nclass Lesson(LessonBase):\n    id: Optional[str] = None\n    class Config:\n        from_attributes = True\n        json_encoders = {",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class Lesson(LessonBase):\n    id: Optional[str] = None\n    class Config:\n        from_attributes = True\n        json_encoders = {\n            ObjectId: str\n        }\nclass CourseBase(BaseModel):\n    title: str\n    description: str",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseBase",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class CourseBase(BaseModel):\n    title: str\n    description: str\n    duration: float\n    price: float\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\nclass Course(CourseBase):\n    id: Optional[str] = None\n    class Config:",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class Course(CourseBase):\n    id: Optional[str] = None\n    class Config:\n        from_attributes = True\nclass CourseUpdate(BaseModel):\n    title: Optional[str] = None\n    description: Optional[str] = None\n    duration: Optional[float] = None\n    price: Optional[float] = None",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseUpdate",
+        "kind": 6,
+        "importPath": "backend.models.course",
+        "description": "backend.models.course",
+        "peekOfCode": "class CourseUpdate(BaseModel):\n    title: Optional[str] = None\n    description: Optional[str] = None\n    duration: Optional[float] = None\n    price: Optional[float] = None",
+        "detail": "backend.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollmentBase",
+        "kind": 6,
+        "importPath": "backend.models.enrollment",
+        "description": "backend.models.enrollment",
+        "peekOfCode": "class EnrollmentBase(BaseModel):\n    student_id: str\n    course_id: str\n    status: str = \"active\"  # active, completed, dropped\n    progress: float = 0.0  # прогресс от 0 до 100\n    start_date: datetime = datetime.utcnow()\n    completion_date: Optional[datetime] = None\nclass Enrollment(EnrollmentBase):\n    id: Optional[str] = None\n    created_at: datetime = datetime.utcnow()",
+        "detail": "backend.models.enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "Enrollment",
+        "kind": 6,
+        "importPath": "backend.models.enrollment",
+        "description": "backend.models.enrollment",
+        "peekOfCode": "class Enrollment(EnrollmentBase):\n    id: Optional[str] = None\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\n    class Config:\n        from_attributes = True\nclass EnrollmentUpdate(BaseModel):\n    status: Optional[str] = None\n    progress: Optional[float] = None\n    completion_date: Optional[datetime] = None",
+        "detail": "backend.models.enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollmentUpdate",
+        "kind": 6,
+        "importPath": "backend.models.enrollment",
+        "description": "backend.models.enrollment",
+        "peekOfCode": "class EnrollmentUpdate(BaseModel):\n    status: Optional[str] = None\n    progress: Optional[float] = None\n    completion_date: Optional[datetime] = None",
+        "detail": "backend.models.enrollment",
+        "documentation": {}
+    },
+    {
+        "label": "PyObjectId",
+        "kind": 6,
+        "importPath": "backend.models.group",
+        "description": "backend.models.group",
+        "peekOfCode": "class PyObjectId(ObjectId):\n    @classmethod\n    def __get_pydantic_core_schema__(\n        cls,\n        _source_type: Any,\n        _handler: Any,\n    ) -> core_schema.CoreSchema:\n        return core_schema.json_or_python_schema(\n            json_schema=core_schema.str_schema(),\n            python_schema=core_schema.union_schema([",
+        "detail": "backend.models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupStudent",
+        "kind": 6,
+        "importPath": "backend.models.group",
+        "description": "backend.models.group",
+        "peekOfCode": "class GroupStudent(BaseModel):\n    student_id: str\n    first_name: str\n    last_name: str\n    email: EmailStr\n    balance: int = 0\n    progress: Optional[dict] = {}  # Для хранения прогресса по модулям\n    total_points: int = 0\n    status: str = \"Admitted\"  # Admitted/Pending/Rejected\nclass Group(BaseModel):",
+        "detail": "backend.models.group",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "kind": 6,
+        "importPath": "backend.models.group",
+        "description": "backend.models.group",
+        "peekOfCode": "class Group(BaseModel):\n    id: Optional[PyObjectId] = Field(default_factory=PyObjectId, alias=\"_id\")\n    name: str                      # Например \"Poland PY Regular 19 (SAT-10)\"\n    type: str = \"Regular group\"    # Тип группы\n    is_premium: bool = False       # Премиум группа или нет\n    ai_review: bool = False        # Включен ли AI-review\n    max_students: int = 14         # Максимальное количество студентов\n    min_age: int                   # Минимальный возраст\n    max_age: int                   # Максимальный возраст\n    lesson_duration: int           # Длительность урока в минутах",
+        "detail": "backend.models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupUpdate",
+        "kind": 6,
+        "importPath": "backend.models.group",
+        "description": "backend.models.group",
+        "peekOfCode": "class GroupUpdate(BaseModel):\n    name: Optional[str] = None\n    type: Optional[str] = None\n    is_premium: Optional[bool] = None\n    ai_review: Optional[bool] = None\n    max_students: Optional[int] = None\n    min_age: Optional[int] = None\n    max_age: Optional[int] = None\n    lesson_duration: Optional[int] = None\n    language: Optional[str] = None",
+        "detail": "backend.models.group",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserBase",
+        "kind": 6,
+        "importPath": "backend.models.regular_user",
+        "description": "backend.models.regular_user",
+        "peekOfCode": "class RegularUserBase(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\n    comment: Optional[str] = None\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\n    is_active: bool = True",
+        "detail": "backend.models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUser",
+        "kind": 6,
+        "importPath": "backend.models.regular_user",
+        "description": "backend.models.regular_user",
+        "peekOfCode": "class RegularUser(RegularUserBase):\n    password: str\nclass RegularUserInDB(RegularUserBase):\n    id: Optional[str] = None\n    hashed_password: str\n    class Config:\n        from_attributes = True\n# Добавляем модель для обновления\nclass RegularUserUpdate(BaseModel):\n    first_name: Optional[str] = None",
+        "detail": "backend.models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserInDB",
+        "kind": 6,
+        "importPath": "backend.models.regular_user",
+        "description": "backend.models.regular_user",
+        "peekOfCode": "class RegularUserInDB(RegularUserBase):\n    id: Optional[str] = None\n    hashed_password: str\n    class Config:\n        from_attributes = True\n# Добавляем модель для обновления\nclass RegularUserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None",
+        "detail": "backend.models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "RegularUserUpdate",
+        "kind": 6,
+        "importPath": "backend.models.regular_user",
+        "description": "backend.models.regular_user",
+        "peekOfCode": "class RegularUserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None",
+        "detail": "backend.models.regular_user",
+        "documentation": {}
+    },
+    {
+        "label": "StudentBase",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentBase(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\n    comment: Optional[str] = None\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\n    is_active: bool = True",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class Student(StudentBase):\n    password: str\nclass StudentInDB(StudentBase):\n    id: Optional[str] = None\n    hashed_password: str\n    class Config:\n        from_attributes = True\nclass StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentInDB(StudentBase):\n    id: Optional[str] = None\n    hashed_password: str\n    class Config:\n        from_attributes = True\nclass StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdate",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.models.user",
+        "description": "backend.models.user",
+        "peekOfCode": "class User(BaseModel):\n    clerk_id: str\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\n    comment: Optional[str] = None\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\nclass UserUpdate(BaseModel):",
+        "detail": "backend.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "backend.models.user",
+        "description": "backend.models.user",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None\nclass UserInDB(User):\n    id: str",
+        "detail": "backend.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "kind": 6,
+        "importPath": "backend.models.user",
+        "description": "backend.models.user",
+        "peekOfCode": "class UserInDB(User):\n    id: str",
+        "detail": "backend.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "CLERK_PEM_PUBLIC_KEY",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "CLERK_PEM_PUBLIC_KEY = os.getenv(\"CLERK_PEM_PUBLIC_KEY\")\nCLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "CLERK_AUDIENCE",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "CLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "CLERK_ISSUER",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "CLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n# Подключаем все роутеры",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "sfnt.USE_ZOPFLI",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "sfnt.USE_ZOPFLI = True\nif len(sys.argv) < 2:\n    print(\"Usage: %s <font file>\" % sys.argv[0])\n    sys.exit(1)\nfont_file = sys.argv[1]\nfont_name = os.path.splitext(os.path.basename(font_file))[0]\nfont = TTFont(font_file, recalcBBoxes=False, recalcTimestamp=False)\n# fix timestamp to the epoch\nfont['head'].created = 0\nfont['head'].modified = 0",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font_file",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font_file = sys.argv[1]\nfont_name = os.path.splitext(os.path.basename(font_file))[0]\nfont = TTFont(font_file, recalcBBoxes=False, recalcTimestamp=False)\n# fix timestamp to the epoch\nfont['head'].created = 0\nfont['head'].modified = 0\n# remove fontforge timestamps\nif 'FFTM' in font:\n    del font['FFTM']\n# remove redundant GDEF table",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font_name",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font_name = os.path.splitext(os.path.basename(font_file))[0]\nfont = TTFont(font_file, recalcBBoxes=False, recalcTimestamp=False)\n# fix timestamp to the epoch\nfont['head'].created = 0\nfont['head'].modified = 0\n# remove fontforge timestamps\nif 'FFTM' in font:\n    del font['FFTM']\n# remove redundant GDEF table\nif 'GDEF' in font:",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font = TTFont(font_file, recalcBBoxes=False, recalcTimestamp=False)\n# fix timestamp to the epoch\nfont['head'].created = 0\nfont['head'].modified = 0\n# remove fontforge timestamps\nif 'FFTM' in font:\n    del font['FFTM']\n# remove redundant GDEF table\nif 'GDEF' in font:\n    del font['GDEF']",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['head'].created",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['head'].created = 0\nfont['head'].modified = 0\n# remove fontforge timestamps\nif 'FFTM' in font:\n    del font['FFTM']\n# remove redundant GDEF table\nif 'GDEF' in font:\n    del font['GDEF']\n# remove Macintosh table\n# https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['head'].modified",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['head'].modified = 0\n# remove fontforge timestamps\nif 'FFTM' in font:\n    del font['FFTM']\n# remove redundant GDEF table\nif 'GDEF' in font:\n    del font['GDEF']\n# remove Macintosh table\n# https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html\nfont['name'].names = [record for record in font['name'].names if record.platformID != 1]",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['name'].names",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['name'].names = [record for record in font['name'].names if record.platformID != 1]\nfont['cmap'].tables = [table for table in font['cmap'].tables if table.platformID != 1]\n# fix OS/2 and hhea metrics\nglyf = font['glyf']\nascent = int(max(glyf[c].yMax for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMax\")))\ndescent = -int(min(glyf[c].yMin for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMin\")))\nfont['OS/2'].usWinAscent = ascent\nfont['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['cmap'].tables",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['cmap'].tables = [table for table in font['cmap'].tables if table.platformID != 1]\n# fix OS/2 and hhea metrics\nglyf = font['glyf']\nascent = int(max(glyf[c].yMax for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMax\")))\ndescent = -int(min(glyf[c].yMin for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMin\")))\nfont['OS/2'].usWinAscent = ascent\nfont['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "glyf",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "glyf = font['glyf']\nascent = int(max(glyf[c].yMax for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMax\")))\ndescent = -int(min(glyf[c].yMin for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMin\")))\nfont['OS/2'].usWinAscent = ascent\nfont['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "ascent",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "ascent = int(max(glyf[c].yMax for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMax\")))\ndescent = -int(min(glyf[c].yMin for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMin\")))\nfont['OS/2'].usWinAscent = ascent\nfont['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF\nfont.flavor = 'woff'",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "descent",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "descent = -int(min(glyf[c].yMin for c in font.getGlyphOrder() if hasattr(glyf[c], \"yMin\")))\nfont['OS/2'].usWinAscent = ascent\nfont['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF\nfont.flavor = 'woff'\nfont.save(os.path.join('woff', font_name + '.woff'), reorderTables=None)",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['OS/2'].usWinAscent",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['OS/2'].usWinAscent = ascent\nfont['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF\nfont.flavor = 'woff'\nfont.save(os.path.join('woff', font_name + '.woff'), reorderTables=None)\n# save WOFF2",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['OS/2'].usWinDescent",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['OS/2'].usWinDescent = descent\nfont['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF\nfont.flavor = 'woff'\nfont.save(os.path.join('woff', font_name + '.woff'), reorderTables=None)\n# save WOFF2\nfont.flavor = 'woff2'",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['hhea'].ascent",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['hhea'].ascent = ascent\nfont['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF\nfont.flavor = 'woff'\nfont.save(os.path.join('woff', font_name + '.woff'), reorderTables=None)\n# save WOFF2\nfont.flavor = 'woff2'\nfont.save(os.path.join('woff2', font_name + '.woff2'), reorderTables=None)",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font['hhea'].descent",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font['hhea'].descent = -descent\n# save TTF\nfont.save(font_file, reorderTables=None)\n# save WOFF\nfont.flavor = 'woff'\nfont.save(os.path.join('woff', font_name + '.woff'), reorderTables=None)\n# save WOFF2\nfont.flavor = 'woff2'\nfont.save(os.path.join('woff2', font_name + '.woff2'), reorderTables=None)",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font.flavor",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font.flavor = 'woff'\nfont.save(os.path.join('woff', font_name + '.woff'), reorderTables=None)\n# save WOFF2\nfont.flavor = 'woff2'\nfont.save(os.path.join('woff2', font_name + '.woff2'), reorderTables=None)",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "font.flavor",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "description": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "peekOfCode": "font.flavor = 'woff2'\nfont.save(os.path.join('woff2', font_name + '.woff2'), reorderTables=None)",
+        "detail": "frontend.node_modules.katex.src.fonts.generate_fonts",
+        "documentation": {}
+    },
+    {
+        "label": "find_font_path",
+        "kind": 2,
+        "importPath": "frontend.node_modules.katex.src.metrics.extract_tfms",
+        "description": "frontend.node_modules.katex.src.metrics.extract_tfms",
+        "peekOfCode": "def find_font_path(font_name):\n    try:\n        font_path = subprocess.check_output(['kpsewhich', font_name])\n    except OSError:\n        raise RuntimeError(\"Couldn't find kpsewhich program, make sure you\" +\n                           \" have TeX installed\")\n    except subprocess.CalledProcessError:\n        raise RuntimeError(\"Couldn't find font metrics: '%s'\" % font_name)\n    return font_path.strip()\ndef main():",
+        "detail": "frontend.node_modules.katex.src.metrics.extract_tfms",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "frontend.node_modules.katex.src.metrics.extract_tfms",
+        "description": "frontend.node_modules.katex.src.metrics.extract_tfms",
+        "peekOfCode": "def main():\n    mapping = json.load(sys.stdin)\n    fonts = [\n        'cmbsy10.tfm',\n        'cmbx10.tfm',\n        'cmbxti10.tfm',\n        'cmex10.tfm',\n        'cmmi10.tfm',\n        'cmmib10.tfm',\n        'cmr10.tfm',",
+        "detail": "frontend.node_modules.katex.src.metrics.extract_tfms",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "frontend.node_modules.katex.src.metrics.extract_ttfs",
+        "description": "frontend.node_modules.katex.src.metrics.extract_ttfs",
+        "peekOfCode": "def main():\n    start_json = json.load(sys.stdin)\n    for font in start_json:\n        fontInfo = TTFont(\"../../fonts/KaTeX_\" + font + \".ttf\")\n        glyf = fontInfo[\"glyf\"]\n        widths = fontInfo.getGlyphSet()\n        unitsPerEm = float(fontInfo[\"head\"].unitsPerEm)\n        # We keep ALL Unicode cmaps, not just fontInfo[\"cmap\"].getcmap(3, 1).\n        # This is playing it extra safe, since it reports inconsistencies.\n        # Platform 0 is Unicode, platform 3 is Windows. For platform 3,",
+        "detail": "frontend.node_modules.katex.src.metrics.extract_ttfs",
+        "documentation": {}
+    },
+    {
+        "label": "metrics_to_extract",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.metrics.extract_ttfs",
+        "description": "frontend.node_modules.katex.src.metrics.extract_ttfs",
+        "peekOfCode": "metrics_to_extract = {\n    # Font name\n    \"AMS-Regular\": {\n        u\"\\u21e2\": None,  # \\dashrightarrow\n        u\"\\u21e0\": None,  # \\dashleftarrow\n    },\n    \"Main-Regular\": {\n        # Skew and italic metrics can't be easily parsed from the TTF. Instead,\n        # we map each character to a \"base character\", which is a character\n        # from the same font with correct italic and skew metrics. A character",
+        "detail": "frontend.node_modules.katex.src.metrics.extract_ttfs",
+        "documentation": {}
+    },
+    {
+        "label": "props",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.metrics.format_json",
+        "description": "frontend.node_modules.katex.src.metrics.format_json",
+        "peekOfCode": "props = ['depth', 'height', 'italic', 'skew']\nif len(sys.argv) > 1:\n    if sys.argv[1] == '--width':\n        props.append('width')\ndata = json.load(sys.stdin)\nsys.stdout.write(\n  \"// This file is GENERATED by buildMetrics.sh. DO NOT MODIFY.\\n\")\nsep = \"export default {\\n    \"\nfor font in sorted(data):\n    sys.stdout.write(sep + json.dumps(font))",
+        "detail": "frontend.node_modules.katex.src.metrics.format_json",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.metrics.format_json",
+        "description": "frontend.node_modules.katex.src.metrics.format_json",
+        "peekOfCode": "data = json.load(sys.stdin)\nsys.stdout.write(\n  \"// This file is GENERATED by buildMetrics.sh. DO NOT MODIFY.\\n\")\nsep = \"export default {\\n    \"\nfor font in sorted(data):\n    sys.stdout.write(sep + json.dumps(font))\n    sep = \": {\\n        \"\n    for glyph in sorted(data[font], key=int):\n        sys.stdout.write(sep + json.dumps(glyph) + \": \")\n        values = [value if value != 0.0 else 0 for value in",
+        "detail": "frontend.node_modules.katex.src.metrics.format_json",
+        "documentation": {}
+    },
+    {
+        "label": "sep",
+        "kind": 5,
+        "importPath": "frontend.node_modules.katex.src.metrics.format_json",
+        "description": "frontend.node_modules.katex.src.metrics.format_json",
+        "peekOfCode": "sep = \"export default {\\n    \"\nfor font in sorted(data):\n    sys.stdout.write(sep + json.dumps(font))\n    sep = \": {\\n        \"\n    for glyph in sorted(data[font], key=int):\n        sys.stdout.write(sep + json.dumps(glyph) + \": \")\n        values = [value if value != 0.0 else 0 for value in\n                  [data[font][glyph][key] for key in props]]\n        sys.stdout.write(json.dumps(values))\n        sep = \",\\n        \"",
+        "detail": "frontend.node_modules.katex.src.metrics.format_json",
+        "documentation": {}
+    },
+    {
+        "label": "CharInfoWord",
+        "kind": 6,
+        "importPath": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "description": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "peekOfCode": "class CharInfoWord(object):\n    def __init__(self, word):\n        b1, b2, b3, b4 = (word >> 24,\n                          (word & 0xff0000) >> 16,\n                          (word & 0xff00) >> 8,\n                          word & 0xff)\n        self.width_index = b1\n        self.height_index = b2 >> 4\n        self.depth_index = b2 & 0x0f\n        self.italic_index = (b3 & 0b11111100) >> 2",
+        "detail": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "LigKernProgram",
+        "kind": 6,
+        "importPath": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "description": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "peekOfCode": "class LigKernProgram(object):\n    def __init__(self, program):\n        self.program = program\n    def execute(self, start, next_char):\n        curr_instruction = start\n        while True:\n            instruction = self.program[curr_instruction]\n            (skip, inst_next_char, op, remainder) = instruction\n            if inst_next_char == next_char:\n                if op < 128:",
+        "detail": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "TfmCharMetrics",
+        "kind": 6,
+        "importPath": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "description": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "peekOfCode": "class TfmCharMetrics(object):\n    def __init__(self, width, height, depth, italic, kern_table):\n        self.width = width\n        self.height = height\n        self.depth = depth\n        self.italic_correction = italic\n        self.kern_table = kern_table\nclass TfmFile(object):\n    def __init__(self, start_char, end_char, char_info, width_table,\n                 height_table, depth_table, italic_table, ligkern_table,",
+        "detail": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "TfmFile",
+        "kind": 6,
+        "importPath": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "description": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "peekOfCode": "class TfmFile(object):\n    def __init__(self, start_char, end_char, char_info, width_table,\n                 height_table, depth_table, italic_table, ligkern_table,\n                 kern_table):\n        self.start_char = start_char\n        self.end_char = end_char\n        self.char_info = char_info\n        self.width_table = width_table\n        self.height_table = height_table\n        self.depth_table = depth_table",
+        "detail": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "TfmReader",
+        "kind": 6,
+        "importPath": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "description": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "peekOfCode": "class TfmReader(object):\n    def __init__(self, f):\n        self.f = f\n    def read_byte(self):\n        return ord(self.f.read(1))\n    def read_halfword(self):\n        b1 = self.read_byte()\n        b2 = self.read_byte()\n        return (b1 << 8) | b2\n    def read_word(self):",
+        "detail": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "read_tfm_file",
+        "kind": 2,
+        "importPath": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "description": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "peekOfCode": "def read_tfm_file(file_name):\n    with open(file_name, 'rb') as f:\n        reader = TfmReader(f)\n        # file_size\n        reader.read_halfword()\n        header_size = reader.read_halfword()\n        start_char = reader.read_halfword()\n        end_char = reader.read_halfword()\n        width_table_size = reader.read_halfword()\n        height_table_size = reader.read_halfword()",
+        "detail": "frontend.node_modules.katex.src.metrics.parse_tfm",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.assignments",
+        "description": "student-portal.backend.api.assignments",
+        "peekOfCode": "router = APIRouter(prefix=\"/assignments\", tags=[\"assignments\"])\n@router.get(\"/{assignment_id}\", response_model=Dict[str, Any])\nasync def get_assignment_by_id(\n    assignment_id: str,\n    current_student: StudentInDB = Depends(get_current_student)\n) -> Any:\n    \"\"\"Получает информацию о конкретном задании по его ID\"\"\"\n    # Получаем задание\n    assignment = await course_crud.get_assignment_by_id(assignment_id)\n    if not assignment:",
+        "detail": "student-portal.backend.api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.auth",
+        "description": "student-portal.backend.api.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"auth\"])\n@router.post(\"/login\", response_model=Token)\nasync def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()) -> Any:\n    \"\"\"Аутентификация студента и выдача JWT токена\"\"\"\n    # Аутентифицируем студента по username и password\n    student = await student_crud.authenticate_student(form_data.username, form_data.password)\n    if not student:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Неверное имя пользователя или пароль\",",
+        "detail": "student-portal.backend.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.courses",
+        "description": "student-portal.backend.api.courses",
+        "peekOfCode": "router = APIRouter(prefix=\"/courses\", tags=[\"courses\"])\n@router.get(\"/\", response_model=List[Dict[str, Any]])\nasync def get_student_courses(current_student: StudentInDB = Depends(get_current_student)) -> Any:\n    \"\"\"Получает список курсов, на которые записан студент\"\"\"\n    courses = await course_crud.get_student_courses(current_student.id)\n    return courses\n@router.get(\"/{course_id}\", response_model=Dict[str, Any])\nasync def get_course_by_id(\n    course_id: str,\n    current_student: StudentInDB = Depends(get_current_student)",
+        "detail": "student-portal.backend.api.courses",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.lessons",
+        "description": "student-portal.backend.api.lessons",
+        "peekOfCode": "router = APIRouter(prefix=\"/lessons\", tags=[\"lessons\"])\n@router.get(\"/{lesson_id}\", response_model=Dict[str, Any])\nasync def get_lesson_by_id(\n    lesson_id: str,\n    current_student: StudentInDB = Depends(get_current_student)\n) -> Any:\n    \"\"\"Получает информацию о конкретном уроке по его ID\"\"\"\n    # Получаем урок\n    lesson = await course_crud.get_lesson_by_id(lesson_id)\n    if not lesson:",
+        "detail": "student-portal.backend.api.lessons",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "student-portal.backend.auth.jwt",
+        "description": "student-portal.backend.auth.jwt",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt",
+        "detail": "student-portal.backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "student-portal.backend.auth.jwt",
+        "description": "student-portal.backend.auth.jwt",
+        "peekOfCode": "SECRET_KEY = \"09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7\"  # В продакшн следует использовать переменную окружения\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 часа\n# Создаем экземпляр OAuth2PasswordBearer для авторизации через Bearer token\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta",
+        "detail": "student-portal.backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "student-portal.backend.auth.jwt",
+        "description": "student-portal.backend.auth.jwt",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 часа\n# Создаем экземпляр OAuth2PasswordBearer для авторизации через Bearer token\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:",
+        "detail": "student-portal.backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "student-portal.backend.auth.jwt",
+        "description": "student-portal.backend.auth.jwt",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 часа\n# Создаем экземпляр OAuth2PasswordBearer для авторизации через Bearer token\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)",
+        "detail": "student-portal.backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "student-portal.backend.auth.jwt",
+        "description": "student-portal.backend.auth.jwt",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "student-portal.backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCRUD",
+        "kind": 6,
+        "importPath": "student-portal.backend.crud.course_crud",
+        "description": "student-portal.backend.crud.course_crud",
+        "peekOfCode": "class CourseCRUD:\n    async def get_student_courses(self, student_id: str) -> List[Dict[str, Any]]:\n        \"\"\"Получает список курсов, на которые записан студент\"\"\"\n        try:\n            logger.info(f\"Получение курсов для студента с ID: {student_id}\")\n            # Найти все записи о регистрации студента на курсы\n            course_ids = []\n            enrollments_cursor = enrollments_collection.find({\"student_id\": student_id})\n            async for enrollment in enrollments_cursor:\n                course_ids.append(ObjectId(enrollment[\"course_id\"]))",
+        "detail": "student-portal.backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.course_crud",
+        "description": "student-portal.backend.crud.course_crud",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Подключение к MongoDB\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons",
+        "detail": "student-portal.backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.course_crud",
+        "description": "student-portal.backend.crud.course_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons\n    assignments_collection = db.assignments\n    enrollments_collection = db.enrollments",
+        "detail": "student-portal.backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.course_crud",
+        "description": "student-portal.backend.crud.course_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons\n    assignments_collection = db.assignments\n    enrollments_collection = db.enrollments\n    # Проверка соединения",
+        "detail": "student-portal.backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.course_crud",
+        "description": "student-portal.backend.crud.course_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons\n    assignments_collection = db.assignments\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')",
+        "detail": "student-portal.backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.course_crud",
+        "description": "student-portal.backend.crud.course_crud",
+        "peekOfCode": "course_crud = CourseCRUD()",
+        "detail": "student-portal.backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCRUD",
+        "kind": 6,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "class StudentCRUD:\n    def verify_password(self, plain_password, hashed_password):\n        \"\"\"Проверяет, соответствует ли plaintext пароль хешированному паролю.\"\"\"\n        try:\n            return pwd_context.verify(plain_password, hashed_password)\n        except Exception as e:\n            logger.error(f\"Ошибка проверки пароля: {e}\")\n            return False\n    def get_password_hash(self, password):\n        \"\"\"Создает хеш пароля для безопасного хранения.\"\"\"",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Настройка хеширования паролей\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Подключение к MongoDB\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Подключение к MongoDB\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')\n    logger.info(\"MongoDB соединение установлено успешно\")",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')\n    logger.info(\"MongoDB соединение установлено успешно\")\nexcept Exception as e:",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "kind": 5,
+        "importPath": "student-portal.backend.crud.student_crud",
+        "description": "student-portal.backend.crud.student_crud",
+        "peekOfCode": "student_crud = StudentCRUD()",
+        "detail": "student-portal.backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "StudentBase",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class StudentBase(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\n    comment: Optional[str] = None\n    created_at: datetime = Field(default_factory=datetime.utcnow)\n    updated_at: datetime = Field(default_factory=datetime.utcnow)\nclass StudentLogin(BaseModel):",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentLogin",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class StudentLogin(BaseModel):\n    username: str\n    password: str\nclass StudentCreate(StudentBase):\n    password: str\nclass StudentInDB(StudentBase):\n    id: str\n    password_hash: str\n    course_ids: List[str] = []  # Список ID курсов, на которые записан студент\nclass StudentResponse(StudentBase):",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCreate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class StudentCreate(StudentBase):\n    password: str\nclass StudentInDB(StudentBase):\n    id: str\n    password_hash: str\n    course_ids: List[str] = []  # Список ID курсов, на которые записан студент\nclass StudentResponse(StudentBase):\n    id: str\n    course_ids: List[str] = []\nclass StudentUpdate(BaseModel):",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class StudentInDB(StudentBase):\n    id: str\n    password_hash: str\n    course_ids: List[str] = []  # Список ID курсов, на которые записан студент\nclass StudentResponse(StudentBase):\n    id: str\n    course_ids: List[str] = []\nclass StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentResponse",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class StudentResponse(StudentBase):\n    id: str\n    course_ids: List[str] = []\nclass StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None\n    password: Optional[str] = None",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None\n    password: Optional[str] = None\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    student_id: str\n    username: str",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student",
+        "description": "student-portal.backend.models.student",
+        "peekOfCode": "class TokenData(BaseModel):\n    student_id: str\n    username: str",
+        "detail": "student-portal.backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "student-portal.backend.main",
+        "description": "student-portal.backend.main",
+        "peekOfCode": "app = FastAPI(title=\"Student Portal API\")\n# Настраиваем CORS для frontend\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Разрешаем все источники в режиме разработки\n    allow_credentials=False,  # Отключаем credentials, так как используем allow_origins=[\"*\"]\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n    expose_headers=[\"*\"]\n)",
+        "detail": "student-portal.backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "description": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "description": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "description": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "description": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]

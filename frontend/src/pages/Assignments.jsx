@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import EditModal from '../_components/editModal';
 import { HiChevronLeft } from 'react-icons/hi';
 import { useAssignmentStore } from '../stores/assignmentStore';
+import AssignmentModal from '../_components/AssignmentModal';
 
 const Assignments = () => {
     const { courseId, lessonId } = useParams();
@@ -57,7 +57,10 @@ const Assignments = () => {
     const handleModalSubmit = async (assignmentData) => {
         try {
             if (selectedAssignment.id) {
-                await updateAssignment(selectedAssignment.id, assignmentData);
+                await updateAssignment({
+                    ...assignmentData,
+                    id: selectedAssignment.id
+                });
             } else {
                 const newAssignment = {
                     title: assignmentData.title,
@@ -192,14 +195,8 @@ const Assignments = () => {
             </div>
 
             {selectedAssignment && (
-                <EditModal
-                    title={selectedAssignment.id ? "Edit Assignment" : "Create Assignment"}
-                    fields={[
-                        { name: 'title', label: 'Title', type: 'text', required: true },
-                        { name: 'description', label: 'Description', type: 'textarea' },
-                        { name: 'code_editor', label: 'Initial Code', type: 'textarea' }
-                    ]}
-                    initialData={selectedAssignment}
+                <AssignmentModal
+                    assignment={selectedAssignment}
                     onClose={() => setSelectedAssignment(null)}
                     onSubmit={handleModalSubmit}
                 />

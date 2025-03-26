@@ -2,16 +2,19 @@ import { useState, useEffect } from 'react';
 import Editor from '@monaco-editor/react';
 import PropTypes from 'prop-types';
 
-const CodeEditor = ({ initialCode, onCodeChange }) => {
-    const [code, setCode] = useState(initialCode);
+const CodeEditor = ({ value = '', onChange, language = 'python', height = '600px', theme = 'vs-dark', options = {} }) => {
+    const [code, setCode] = useState(value);
 
+    // Обновляем код при изменении value prop
     useEffect(() => {
-        setCode(initialCode);
-    }, [initialCode]);
-
-    const handleEditorChange = (value) => {
         setCode(value);
-        onCodeChange(value);
+    }, [value]);
+
+    const handleEditorChange = (newValue) => {
+        setCode(newValue);
+        if (onChange) {
+            onChange(newValue);
+        }
     };
 
     return (
@@ -28,9 +31,9 @@ const CodeEditor = ({ initialCode, onCodeChange }) => {
                 </button>
             </div>
             <Editor
-                height="600px"
-                defaultLanguage="python"
-                theme="vs-light"
+                height={height}
+                defaultLanguage={language}
+                theme={theme}
                 value={code}
                 onChange={handleEditorChange}
                 options={{
@@ -40,11 +43,11 @@ const CodeEditor = ({ initialCode, onCodeChange }) => {
                     renderLineHighlight: 'all',
                     automaticLayout: true,
                     scrollBeyondLastLine: false,
+                    ...options
                 }}
             />
             <div className="bg-gray-800 text-white p-4 h-32 overflow-auto">
                 <div className="font-mono text-sm">
-                    {/* Здесь будет вывод результатов выполнения кода */}
                     # And here you can see the result ||
                     #                                 V
                 </div>
@@ -54,12 +57,12 @@ const CodeEditor = ({ initialCode, onCodeChange }) => {
 };
 
 CodeEditor.propTypes = {
-    initialCode: PropTypes.string,
-    onCodeChange: PropTypes.func.isRequired
-};
-
-CodeEditor.defaultProps = {
-    initialCode: ''
+    value: PropTypes.string,
+    onChange: PropTypes.func,
+    language: PropTypes.string,
+    height: PropTypes.string,
+    theme: PropTypes.string,
+    options: PropTypes.object
 };
 
 export default CodeEditor; 
