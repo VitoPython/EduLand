@@ -120,6 +120,30 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -520,6 +544,14 @@
         "documentation": {}
     },
     {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
         "label": "AttendanceRecord",
         "importPath": "models.attendance",
         "description": "models.attendance",
@@ -624,55 +656,7 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -744,6 +728,78 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -769,6 +825,14 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1096,7 +1160,23 @@
         "documentation": {}
     },
     {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
         "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
         "importPath": "auth.dependencies",
         "description": "auth.dependencies",
         "isExtraImport": true,
@@ -1125,6 +1205,30 @@
         "description": "auth.dependencies",
         "isExtraImport": true,
         "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Grade",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "Grade",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "grade_crud",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
         "documentation": {}
     },
     {
@@ -1635,6 +1739,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -1752,6 +1872,22 @@
         "description": "motor.motor_asyncio",
         "isExtraImport": true,
         "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
         "documentation": {}
     },
     {
@@ -1910,6 +2046,22 @@
     },
     {
         "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -2110,6 +2262,14 @@
     },
     {
         "label": "attendance",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "grades",
         "importPath": "api",
         "description": "api",
         "isExtraImport": true,
@@ -2327,7 +2487,7 @@
         "kind": 5,
         "importPath": "backend.api.assignments",
         "description": "backend.api.assignments",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/assignments\",\n    tags=[\"assignments\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.get(\"/lessons/{lesson_id}\")\nasync def get_lesson_assignments(lesson_id: str):\n    try:\n        assignments = await course_crud.get_lesson_assignments(lesson_id)\n        return assignments",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/assignments\",\n    tags=[\"assignments\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.get(\"/lessons/{lesson_id}\")\nasync def get_lesson_assignments(lesson_id: str):\n    try:\n        assignments = await course_crud.get_lesson_assignments(lesson_id)\n        return assignments",
         "detail": "backend.api.assignments",
         "documentation": {}
     },
@@ -2370,9 +2530,18 @@
     {
         "label": "router",
         "kind": 5,
+        "importPath": "backend.api.grades",
+        "description": "backend.api.grades",
+        "peekOfCode": "router = APIRouter(prefix=\"/api\", tags=[\"grades\"])\n@router.post(\"/assignments/grades/\", response_model=Grade)\nasync def create_grade(grade: Grade, token: dict = Depends(verify_token)):\n    # Проверяем существование задания\n    assignment = await course_crud.get_assignment(grade.assignment_id)\n    if not assignment:\n        raise HTTPException(status_code=404, detail=\"Assignment not found\")\n    # Проверяем существование студента\n    student = await student_crud.get_user_by_id(grade.student_id)\n    if not student:",
+        "detail": "backend.api.grades",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
         "importPath": "backend.api.groups",
         "description": "backend.api.groups",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/groups\",\n    tags=[\"groups\"]\n)\n@router.post(\"/\", response_model=Group)\nasync def create_group(group: Group):\n    try:\n        return await group_crud.create_group(group)\n    except Exception as e:\n        raise HTTPException(status_code=400, detail=str(e))",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/groups\",\n    tags=[\"groups\"]\n)\n@router.post(\"/\", response_model=Group)\nasync def create_group(group: Group, current_user = Depends(get_current_user)):\n    try:\n        return await group_crud.create_group(group)\n    except Exception as e:\n        raise HTTPException(status_code=400, detail=str(e))",
         "detail": "backend.api.groups",
         "documentation": {}
     },
@@ -2662,6 +2831,24 @@
         "description": "backend.crud.enrollment_crud",
         "peekOfCode": "enrollment_crud = EnrollmentCRUD()",
         "detail": "backend.crud.enrollment_crud",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.grade",
+        "description": "backend.crud.grade",
+        "peekOfCode": "class GradeCRUD:\n    def __init__(self):\n        # Конфигурация базы данных\n        username = urllib.parse.quote_plus(\"vitaliipodgornii\")\n        password = urllib.parse.quote_plus(\"Vitalik199712\")\n        MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n        # Создание подключения к базе данных\n        self.client = AsyncIOMotorClient(MONGO_URI)\n        self.db = self.client.crm_database\n        self.grades_collection = self.db.grades",
+        "detail": "backend.crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "grade_crud",
+        "kind": 5,
+        "importPath": "backend.crud.grade",
+        "description": "backend.crud.grade",
+        "peekOfCode": "grade_crud = GradeCRUD()",
+        "detail": "backend.crud.grade",
         "documentation": {}
     },
     {
@@ -3142,6 +3329,15 @@
         "documentation": {}
     },
     {
+        "label": "Grade",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class Grade(BaseModel):\n    id: Optional[str] = Field(None, alias=\"_id\")\n    assignment_id: str\n    student_id: str\n    grade: int = Field(..., ge=0, le=10)\n    created_at: datetime = Field(default_factory=datetime.utcnow)\n    updated_at: datetime = Field(default_factory=datetime.utcnow)\n    class Config:\n        allow_population_by_field_name = True\n        json_encoders = {",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
         "label": "PyObjectId",
         "kind": 6,
         "importPath": "backend.models.group",
@@ -3281,7 +3477,7 @@
         "kind": 5,
         "importPath": "backend.main",
         "description": "backend.main",
-        "peekOfCode": "CLERK_PEM_PUBLIC_KEY = os.getenv(\"CLERK_PEM_PUBLIC_KEY\")\nCLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "peekOfCode": "CLERK_PEM_PUBLIC_KEY = os.getenv(\"CLERK_PEM_PUBLIC_KEY\")\nCLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI(\n    title=\"Student Back Portal API\",\n    description=\"API для управления студентами, курсами, оценками и посещаемостью\",\n    version=\"1.0.0\",\n    openapi_tags=[\n        {\"name\": \"users\", \"description\": \"Операции с пользователями\"},\n        {\"name\": \"courses\", \"description\": \"Операции с курсами\"},",
         "detail": "backend.main",
         "documentation": {}
     },
@@ -3290,7 +3486,7 @@
         "kind": 5,
         "importPath": "backend.main",
         "description": "backend.main",
-        "peekOfCode": "CLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "peekOfCode": "CLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI(\n    title=\"Student Back Portal API\",\n    description=\"API для управления студентами, курсами, оценками и посещаемостью\",\n    version=\"1.0.0\",\n    openapi_tags=[\n        {\"name\": \"users\", \"description\": \"Операции с пользователями\"},\n        {\"name\": \"courses\", \"description\": \"Операции с курсами\"},\n        {\"name\": \"lessons\", \"description\": \"Операции с уроками\"},",
         "detail": "backend.main",
         "documentation": {}
     },
@@ -3299,7 +3495,7 @@
         "kind": 5,
         "importPath": "backend.main",
         "description": "backend.main",
-        "peekOfCode": "CLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "peekOfCode": "CLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI(\n    title=\"Student Back Portal API\",\n    description=\"API для управления студентами, курсами, оценками и посещаемостью\",\n    version=\"1.0.0\",\n    openapi_tags=[\n        {\"name\": \"users\", \"description\": \"Операции с пользователями\"},\n        {\"name\": \"courses\", \"description\": \"Операции с курсами\"},\n        {\"name\": \"lessons\", \"description\": \"Операции с уроками\"},\n        {\"name\": \"assignments\", \"description\": \"Операции с заданиями\"},",
         "detail": "backend.main",
         "documentation": {}
     },
@@ -3308,7 +3504,7 @@
         "kind": 5,
         "importPath": "backend.main",
         "description": "backend.main",
-        "peekOfCode": "app = FastAPI()\n# Настройка CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n# Подключаем все роутеры",
+        "peekOfCode": "app = FastAPI(\n    title=\"Student Back Portal API\",\n    description=\"API для управления студентами, курсами, оценками и посещаемостью\",\n    version=\"1.0.0\",\n    openapi_tags=[\n        {\"name\": \"users\", \"description\": \"Операции с пользователями\"},\n        {\"name\": \"courses\", \"description\": \"Операции с курсами\"},\n        {\"name\": \"lessons\", \"description\": \"Операции с уроками\"},\n        {\"name\": \"assignments\", \"description\": \"Операции с заданиями\"},\n        {\"name\": \"students\", \"description\": \"Операции со студентами\"},",
         "detail": "backend.main",
         "documentation": {}
     },

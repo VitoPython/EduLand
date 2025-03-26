@@ -70,24 +70,41 @@ class GroupCRUD:
     # Методы для работы со студентами в группе
     async def add_student_to_group(self, group_id: str, student: GroupStudent) -> Optional[Group]:
         try:
+            print(f"Adding student to group. Group ID: {group_id}, Student data: {student.model_dump()}")
+            
             # Проверяем существование группы
             group = await self.get_group(group_id)
             if not group:
+                print(f"Group not found: {group_id}")
                 return None
 
             # Проверяем, не превышен ли лимит студентов
             if len(group.students) >= group.max_students:
+                print(f"Maximum number of students reached. Current: {len(group.students)}, Max: {group.max_students}")
                 raise ValueError("Maximum number of students reached")
 
-            # Проверяем, нет ли уже такого студента
-            if any(s.student_id == student.student_id for s in group.students):
-                raise ValueError("Student already in group")
+            # Проверяем, нет ли уже такого студента (проверяем по email и student_id)
+            existing_student = next(
+                (s for s in group.students 
+                 if s.student_id == student.student_id or s.email == student.email),
+                None
+            )
+            
+            if existing_student:
+                print(f"Student already exists in group. ID: {existing_student.student_id}, Email: {existing_student.email}")
+                if existing_student.student_id == student.student_id:
+                    raise ValueError("Student with this ID already in group")
+                else:
+                    raise ValueError("Student with this email already in group")
 
             # Добавляем студента и обновляем счетчики
+            student_data = student.model_dump()
+            print(f"Prepared student data for insertion: {student_data}")
+            
             result = await groups_collection.find_one_and_update(
                 {"_id": ObjectId(group_id)},
                 {
-                    "$push": {"students": student.model_dump()},
+                    "$push": {"students": student_data},
                     "$inc": {"students_count": 1},
                     "$set": {"updated_at": datetime.utcnow()}
                 },
@@ -95,11 +112,15 @@ class GroupCRUD:
             )
 
             if result:
+                print(f"Student successfully added to group. Updated group data: {result}")
                 result["id"] = str(result["_id"])
                 return Group(**result)
+                
+            print("Failed to update group after adding student")
             return None
         except Exception as e:
-            print(f"Error adding student to group: {e}")
+            print(f"Error adding student to group: {str(e)}")
+            print(f"Error type: {type(e)}")
             raise
 
     async def remove_student_from_group(self, group_id: str, student_id: str) -> bool:

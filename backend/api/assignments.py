@@ -4,7 +4,7 @@ from crud.course_crud import course_crud
 from .dependencies import get_current_user
 
 router = APIRouter(
-    prefix="/assignments",
+    prefix="/api/assignments",
     tags=["assignments"],
     dependencies=[Depends(get_current_user())]
 )

@@ -38,7 +38,7 @@ export const useGroupStore = create((set) => ({
         set({ isLoading: true, error: null });
         try {
             console.log('Fetching group with ID:', groupId);
-            const response = await api.get(`/groups/${groupId}`);
+            const response = await api.get(`/groups/${encodeURIComponent(groupId)}`);
             const group = {
                 ...response.data,
                 id: response.data._id
@@ -65,7 +65,7 @@ export const useGroupStore = create((set) => ({
             }));
             return response.data;
         } catch (error) {
-            set({ error: error.message, isLoading: false });
+            set({ error: error.response?.data?.detail || error.message, isLoading: false });
             throw error;
         }
     },
@@ -73,7 +73,7 @@ export const useGroupStore = create((set) => ({
     updateGroup: async (groupId, groupData) => {
         set({ isLoading: true });
         try {
-            const response = await api.put(`/groups/${groupId}`, groupData);
+            const response = await api.put(`/groups/${encodeURIComponent(groupId)}`, groupData);
             set(state => ({
                 groups: state.groups.map(group => 
                     group.id === groupId ? response.data : group
@@ -84,7 +84,7 @@ export const useGroupStore = create((set) => ({
             }));
             return response.data;
         } catch (error) {
-            set({ error: error.message, isLoading: false });
+            set({ error: error.response?.data?.detail || error.message, isLoading: false });
             throw error;
         }
     },
@@ -92,14 +92,14 @@ export const useGroupStore = create((set) => ({
     deleteGroup: async (groupId) => {
         set({ isLoading: true });
         try {
-            await api.delete(`/groups/${groupId}`);
+            await api.delete(`/groups/${encodeURIComponent(groupId)}`);
             set(state => ({
                 groups: state.groups.filter(group => group.id !== groupId),
                 isLoading: false,
                 error: null
             }));
         } catch (error) {
-            set({ error: error.message, isLoading: false });
+            set({ error: error.response?.data?.detail || error.message, isLoading: false });
             throw error;
         }
     },
@@ -107,7 +107,9 @@ export const useGroupStore = create((set) => ({
     addStudentToGroup: async (groupId, studentData) => {
         set({ isLoading: true });
         try {
-            const response = await api.post(`/groups/${groupId}/students`, studentData);
+            console.log('Adding student to group:', { groupId, studentData });
+            const response = await api.post(`/groups/${encodeURIComponent(groupId)}/students`, studentData);
+            console.log('Response from adding student:', response.data);
             set(state => ({
                 groups: state.groups.map(group => 
                     group.id === groupId ? response.data : group
@@ -118,7 +120,8 @@ export const useGroupStore = create((set) => ({
             }));
             return response.data;
         } catch (error) {
-            set({ error: error.message, isLoading: false });
+            console.error('Error adding student to group:', error.response?.data || error.message);
+            set({ error: error.response?.data?.detail || error.message, isLoading: false });
             throw error;
         }
     },
@@ -126,8 +129,8 @@ export const useGroupStore = create((set) => ({
     removeStudentFromGroup: async (groupId, studentId) => {
         set({ isLoading: true });
         try {
-            await api.delete(`/groups/${groupId}/students/${studentId}`);
-            const updatedGroup = await api.get(`/groups/${groupId}`);
+            await api.delete(`/groups/${encodeURIComponent(groupId)}/students/${encodeURIComponent(studentId)}`);
+            const updatedGroup = await api.get(`/groups/${encodeURIComponent(groupId)}`);
             set(state => ({
                 groups: state.groups.map(group => 
                     group.id === groupId ? updatedGroup.data : group
@@ -137,7 +140,7 @@ export const useGroupStore = create((set) => ({
                 error: null
             }));
         } catch (error) {
-            set({ error: error.message, isLoading: false });
+            set({ error: error.response?.data?.detail || error.message, isLoading: false });
             throw error;
         }
     },
