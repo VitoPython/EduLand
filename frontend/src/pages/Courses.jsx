@@ -1,54 +1,58 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCourseStore } from '../stores/courseStore';
-import { useUIStore } from '../stores/uiStore';
-import CourseModal from '../_components/CourseModal';
+import EditModal from '../_components/editModal';
+import { useState } from 'react';
 
 const Courses = () => {
     const navigate = useNavigate();
-    const { courses, isLoading, fetchCourses, createCourse, updateCourse, deleteCourse } = useCourseStore();
-    const { modals, openModal, closeModal } = useUIStore();
+    const { courses, isLoading, error, fetchCourses, createCourse, deleteCourse, updateCourse } = useCourseStore();
+    const [selectedCourse, setSelectedCourse] = useState(null);
 
     useEffect(() => {
         fetchCourses();
     }, [fetchCourses]);
 
-    const handleDelete = async (id) => {
+    const handleEdit = (e, course) => {
+        e.stopPropagation();
+        setSelectedCourse(course);
+    };
+
+    const handleDelete = async (e, courseId) => {
+        e.stopPropagation();
         if (window.confirm('Are you sure you want to delete this course?')) {
             try {
-                await deleteCourse(id);
+                await deleteCourse(courseId);
             } catch (error) {
                 console.error('Error deleting course:', error);
-                alert('Failed to delete course');
             }
         }
     };
 
     const handleCreate = () => {
-        openModal('course');
-    };
-
-    const handleEdit = (course) => {
-        openModal('course', course);
-    };
-
-    const handleModalClose = () => {
-        closeModal();
+        setSelectedCourse({ title: '', description: '', duration: '', price: '' });
     };
 
     const handleModalSubmit = async (courseData) => {
         try {
-            if (modals.selectedCourse) {
-                await updateCourse(modals.selectedCourse.id, courseData);
+            if (selectedCourse.id) {
+                await updateCourse(selectedCourse.id, courseData);
             } else {
                 await createCourse(courseData);
             }
-            handleModalClose();
+            setSelectedCourse(null);
         } catch (error) {
             console.error('Error saving course:', error);
-            alert('Failed to save course');
         }
     };
+
+    if (error) {
+        return (
+            <div className="text-red-600 text-center py-4">
+                Error: {error}
+            </div>
+        );
+    }
 
     if (isLoading) {
         return (
@@ -59,38 +63,39 @@ const Courses = () => {
     }
 
     return (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="sm:flex sm:items-center sm:justify-between mb-8">
-                <h1 className="text-2xl font-bold text-gray-900">Courses</h1>
-                <button
-                    onClick={handleCreate}
-                    className="mt-3 sm:mt-0 w-full sm:w-auto bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200"
-                >
-                    Add Course
-                </button>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="sm:flex sm:items-center">
+                <div className="sm:flex-auto">
+                    <h1 className="text-2xl font-semibold text-gray-900">Courses</h1>
+                    <p className="mt-2 text-sm text-gray-700">
+                        A list of all courses including their title, description, duration and price.
+                    </p>
+                </div>
+                <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+                    <button
+                        onClick={handleCreate}
+                        className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                    >
+                        Add Course
+                    </button>
+                </div>
             </div>
 
             <div className="mt-8 flex flex-col">
                 <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                        <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 rounded-lg">
-                            <table className="min-w-full table-fixed divide-y divide-gray-300">
+                        <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                            <table className="min-w-full divide-y divide-gray-300">
                                 <thead className="bg-gray-50">
                                     <tr>
-                                        <th scope="col" className="w-[60%] py-3.5 pl-6 pr-3">
-                                            <div className="text-left text-sm font-semibold text-gray-900">
-                                                Title
-                                            </div>
-                                        </th>
-                                        <th scope="col" className="w-[20%] px-3 py-3.5">
-                                            <div className="text-left text-sm font-semibold text-gray-900">
-                                                Created At
-                                            </div>
-                                        </th>
-                                        <th scope="col" className="w-[20%] py-3.5 pl-3 pr-6">
-                                            <div className="text-right text-sm font-semibold text-gray-900">
-                                                Actions
-                                            </div>
+                                        <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Title</th>
+                                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Description</th>
+                                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Duration (hours)</th>
+                                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Price ($)</th>
+                                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Created</th>
+                                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Updated</th>
+                                        <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-6">
+                                            <span className="sr-only">Actions</span>
                                         </th>
                                     </tr>
                                 </thead>
@@ -101,37 +106,29 @@ const Courses = () => {
                                             className="hover:bg-gray-50 cursor-pointer"
                                             onClick={() => navigate(`/courses/${course.id}/lessons`)}
                                         >
-                                            <td className="w-[60%] py-4 pl-6 pr-3">
-                                                <div className="text-left text-sm font-medium text-gray-900 truncate">
-                                                    {course.title}
-                                                </div>
+                                            <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">{course.title}</td>
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{course.description}</td>
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{course.duration}</td>
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">${course.price}</td>
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                                {new Date(course.created_at).toLocaleDateString()}
                                             </td>
-                                            <td className="w-[20%] px-3 py-4">
-                                                <div className="text-left text-sm text-gray-500">
-                                                    {new Date(course.created_at).toLocaleDateString()}
-                                                </div>
+                                            <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                                {new Date(course.updated_at).toLocaleDateString()}
                                             </td>
-                                            <td className="w-[20%] py-4 pl-3 pr-6">
-                                                <div className="flex justify-end space-x-3">
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            handleEdit(course);
-                                                        }}
-                                                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                                                    >
-                                                        Edit
-                                                    </button>
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            handleDelete(course.id);
-                                                        }}
-                                                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-                                                    >
-                                                        Delete
-                                                    </button>
-                                                </div>
+                                            <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+                                                <button
+                                                    onClick={(e) => handleEdit(e, course)}
+                                                    className="text-indigo-600 hover:text-indigo-900 mr-4"
+                                                >
+                                                    Edit
+                                                </button>
+                                                <button
+                                                    onClick={(e) => handleDelete(e, course.id)}
+                                                    className="text-red-600 hover:text-red-900"
+                                                >
+                                                    Delete
+                                                </button>
                                             </td>
                                         </tr>
                                     ))}
@@ -142,10 +139,17 @@ const Courses = () => {
                 </div>
             </div>
 
-            {modals.course.isOpen && (
-                <CourseModal
-                    course={modals.course.selectedCourse}
-                    onClose={() => closeModal('course')}
+            {selectedCourse && (
+                <EditModal
+                    title={selectedCourse.id ? "Edit Course" : "Create Course"}
+                    fields={[
+                        { name: 'title', label: 'Title', type: 'text', required: true },
+                        { name: 'description', label: 'Description', type: 'textarea', required: true },
+                        { name: 'duration', label: 'Duration (hours)', type: 'number', required: true },
+                        { name: 'price', label: 'Price', type: 'number', required: true }
+                    ]}
+                    initialData={selectedCourse}
+                    onClose={() => setSelectedCourse(null)}
                     onSubmit={handleModalSubmit}
                 />
             )}

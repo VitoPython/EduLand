@@ -14,6 +14,11 @@ import Courses from './pages/Courses';
 import Lessons from './pages/Lessons';
 import Assignments from './pages/Assignments';
 import AssignmentDetail from './pages/AssignmentDetail';
+import StudentDetail from './pages/StudentDetail';
+import StudentEdit from './pages/StudentEdit';
+import Groups from './pages/Groups';
+import GroupForm from './pages/GroupForm';
+import GroupDetail from './pages/GroupDetail';
 
 function App() {
     const { getToken, session, isLoaded } = useAuth();
@@ -133,6 +138,67 @@ function App() {
                                         <RedirectToSignIn />
                                     </SignedOut>
                                 </>
+                            }
+                        />
+
+                        <Route
+                            path="/students/:studentId"
+                            element={
+                                <>
+                                    <SignedIn>
+                                        <StudentDetail />
+                                    </SignedIn>
+                                    <SignedOut>
+                                        <RedirectToSignIn />
+                                    </SignedOut>
+                                </>
+                            }
+                        />
+
+                        <Route
+                            path="/students/:studentId/edit"
+                            element={
+                                <>
+                                    <SignedIn>
+                                        <StudentEdit />
+                                    </SignedIn>
+                                    <SignedOut>
+                                        <RedirectToSignIn />
+                                    </SignedOut>
+                                </>
+                            }
+                        />
+
+                        <Route
+                            path="/groups"
+                            element={
+                                <SignedIn>
+                                    <Groups />
+                                </SignedIn>
+                            }
+                        />
+                        <Route
+                            path="/groups/create"
+                            element={
+                                <SignedIn>
+                                    <GroupForm />
+                                </SignedIn>
+                            }
+                        />
+                        <Route
+                            path="/groups/:groupId"
+                            element={
+                                <SignedIn>
+                                    <GroupDetail />
+                                </SignedIn>
+                            }
+                        />
+                        <Route
+                            path="/groups/:groupId/edit"
+                            element={
+                                <SignedIn>
+                                    <GroupForm />
+                                </SignedIn>
                             }
                         />
                     </Routes>

@@ -1,68 +1,101 @@
-import { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { useLessonStore } from '../stores/lessonStore';
+import { useEffect, useState } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useCourseStore } from '../stores/courseStore';
-import { useUIStore } from '../stores/uiStore';
-import LessonModal from '../_components/LessonModal';
+import EditModal from '../_components/editModal';
+import { HiChevronLeft, HiAcademicCap } from 'react-icons/hi';
+import api from '../api/api';
 
 const Lessons = () => {
     const { courseId } = useParams();
     const navigate = useNavigate();
-    const { lessons, isLoading, fetchLessons, createLesson, updateLesson, deleteLesson } = useLessonStore();
-    const { currentCourse, fetchCourse } = useCourseStore();
-    const { modals, openModal, closeModal } = useUIStore();
+    const { currentCourse, fetchCourse, isLoading, error } = useCourseStore();
+    const [selectedLesson, setSelectedLesson] = useState(null);
+    const [lessons, setLessons] = useState([]);
+    const [totalLessons, setTotalLessons] = useState(0);
 
     useEffect(() => {
-        if (courseId) {
-            fetchCourse(courseId);
-            fetchLessons(courseId);
-        }
-    }, [courseId, fetchCourse, fetchLessons]);
-
-    const handleDelete = async (id) => {
-        if (window.confirm('Are you sure you want to delete this lesson?')) {
+        const loadData = async () => {
             try {
-                await deleteLesson(id);
+                // Загружаем курс
+                await fetchCourse(courseId);
+                
+                // Изменяем URL для получения уроков
+                const response = await api.get(`/lessons/course/${courseId}`); // было /courses/${courseId}/lessons
+                console.log('Loaded lessons:', response.data);
+                const processedLessons = response.data.map(lesson => ({
+                    ...lesson,
+                    _id: lesson._id || lesson.id
+                }));
+                setLessons(processedLessons);
+                setTotalLessons(processedLessons.length);
             } catch (error) {
-                console.error('Error deleting lesson:', error);
-                alert('Failed to delete lesson');
+                console.error('Error loading data:', error);
             }
-        }
-    };
+        };
+        loadData();
+    }, [courseId, fetchCourse]);
 
     const handleCreate = () => {
-        openModal('lesson');
+        setSelectedLesson({ title: '' });
     };
 
-    const handleEdit = (lesson) => {
-        openModal('lesson', lesson);
+    const handleEdit = (e, lesson) => {
+        e.stopPropagation();
+        // Сохраняем полные данные урока для редактирования
+        setSelectedLesson({
+            _id: lesson._id || lesson.id,
+            title: lesson.title,
+            course_id: lesson.course_id
+        });
     };
 
-    const handleModalClose = () => {
-        closeModal('lesson');
+    const handleDelete = async (e, lesson) => {
+        e.stopPropagation();
+        if (window.confirm('Are you sure you want to delete this lesson?')) {
+            try {
+                const id = lesson._id || lesson.id || lesson;
+                const response = await api.delete(`/lessons/${id}`);
+                console.log('Delete response:', response);
+
+                if (response.status === 200) {
+                    // Обновляем список уроков после успешного удаления
+                    const lessonsResponse = await api.get(`/lessons/course/${courseId}`); // было /courses/${courseId}/lessons
+                    setLessons(lessonsResponse.data);
+                } else {
+                    console.error('Failed to delete lesson');
+                }
+            } catch (error) {
+                console.error('Error deleting lesson:', error);
+            }
+        }
     };
 
     const handleModalSubmit = async (lessonData) => {
         try {
-            if (modals.lesson.selectedLesson) {
-                await updateLesson(modals.lesson.selectedLesson.id, lessonData);
+            if (selectedLesson._id) {
+                // Редактирование существующего урока
+                console.log('Updating lesson:', selectedLesson._id, lessonData);
+                await api.put(`/lessons/${selectedLesson._id}`, {
+                    title: lessonData.title,
+                    updated_at: new Date()
+                });
             } else {
-                await createLesson(courseId, lessonData);
+                // Создание нового урока
+                console.log('Creating lesson with data:', { ...lessonData, course_id: courseId });
+                await api.post(`/lessons/${courseId}`, { // было /lessons
+                    ...lessonData,
+                    course_id: courseId
+                });
             }
-            handleModalClose();
+            setSelectedLesson(null);
+            
+            // Обновляем список уроков
+            const lessonsResponse = await api.get(`/lessons/course/${courseId}`); // было /courses/${courseId}/lessons
+            console.log('Updated lessons:', lessonsResponse.data);
+            setLessons(lessonsResponse.data);
         } catch (error) {
             console.error('Error saving lesson:', error);
-            alert('Failed to save lesson');
         }
-    };
-
-    const handleViewAssignments = (lessonId) => {
-        const validId = lessonId?.toString();
-        if (!validId) {
-            alert('Invalid lesson ID');
-            return;
-        }
-        navigate(`/courses/${courseId}/lessons/${validId}/assignments`);
     };
 
     if (isLoading) {
@@ -73,99 +106,104 @@ const Lessons = () => {
         );
     }
 
+    if (error) {
+        return (
+            <div className="text-red-600 text-center py-4">
+                Error: {error}
+            </div>
+        );
+    }
+
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="mb-6 flex items-center space-x-2">
-                <button
-                    onClick={() => navigate('/courses')}
-                    className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors"
+            <div className="mb-8">
+                <Link
+                    to="/courses"
+                    className="flex items-center text-indigo-600 hover:text-indigo-900"
                 >
-                    <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                    </svg>
-                    Back to Courses
-                </button>
+                    <HiChevronLeft className="h-5 w-5" />
+                    <span>Back to Courses</span>
+                </Link>
             </div>
 
-            <div className="sm:flex sm:items-center sm:justify-between mb-8">
-                <div>
-                    <h1 className="text-2xl font-bold text-gray-900">
+            <div className="sm:flex sm:items-center">
+                <div className="sm:flex-auto">
+                    <h1 className="text-2xl font-semibold text-gray-900">
                         {currentCourse?.title} - Lessons
                     </h1>
+                    <div className="flex items-center mt-2 text-sm text-gray-700">
+                        <HiAcademicCap className="h-5 w-5 mr-1 text-indigo-600" />
+                        <span>Total Lessons: {totalLessons}</span>
+                    </div>
                 </div>
-                <button
-                    onClick={handleCreate}
-                    className="mt-3 sm:mt-0 w-full sm:w-auto bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200"
-                >
-                    Add Lesson
-                </button>
+                <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+                    <button
+                        onClick={handleCreate}
+                        className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                    >
+                        Add Lesson
+                    </button>
+                </div>
             </div>
 
             <div className="mt-8 flex flex-col">
                 <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                        <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 rounded-lg">
-                            <table className="min-w-full table-fixed divide-y divide-gray-300">
+                        <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                            <table className="min-w-full divide-y divide-gray-300">
                                 <thead className="bg-gray-50">
                                     <tr>
-                                        <th scope="col" className="w-[60%] py-3.5 pl-6 pr-3">
-                                            <div className="text-left text-sm font-semibold text-gray-900">
-                                                Title
-                                            </div>
-                                        </th>
-                                        <th scope="col" className="w-[20%] px-3 py-3.5">
-                                            <div className="text-left text-sm font-semibold text-gray-900">
-                                                Created At
-                                            </div>
-                                        </th>
-                                        <th scope="col" className="w-[20%] py-3.5 pl-3 pr-6">
-                                            <div className="text-right text-sm font-semibold text-gray-900">
-                                                Actions
-                                            </div>
+                                        <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Title</th>
+                                        <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Created At</th>
+                                        <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-6">
+                                            <span className="sr-only">Actions</span>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-gray-200 bg-white">
-                                    {lessons.map((lesson) => (
-                                        <tr 
-                                            key={lesson.id}
-                                            className="hover:bg-gray-50 cursor-pointer"
-                                            onClick={() => handleViewAssignments(lesson.id)}
-                                        >
-                                            <td className="w-[60%] py-4 pl-6 pr-3">
-                                                <div className="text-left text-sm font-medium text-gray-900 truncate">
+                                    {lessons.map((lesson) => {
+                                        // Проверяем наличие _id
+                                        if (!lesson._id) {
+                                            console.error('Lesson without _id:', lesson);
+                                            return null;
+                                        }
+                                        
+                                        return (
+                                            <tr 
+                                                key={lesson._id}
+                                                className="hover:bg-gray-50 cursor-pointer"
+                                                onClick={() => {
+                                                    console.log('Navigating to assignments with lesson:', lesson);
+                                                    if (lesson._id) {
+                                                        navigate(`/courses/${courseId}/lessons/${lesson._id}/assignments`);
+                                                    } else {
+                                                        console.error('Cannot navigate: lesson._id is undefined', lesson);
+                                                    }
+                                                }}
+                                            >
+                                                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
                                                     {lesson.title}
-                                                </div>
-                                            </td>
-                                            <td className="w-[20%] px-3 py-4">
-                                                <div className="text-left text-sm text-gray-500">
+                                                </td>
+                                                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                                     {new Date(lesson.created_at).toLocaleDateString()}
-                                                </div>
-                                            </td>
-                                            <td className="w-[20%] py-4 pl-3 pr-6">
-                                                <div className="flex justify-end space-x-3">
+                                                </td>
+                                                <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                                     <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            handleEdit(lesson);
-                                                        }}
-                                                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                                                        onClick={(e) => handleEdit(e, lesson)}
+                                                        className="text-indigo-600 hover:text-indigo-900 mr-4"
                                                     >
                                                         Edit
                                                     </button>
                                                     <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            handleDelete(lesson.id);
-                                                        }}
-                                                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+                                                        onClick={(e) => handleDelete(e, lesson)}
+                                                        className="text-red-600 hover:text-red-900"
                                                     >
                                                         Delete
                                                     </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    ))}
+                                                </td>
+                                            </tr>
+                                        );
+                                    })}
                                 </tbody>
                             </table>
                         </div>
@@ -173,10 +211,14 @@ const Lessons = () => {
                 </div>
             </div>
 
-            {modals.lesson.isOpen && (
-                <LessonModal
-                    lesson={modals.lesson.selectedLesson}
-                    onClose={handleModalClose}
+            {selectedLesson && (
+                <EditModal
+                    title={selectedLesson._id ? "Edit Lesson" : "Create Lesson"}
+                    fields={[
+                        { name: 'title', label: 'Title', type: 'text', required: true }
+                    ]}
+                    initialData={selectedLesson}
+                    onClose={() => setSelectedLesson(null)}
                     onSubmit={handleModalSubmit}
                 />
             )}

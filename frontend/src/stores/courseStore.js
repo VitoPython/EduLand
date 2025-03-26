@@ -17,12 +17,9 @@ export const useCourseStore = create(
         set({ isLoading: true });
         try {
           const response = await api.get('/courses');
-          set({ courses: response.data, error: null });
+          set({ courses: response.data, isLoading: false, error: null });
         } catch (error) {
-          set({ error: error.message });
-          throw error;
-        } finally {
-          set({ isLoading: false });
+          set({ error: error.message, isLoading: false });
         }
       },
 
@@ -30,50 +27,81 @@ export const useCourseStore = create(
         set({ isLoading: true });
         try {
           const response = await api.get(`/courses/${courseId}`);
-          set({ currentCourse: response.data, error: null });
-          return response.data;
+          const courseData = response.data;
+          console.log('Raw course data:', courseData); // Отладка
+
+          // Убедимся, что у курса есть массив уроков
+          if (!courseData.lessons) {
+            courseData.lessons = [];
+          }
+
+          // Преобразуем _id в id для совместимости
+          courseData.lessons = Array.isArray(courseData.lessons) 
+            ? courseData.lessons.map(lesson => ({
+                ...lesson,
+                id: lesson._id || lesson.id
+            }))
+            : [];
+
+          console.log('Processed course data:', courseData); // Отладка
+          
+          set({ 
+            currentCourse: courseData,
+            isLoading: false,
+            error: null 
+          });
+          return courseData;
         } catch (error) {
-          set({ error: error.message });
+          console.error('Error fetching course:', error); // Отладка
+          set({ error: error.message, isLoading: false });
           throw error;
-        } finally {
-          set({ isLoading: false });
         }
       },
 
       createCourse: async (courseData) => {
         set({ isLoading: true });
         try {
-          const response = await api.post('/courses', courseData);
+          const formattedData = {
+            ...courseData,
+            duration: Number(courseData.duration),
+            price: Number(courseData.price)
+          };
+          
+          const response = await api.post('/courses', formattedData);
           set(state => ({
             courses: [...state.courses, response.data],
+            isLoading: false,
             error: null
           }));
           return response.data;
         } catch (error) {
-          set({ error: error.message });
+          set({ error: error.message, isLoading: false });
           throw error;
-        } finally {
-          set({ isLoading: false });
         }
       },
 
       updateCourse: async (courseId, courseData) => {
         set({ isLoading: true });
         try {
-          const response = await api.put(`/courses/${courseId}`, courseData);
+          const formattedData = {
+            ...courseData,
+            duration: Number(courseData.duration),
+            price: Number(courseData.price)
+          };
+
+          const response = await api.put(`/courses/${courseId}`, formattedData);
           set(state => ({
-            courses: state.courses.map(course => 
+            courses: state.courses.map(course =>
               course.id === courseId ? response.data : course
             ),
-            currentCourse: state.currentCourse?.id === courseId ? response.data : state.currentCourse,
+            currentCourse: response.data,
+            isLoading: false,
             error: null
           }));
           return response.data;
         } catch (error) {
-          set({ error: error.message });
+          set({ error: error.message, isLoading: false });
           throw error;
-        } finally {
-          set({ isLoading: false });
         }
       },
 
@@ -83,19 +111,18 @@ export const useCourseStore = create(
           await api.delete(`/courses/${courseId}`);
           set(state => ({
             courses: state.courses.filter(course => course.id !== courseId),
-            currentCourse: null,
+            isLoading: false,
             error: null
           }));
         } catch (error) {
-          set({ error: error.message });
+          set({ error: error.message, isLoading: false });
           throw error;
-        } finally {
-          set({ isLoading: false });
         }
       },
 
       clearErrors: () => set({ error: null }),
-      resetStore: () => set({ courses: [], currentCourse: null, isLoading: false, error: null })
+      resetStore: () => set({ courses: [], currentCourse: null, isLoading: false, error: null }),
+      clearCurrentCourse: () => set({ currentCourse: null })
     }),
     {
       name: 'course-storage',

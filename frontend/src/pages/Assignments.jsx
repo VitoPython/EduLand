@@ -1,66 +1,82 @@
-import { useEffect } from "react";
-import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { HiChevronLeft } from 'react-icons/hi';
 import { useAssignmentStore } from '../stores/assignmentStore';
-import { useLessonStore } from '../stores/lessonStore';
-import { useUIStore } from '../stores/uiStore';
 import AssignmentModal from '../_components/AssignmentModal';
 
 const Assignments = () => {
     const { courseId, lessonId } = useParams();
     const navigate = useNavigate();
-    
-    const { currentLesson, fetchLesson } = useLessonStore();
-    
-    const {
+    const { 
         assignments,
         isLoading,
+        error,
         fetchAssignments,
         createAssignment,
         updateAssignment,
-        deleteAssignment
+        deleteAssignment,
+        setSelectedAssignment,
+        selectedAssignment 
     } = useAssignmentStore();
 
-    const { modals, openModal, closeModal } = useUIStore();
-
     useEffect(() => {
-        if (!lessonId) {
-            navigate('/courses');
-            return;
-        }
-        fetchLesson(lessonId);
-        fetchAssignments(lessonId);
-    }, [lessonId, navigate, fetchLesson, fetchAssignments]);
+        const loadData = async () => {
+            if (lessonId && lessonId !== 'undefined') {
+                await fetchAssignments(lessonId);
+            }
+        };
+        
+        loadData();
+    }, [lessonId, fetchAssignments]);
 
     const handleCreate = () => {
-        openModal('assignment');
+        setSelectedAssignment({
+            title: '',
+            code_editor: '',
+            description: ''
+        });
     };
 
-    const handleEdit = (assignment) => {
-        openModal('assignment', assignment);
+    const handleEdit = (e, assignment) => {
+        e.stopPropagation();
+        setSelectedAssignment(assignment);
+    };
+
+    const handleDelete = async (e, assignment) => {
+        e.stopPropagation();
+        if (window.confirm('Are you sure you want to delete this assignment?')) {
+            try {
+                await deleteAssignment(assignment.id);
+                await fetchAssignments(lessonId);
+            } catch (error) {
+                console.error('Error deleting assignment:', error);
+            }
+        }
     };
 
     const handleModalSubmit = async (assignmentData) => {
         try {
-            if (modals.assignment.selectedAssignment) {
-                await updateAssignment(modals.assignment.selectedAssignment.id, assignmentData);
+            if (selectedAssignment.id) {
+                await updateAssignment({
+                    ...assignmentData,
+                    id: selectedAssignment.id
+                });
             } else {
-                await createAssignment(lessonId, assignmentData);
+                const newAssignment = {
+                    title: assignmentData.title,
+                    description: assignmentData.description || '',
+                    code_editor: assignmentData.code_editor || '',
+                    lesson_id: lessonId
+                };
+                
+                await createAssignment(lessonId, newAssignment);
             }
-            closeModal('assignment');
+            
+            setSelectedAssignment(null);
+            await fetchAssignments(lessonId);
+            
         } catch (error) {
             console.error('Error saving assignment:', error);
-            alert('Failed to save assignment');
-        }
-    };
-
-    const handleDelete = async (id) => {
-        if (window.confirm('Are you sure you want to delete this assignment?')) {
-            try {
-                await deleteAssignment(id);
-            } catch (error) {
-                console.error('Error deleting assignment:', error);
-                alert('Failed to delete assignment');
-            }
         }
     };
 
@@ -72,102 +88,105 @@ const Assignments = () => {
         );
     }
 
+    if (error) {
+        return (
+            <div className="text-red-600 text-center py-4">
+                Error: {error}
+            </div>
+        );
+    }
+
+    console.log('Current assignments:', assignments);
+
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="mb-6 flex items-center space-x-2">
-                <button
-                    onClick={() => navigate(`/courses/${courseId}/lessons`)}
-                    className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors"
+            <div className="mb-8">
+                <Link
+                    to={`/courses/${courseId}/lessons`}
+                    className="flex items-center text-indigo-600 hover:text-indigo-900"
                 >
-                    <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                    </svg>
-                    Back to Lessons
-                </button>
+                    <HiChevronLeft className="h-5 w-5" />
+                    <span>Back to Lessons</span>
+                </Link>
             </div>
 
-            <div className="sm:flex sm:items-center sm:justify-between mb-8">
-                <div>
-                    <h1 className="text-2xl font-bold text-gray-900">
-                        {currentLesson?.title || 'Loading...'} - Assignments
-                    </h1>
+            <div className="sm:flex sm:items-center">
+                <div className="sm:flex-auto">
+                    <h1 className="text-2xl font-semibold text-gray-900">Assignments</h1>
+                    <p className="mt-2 text-sm text-gray-700">
+                        A list of all assignments in this lesson.
+                    </p>
                 </div>
-                <button
-                    onClick={handleCreate}
-                    className="mt-3 sm:mt-0 w-full sm:w-auto bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200"
-                >
-                    Add Assignment
-                </button>
+                <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+                    <button
+                        onClick={handleCreate}
+                        className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700"
+                    >
+                        Add Assignment
+                    </button>
+                </div>
             </div>
 
             <div className="mt-8 flex flex-col">
                 <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                        <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 rounded-lg">
-                            <table className="min-w-full table-fixed divide-y divide-gray-300">
+                        <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                            <table className="min-w-full divide-y divide-gray-300">
                                 <thead className="bg-gray-50">
                                     <tr>
-                                        <th scope="col" className="w-[60%] py-3.5 pl-6 pr-3">
-                                            <div className="text-left text-sm font-semibold text-gray-900">
-                                                Title
-                                            </div>
+                                        <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">
+                                            №
                                         </th>
-                                        <th scope="col" className="w-[20%] px-3 py-3.5">
-                                            <div className="text-left text-sm font-semibold text-gray-900">
-                                                Created At
-                                            </div>
+                                        <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900">
+                                            Title
                                         </th>
-                                        <th scope="col" className="w-[20%] py-3.5 pl-3 pr-6">
-                                            <div className="text-right text-sm font-semibold text-gray-900">
-                                                Actions
-                                            </div>
+
+                                        <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-6">
+                                            <span className="sr-only">Actions</span>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-gray-200 bg-white">
-                                    {assignments.map((assignment) => (
-                                        <tr 
-                                            key={assignment.id}
-                                            className="hover:bg-gray-50 cursor-pointer"
-                                            onClick={() => {
-                                                console.log('Navigating to assignment:', assignment.id);
-                                                navigate(`/courses/${courseId}/lessons/${lessonId}/assignments/${assignment.id}`);
-                                            }}
-                                        >
-                                            <td className="w-[60%] py-4 pl-6 pr-3">
-                                                <div className="text-left text-sm font-medium text-gray-900 truncate">
-                                                    {assignment.title}
-                                                </div>
-                                            </td>
-                                            <td className="w-[20%] px-3 py-4">
-                                                <div className="text-left text-sm text-gray-500">
-                                                    {new Date(assignment.created_at).toLocaleDateString()}
-                                                </div>
-                                            </td>
-                                            <td className="w-[20%] py-4 pl-3 pr-6">
-                                                <div className="flex justify-end space-x-3">
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            handleEdit(assignment);
-                                                        }}
-                                                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                                                    >
-                                                        Edit
-                                                    </button>
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            handleDelete(assignment.id);
-                                                        }}
-                                                        className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-                                                    >
-                                                        Delete
-                                                    </button>
-                                                </div>
+                                    {assignments.length === 0 ? (
+                                        <tr>
+                                            <td colSpan="3" className="text-center py-4 text-gray-500">
+                                                No assignments found. Click &quot;Add Assignment&quot; to create one.
                                             </td>
                                         </tr>
-                                    ))}
+                                    ) : (
+                                        assignments.map((assignment, index) => {
+                                            console.log('Rendering assignment:', assignment);
+                                            return (
+                                                <tr 
+                                                    key={assignment.id}
+                                                    className="hover:bg-gray-50 cursor-pointer"
+                                                    onClick={() => navigate(`/courses/${courseId}/lessons/${lessonId}/assignments/${assignment.id}`)}
+                                                >
+                                                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                                                        {index + 1}
+                                                    </td>
+                                                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900">
+                                                        {assignment.title}
+                                                    </td>
+
+                                                    <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+                                                        <button
+                                                            onClick={(e) => handleEdit(e, assignment)}
+                                                            className="text-indigo-600 hover:text-indigo-900 mr-4"
+                                                        >
+                                                            Edit
+                                                        </button>
+                                                        <button
+                                                            onClick={(e) => handleDelete(e, assignment)}
+                                                            className="text-red-600 hover:text-red-900"
+                                                        >
+                                                            Delete
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            );
+                                        })
+                                    )}
                                 </tbody>
                             </table>
                         </div>
@@ -175,10 +194,10 @@ const Assignments = () => {
                 </div>
             </div>
 
-            {modals.assignment.isOpen && (
+            {selectedAssignment && (
                 <AssignmentModal
-                    assignment={modals.assignment.selectedAssignment}
-                    onClose={() => closeModal('assignment')}
+                    assignment={selectedAssignment}
+                    onClose={() => setSelectedAssignment(null)}
                     onSubmit={handleModalSubmit}
                 />
             )}
