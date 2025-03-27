@@ -1,17 +1,47 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useGroupStore } from '../stores/groupStore';
+import PropTypes from 'prop-types';
 import { 
     Paper, 
     Button, 
     CircularProgress,
     Alert,
-    Divider
+    Divider,
+    Tabs,
+    Tab,
+    Box
 } from '@mui/material';
 import { Add as AddIcon } from '@mui/icons-material';
 import AddStudentModal from './AddStudentModal';
 import StudentsList from './StudentsList';
 import GradesPanel from './GradesPanel';
+import SubmitsTable from './SubmitsTable';
+
+const TabPanel = (props) => {
+    const { children, value, index, ...other } = props;
+    return (
+        <div
+            role="tabpanel"
+            hidden={value !== index}
+            id={`tabpanel-${index}`}
+            aria-labelledby={`tab-${index}`}
+            {...other}
+        >
+            {value === index && (
+                <Box sx={{ p: 3 }}>
+                    {children}
+                </Box>
+            )}
+        </div>
+    );
+};
+
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+};
 
 const GroupDetail = () => {
     const { id } = useParams();
@@ -19,6 +49,7 @@ const GroupDetail = () => {
     const [showAddModal, setShowAddModal] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [tabValue, setTabValue] = useState(0);
 
     // Загрузка данных группы
     useEffect(() => {
@@ -51,6 +82,11 @@ const GroupDetail = () => {
         } catch (err) {
             console.error('Error reloading group:', err);
         }
+    };
+
+    // Обработчик изменения вкладки
+    const handleTabChange = (event, newValue) => {
+        setTabValue(newValue);
     };
 
     // Отображение загрузки
@@ -132,11 +168,32 @@ const GroupDetail = () => {
 
                 <Divider className="my-6" />
 
-                {/* Панель оценок */}
-                <GradesPanel 
-                    groupId={id} 
-                    students={currentGroup.students} 
-                />
+                {/* Вкладки для оценок и отправки заданий */}
+                <Box sx={{ width: '100%' }}>
+                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                        <Tabs 
+                            value={tabValue} 
+                            onChange={handleTabChange}
+                            aria-label="grades and submits tabs"
+                        >
+                            <Tab label="Grades" />
+                            <Tab label="Submissions" />
+                        </Tabs>
+                    </Box>
+                    <TabPanel value={tabValue} index={0}>
+                        <GradesPanel 
+                            groupId={id} 
+                            students={currentGroup.students} 
+                        />
+                    </TabPanel>
+                    <TabPanel value={tabValue} index={1}>
+                        <SubmitsTable
+                            lessonId={currentGroup.current_lesson?._id}
+                            assignments={currentGroup.current_lesson?.assignments || []}
+                            students={currentGroup.students}
+                        />
+                    </TabPanel>
+                </Box>
             </Paper>
 
             {/* Модальное окно добавления студента */}

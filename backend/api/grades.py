@@ -4,6 +4,7 @@ from models.grade import Grade
 from crud.grade import grade_crud
 from crud.course_crud import course_crud
 from crud.student_crud import student_crud
+from crud.group_crud import group_crud
 from auth.dependencies import verify_token
 
 router = APIRouter(prefix="/api", tags=["grades"])
@@ -80,4 +81,19 @@ async def get_student_grades(student_id: str, token: dict = Depends(verify_token
     if not student:
         raise HTTPException(status_code=404, detail="Student not found")
 
-    return await grade_crud.get_by_student(student_id) 
+    return await grade_crud.get_by_student(student_id)
+
+@router.get("/groups/{group_id}/grades/", response_model=List[Grade])
+async def get_group_grades(group_id: str, token: dict = Depends(verify_token)):
+    # Проверяем существование группы
+    group = await group_crud.get_group(group_id)
+    if not group:
+        raise HTTPException(status_code=404, detail="Group not found")
+
+    # Получаем оценки для всех студентов группы
+    grades = []
+    for student in group.students:
+        student_grades = await grade_crud.get_by_student(student.student_id)
+        grades.extend(student_grades)
+    
+    return grades 
