@@ -48,6 +48,38 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -552,43 +584,27 @@
         "documentation": {}
     },
     {
-        "label": "AttendanceRecord",
-        "importPath": "models.attendance",
-        "description": "models.attendance",
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "models.attendance",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "AttendanceStatus",
-        "importPath": "models.attendance",
-        "description": "models.attendance",
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "models.attendance",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "AttendanceRecord",
-        "importPath": "models.attendance",
-        "description": "models.attendance",
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "models.attendance",
-        "documentation": {}
-    },
-    {
-        "label": "AttendanceStatus",
-        "importPath": "models.attendance",
-        "description": "models.attendance",
-        "isExtraImport": true,
-        "detail": "models.attendance",
-        "documentation": {}
-    },
-    {
-        "label": "attendance_crud",
-        "importPath": "crud.attendance_crud",
-        "description": "crud.attendance_crud",
-        "isExtraImport": true,
-        "detail": "crud.attendance_crud",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -672,7 +688,39 @@
         "documentation": {}
     },
     {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -777,6 +825,14 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1040,6 +1096,143 @@
         "documentation": {}
     },
     {
+        "label": "AssignmentSubmit",
+        "importPath": "models.assignment_submit",
+        "description": "models.assignment_submit",
+        "isExtraImport": true,
+        "detail": "models.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmitCreate",
+        "importPath": "models.assignment_submit",
+        "description": "models.assignment_submit",
+        "isExtraImport": true,
+        "detail": "models.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmit",
+        "importPath": "models.assignment_submit",
+        "description": "models.assignment_submit",
+        "isExtraImport": true,
+        "detail": "models.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmitCreate",
+        "importPath": "models.assignment_submit",
+        "description": "models.assignment_submit",
+        "isExtraImport": true,
+        "detail": "models.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "assignment_submit_crud",
+        "importPath": "crud.assignment_submit_crud",
+        "description": "crud.assignment_submit_crud",
+        "isExtraImport": true,
+        "detail": "crud.assignment_submit_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRecord",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceStatus",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRecord",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceStatus",
+        "importPath": "models.attendance",
+        "description": "models.attendance",
+        "isExtraImport": true,
+        "detail": "models.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "attendance_crud",
+        "importPath": "crud.attendance_crud",
+        "description": "crud.attendance_crud",
+        "isExtraImport": true,
+        "detail": "crud.attendance_crud",
+        "documentation": {}
+    },
+    {
         "label": "Course",
         "importPath": "models.course",
         "description": "models.course",
@@ -1168,46 +1361,6 @@
         "documentation": {}
     },
     {
-        "label": "get_current_user",
-        "importPath": "auth.dependencies",
-        "description": "auth.dependencies",
-        "isExtraImport": true,
-        "detail": "auth.dependencies",
-        "documentation": {}
-    },
-    {
-        "label": "verify_token",
-        "importPath": "auth.dependencies",
-        "description": "auth.dependencies",
-        "isExtraImport": true,
-        "detail": "auth.dependencies",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "auth.dependencies",
-        "description": "auth.dependencies",
-        "isExtraImport": true,
-        "detail": "auth.dependencies",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "auth.dependencies",
-        "description": "auth.dependencies",
-        "isExtraImport": true,
-        "detail": "auth.dependencies",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "auth.dependencies",
-        "description": "auth.dependencies",
-        "isExtraImport": true,
-        "detail": "auth.dependencies",
-        "documentation": {}
-    },
-    {
         "label": "Grade",
         "importPath": "models.grade",
         "description": "models.grade",
@@ -1232,51 +1385,11 @@
         "documentation": {}
     },
     {
-        "label": "Group",
-        "importPath": "models.group",
-        "description": "models.group",
+        "label": "group_crud",
+        "importPath": "crud.group_crud",
+        "description": "crud.group_crud",
         "isExtraImport": true,
-        "detail": "models.group",
-        "documentation": {}
-    },
-    {
-        "label": "GroupStudent",
-        "importPath": "models.group",
-        "description": "models.group",
-        "isExtraImport": true,
-        "detail": "models.group",
-        "documentation": {}
-    },
-    {
-        "label": "GroupUpdate",
-        "importPath": "models.group",
-        "description": "models.group",
-        "isExtraImport": true,
-        "detail": "models.group",
-        "documentation": {}
-    },
-    {
-        "label": "Group",
-        "importPath": "models.group",
-        "description": "models.group",
-        "isExtraImport": true,
-        "detail": "models.group",
-        "documentation": {}
-    },
-    {
-        "label": "GroupStudent",
-        "importPath": "models.group",
-        "description": "models.group",
-        "isExtraImport": true,
-        "detail": "models.group",
-        "documentation": {}
-    },
-    {
-        "label": "GroupUpdate",
-        "importPath": "models.group",
-        "description": "models.group",
-        "isExtraImport": true,
-        "detail": "models.group",
+        "detail": "crud.group_crud",
         "documentation": {}
     },
     {
@@ -1285,6 +1398,54 @@
         "description": "crud.group_crud",
         "isExtraImport": true,
         "detail": "crud.group_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupStudent",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupUpdate",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupStudent",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
+        "documentation": {}
+    },
+    {
+        "label": "GroupUpdate",
+        "importPath": "models.group",
+        "description": "models.group",
+        "isExtraImport": true,
+        "detail": "models.group",
         "documentation": {}
     },
     {
@@ -1755,6 +1916,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -1795,6 +1972,110 @@
         "documentation": {}
     },
     {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
         "label": "AsyncIOMotorClient",
         "importPath": "motor.motor_asyncio",
         "description": "motor.motor_asyncio",
@@ -1883,99 +2164,11 @@
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
         "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
-        "isExtraImport": true,
-        "detail": "bson",
+        "detail": "motor.motor_asyncio",
         "documentation": {}
     },
     {
@@ -2018,6 +2211,22 @@
         "importPath": "httpx",
         "description": "httpx",
         "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -2277,6 +2486,14 @@
         "documentation": {}
     },
     {
+        "label": "assignment_submit",
+        "importPath": "api",
+        "description": "api",
+        "isExtraImport": true,
+        "detail": "api",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -2442,15 +2659,6 @@
         "documentation": {}
     },
     {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
         "label": "router",
         "importPath": "api.auth",
         "description": "api.auth",
@@ -2489,6 +2697,24 @@
         "description": "backend.api.assignments",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/api/assignments\",\n    tags=[\"assignments\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.get(\"/lessons/{lesson_id}\")\nasync def get_lesson_assignments(lesson_id: str):\n    try:\n        assignments = await course_crud.get_lesson_assignments(lesson_id)\n        return assignments",
         "detail": "backend.api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.assignment_submit",
+        "description": "backend.api.assignment_submit",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nrouter = APIRouter(\n    prefix=\"/api/assignment-submit\",\n    tags=[\"assignment-submit\"]\n)\n@router.post(\"/students/{student_id}/lessons/{lesson_id}/assignments/{assignment_id}/submit\", response_model=Dict[str, Any])\nasync def create_assignment_submit(\n    student_id: str,\n    lesson_id: str,\n    assignment_id: str,",
+        "detail": "backend.api.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.assignment_submit",
+        "description": "backend.api.assignment_submit",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/assignment-submit\",\n    tags=[\"assignment-submit\"]\n)\n@router.post(\"/students/{student_id}/lessons/{lesson_id}/assignments/{assignment_id}/submit\", response_model=Dict[str, Any])\nasync def create_assignment_submit(\n    student_id: str,\n    lesson_id: str,\n    assignment_id: str,\n    submit_data: AssignmentSubmitCreate,",
+        "detail": "backend.api.assignment_submit",
         "documentation": {}
     },
     {
@@ -2615,6 +2841,33 @@
         "description": "backend.auth.dependencies",
         "peekOfCode": "security = HTTPBearer()\nasync def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):\n    return await verify_token(credentials)",
         "detail": "backend.auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmitCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.assignment_submit_crud",
+        "description": "backend.crud.assignment_submit_crud",
+        "peekOfCode": "class AssignmentSubmitCRUD:\n    def __init__(self):\n        self.db = get_database()\n        self.collection = self.db.student_assignment_submit\n    async def create_submit(\n        self,\n        student_id: str,\n        lesson_id: str,\n        assignment_id: str,\n        submit_data: AssignmentSubmitCreate",
+        "detail": "backend.crud.assignment_submit_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.crud.assignment_submit_crud",
+        "description": "backend.crud.assignment_submit_crud",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AssignmentSubmitCRUD:\n    def __init__(self):\n        self.db = get_database()\n        self.collection = self.db.student_assignment_submit\n    async def create_submit(\n        self,\n        student_id: str,\n        lesson_id: str,\n        assignment_id: str,",
+        "detail": "backend.crud.assignment_submit_crud",
+        "documentation": {}
+    },
+    {
+        "label": "assignment_submit_crud",
+        "kind": 5,
+        "importPath": "backend.crud.assignment_submit_crud",
+        "description": "backend.crud.assignment_submit_crud",
+        "peekOfCode": "assignment_submit_crud = AssignmentSubmitCRUD()",
+        "detail": "backend.crud.assignment_submit_crud",
         "documentation": {}
     },
     {
@@ -2759,6 +3012,69 @@
         "description": "backend.crud.course_crud",
         "peekOfCode": "course_crud = CourseCRUD(client, \"crm_database\")",
         "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "kind": 2,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "def get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.\n    \"\"\"\n    return db",
+        "detail": "backend.crud.database",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Database connection settings\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ndef get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.",
+        "detail": "backend.crud.database",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ndef get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.\n    \"\"\"\n    return db",
+        "detail": "backend.crud.database",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ndef get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.\n    \"\"\"\n    return db",
+        "detail": "backend.crud.database",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ndef get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.\n    \"\"\"\n    return db",
+        "detail": "backend.crud.database",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\ndef get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.\n    \"\"\"\n    return db",
+        "detail": "backend.crud.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.crud.database",
+        "description": "backend.crud.database",
+        "peekOfCode": "db = client.crm_database\ndef get_database():\n    \"\"\"\n    Возвращает экземпляр базы данных.\n    \"\"\"\n    return db",
+        "detail": "backend.crud.database",
         "documentation": {}
     },
     {
@@ -3209,6 +3525,33 @@
         "description": "backend.migrations.add_clerk_id",
         "peekOfCode": "users_collection = db.users\nasync def migrate_users():\n    # Обновляем все записи без clerk_id\n    await users_collection.update_many(\n        {\"clerk_id\": {\"$exists\": False}},\n        {\n            \"$set\": {\n                \"clerk_id\": None,\n                \"updated_at\": datetime.utcnow()\n            }",
         "detail": "backend.migrations.add_clerk_id",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmitBase",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submit",
+        "description": "backend.models.assignment_submit",
+        "peekOfCode": "class AssignmentSubmitBase(BaseModel):\n    is_submitted: bool = False\n    submit_date: Optional[datetime] = None\nclass AssignmentSubmitCreate(AssignmentSubmitBase):\n    pass\nclass AssignmentSubmit(AssignmentSubmitBase):\n    id: str\n    student_id: str\n    lesson_id: str\n    assignment_id: str",
+        "detail": "backend.models.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmitCreate",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submit",
+        "description": "backend.models.assignment_submit",
+        "peekOfCode": "class AssignmentSubmitCreate(AssignmentSubmitBase):\n    pass\nclass AssignmentSubmit(AssignmentSubmitBase):\n    id: str\n    student_id: str\n    lesson_id: str\n    assignment_id: str\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\n    model_config = ConfigDict(",
+        "detail": "backend.models.assignment_submit",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmit",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submit",
+        "description": "backend.models.assignment_submit",
+        "peekOfCode": "class AssignmentSubmit(AssignmentSubmitBase):\n    id: str\n    student_id: str\n    lesson_id: str\n    assignment_id: str\n    created_at: datetime = datetime.utcnow()\n    updated_at: datetime = datetime.utcnow()\n    model_config = ConfigDict(\n        populate_by_name=True,\n        json_encoders={",
+        "detail": "backend.models.assignment_submit",
         "documentation": {}
     },
     {

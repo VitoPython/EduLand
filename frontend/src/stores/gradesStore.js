@@ -6,6 +6,18 @@ const useGradesStore = create((set) => ({
   isLoading: false,
   error: null,
 
+  // Получение оценок для группы
+  fetchGradesByGroup: async (groupId) => {
+    try {
+      set({ isLoading: true, error: null });
+      const response = await api.get(`/api/groups/${groupId}/grades/`);
+      set({ grades: response.data, isLoading: false });
+    } catch (error) {
+      set({ error: error.message, isLoading: false });
+      console.error('Error fetching group grades:', error);
+    }
+  },
+
   // Получение оценок для задания
   fetchGradesByAssignment: async (assignmentId) => {
     try {

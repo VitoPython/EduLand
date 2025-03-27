@@ -17,6 +17,7 @@
     "@emotion/styled": "^11.11.0",
     "@heroicons/react": "^2.2.0",
     "@monaco-editor/react": "^4.7.0",
+    "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "@tailwindcss/vite": "^4.0.0",
     "@tinymce/tinymce-react": "^6.0.0",
