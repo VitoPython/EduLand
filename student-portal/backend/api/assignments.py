@@ -1,8 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from models.student import StudentInDB
+from models.assignment import AssignmentUpdate, AssignmentInDB
 from auth.jwt import get_current_student
 from crud.course_crud import course_crud
-from typing import Any, Dict
+import crud.assignments as crud
+from typing import Any, Dict, List
+from motor.motor_asyncio import AsyncIOMotorCollection
+from dependencies.database import get_assignments_collection
+from bson import ObjectId
 
 router = APIRouter(prefix="/assignments", tags=["assignments"])
 
@@ -39,3 +44,26 @@ async def get_assignment_by_id(
         )
     
     return assignment 
+
+@router.patch("/{assignment_id}", response_model=AssignmentInDB)
+async def update_assignment(
+    assignment_id: str,
+    assignment_data: AssignmentUpdate,
+    collection: AsyncIOMotorCollection = Depends(get_assignments_collection)
+):
+    """
+    Обновление задания по ID.
+    """
+    raw_assignment = await crud.update_assignment(collection, assignment_id, assignment_data)
+    if raw_assignment is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, 
+            detail="Assignment not found"
+        )
+    
+    # Преобразуем все ObjectId в строки
+    for key, value in raw_assignment.items():
+        if isinstance(value, ObjectId):
+            raw_assignment[key] = str(value)
+            
+    return raw_assignment 

@@ -1,0 +1,2547 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentLogin",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentResponse",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCreate",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdate",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentUpdate",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentInDB",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentCreate",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentUpdate",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentInDB",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "importPath": "crud.course_crud",
+        "description": "crud.course_crud",
+        "isExtraImport": true,
+        "detail": "crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "crud.assignments",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crud.assignments",
+        "description": "crud.assignments",
+        "detail": "crud.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "get_assignments_collection",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_assignment_submit_collection",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_code_submit_collection",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionCreate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionUpdate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionInDB",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionCreate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionUpdate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionInDB",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "assignment_submission",
+        "importPath": "crud",
+        "description": "crud",
+        "isExtraImport": true,
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "importPath": "crud.student_crud",
+        "description": "crud.student_crud",
+        "isExtraImport": true,
+        "detail": "crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "create_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_assignment_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "update_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "delete_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionCreate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionUpdate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionInDB",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionCreate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionUpdate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionInDB",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "crud.student_code_submission",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crud.student_code_submission",
+        "description": "crud.student_code_submission",
+        "detail": "crud.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.auth",
+        "description": "api.auth",
+        "isExtraImport": true,
+        "detail": "api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.assignment_submission",
+        "description": "api.assignment_submission",
+        "isExtraImport": true,
+        "detail": "api.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.student_code_submission",
+        "description": "api.student_code_submission",
+        "isExtraImport": true,
+        "detail": "api.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.grade",
+        "description": "api.grade",
+        "isExtraImport": true,
+        "detail": "api.grade",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.courses",
+        "description": "api.courses",
+        "isExtraImport": true,
+        "detail": "api.courses",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.lessons",
+        "description": "api.lessons",
+        "isExtraImport": true,
+        "detail": "api.lessons",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.assignments",
+        "description": "api.assignments",
+        "isExtraImport": true,
+        "detail": "api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.files",
+        "description": "api.files",
+        "isExtraImport": true,
+        "detail": "api.files",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.assignments",
+        "description": "backend.api.assignments",
+        "peekOfCode": "router = APIRouter(prefix=\"/assignments\", tags=[\"assignments\"])\n@router.get(\"/{assignment_id}\", response_model=Dict[str, Any])\nasync def get_assignment_by_id(\n    assignment_id: str,\n    current_student: StudentInDB = Depends(get_current_student)\n) -> Any:\n    \"\"\"Получает информацию о конкретном задании по его ID\"\"\"\n    # Получаем задание\n    assignment = await course_crud.get_assignment_by_id(assignment_id)\n    if not assignment:",
+        "detail": "backend.api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.assignment_submission",
+        "description": "backend.api.assignment_submission",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/assignment-submission\",\n    tags=[\"assignment submission\"]\n)\n@router.post(\"/\", response_model=AssignmentSubmissionInDB, status_code=status.HTTP_201_CREATED)\nasync def create_assignment_submission(\n    submission_data: AssignmentSubmissionCreate,\n    collection: AsyncIOMotorCollection = Depends(get_student_assignment_submit_collection)\n):\n    \"\"\"",
+        "detail": "backend.api.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.auth",
+        "description": "backend.api.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"auth\"])\n@router.post(\"/login\", response_model=Token)\nasync def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()) -> Any:\n    \"\"\"Аутентификация студента и выдача JWT токена\"\"\"\n    # Аутентифицируем студента по username и password\n    student = await student_crud.authenticate_student(form_data.username, form_data.password)\n    if not student:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Неверное имя пользователя или пароль\",",
+        "detail": "backend.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.courses",
+        "description": "backend.api.courses",
+        "peekOfCode": "router = APIRouter(prefix=\"/courses\", tags=[\"courses\"])\n@router.get(\"/\", response_model=List[Dict[str, Any]])\nasync def get_student_courses(current_student: StudentInDB = Depends(get_current_student)) -> Any:\n    \"\"\"Получает список курсов, на которые записан студент\"\"\"\n    courses = await course_crud.get_student_courses(current_student.id)\n    return courses\n@router.get(\"/{course_id}\", response_model=Dict[str, Any])\nasync def get_course_by_id(\n    course_id: str,\n    current_student: StudentInDB = Depends(get_current_student)",
+        "detail": "backend.api.courses",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.files",
+        "description": "backend.api.files",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/files\",\n    tags=[\"files\"]\n)\n# Базовая директория для загрузки файлов\nUPLOAD_DIR = \"uploads\"\n# Создаем директорию, если она не существует\nos.makedirs(UPLOAD_DIR, exist_ok=True)\n@router.post(\"/upload\", status_code=status.HTTP_201_CREATED)\nasync def upload_file(file: UploadFile = File(...)):",
+        "detail": "backend.api.files",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "kind": 5,
+        "importPath": "backend.api.files",
+        "description": "backend.api.files",
+        "peekOfCode": "UPLOAD_DIR = \"uploads\"\n# Создаем директорию, если она не существует\nos.makedirs(UPLOAD_DIR, exist_ok=True)\n@router.post(\"/upload\", status_code=status.HTTP_201_CREATED)\nasync def upload_file(file: UploadFile = File(...)):\n    \"\"\"\n    Загрузка файла на сервер.\n    Возвращает путь к загруженному файлу, который можно затем использовать\n    для прикрепления к заданию в поле attachments.\n    \"\"\"",
+        "detail": "backend.api.files",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.grade",
+        "description": "backend.api.grade",
+        "peekOfCode": "router = APIRouter(\n    tags=[\"grades\"]\n)\n@router.post(\"/\", response_model=GradeInDB)\nasync def create_grade_endpoint(\n    grade_data: GradeCreate,\n    current_student: StudentInDB = Depends(get_current_student)\n):\n    # Проверка прав (в реальной системе здесь должна быть проверка, \n    # что текущий пользователь - преподаватель)",
+        "detail": "backend.api.grade",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.lessons",
+        "description": "backend.api.lessons",
+        "peekOfCode": "router = APIRouter(prefix=\"/lessons\", tags=[\"lessons\"])\n@router.get(\"/{lesson_id}\", response_model=Dict[str, Any])\nasync def get_lesson_by_id(\n    lesson_id: str,\n    current_student: StudentInDB = Depends(get_current_student)\n) -> Any:\n    \"\"\"Получает информацию о конкретном уроке по его ID\"\"\"\n    # Получаем урок\n    lesson = await course_crud.get_lesson_by_id(lesson_id)\n    if not lesson:",
+        "detail": "backend.api.lessons",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.student_code_submission",
+        "description": "backend.api.student_code_submission",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/student-code\",\n    tags=[\"student code submission\"]\n)\n@router.post(\"/\", response_model=StudentCodeSubmissionInDB, status_code=status.HTTP_201_CREATED)\nasync def create_code_submission(\n    code_data: StudentCodeSubmissionCreate,\n    current_student: StudentInDB = Depends(get_current_student),\n    collection: AsyncIOMotorCollection = Depends(get_student_code_submit_collection)\n):",
+        "detail": "backend.api.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "backend.auth.jwt",
+        "description": "backend.auth.jwt",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt",
+        "detail": "backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.auth.jwt",
+        "description": "backend.auth.jwt",
+        "peekOfCode": "SECRET_KEY = \"09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7\"  # В продакшн следует использовать переменную окружения\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 часа\n# Создаем экземпляр OAuth2PasswordBearer для авторизации через Bearer token\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta",
+        "detail": "backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "backend.auth.jwt",
+        "description": "backend.auth.jwt",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 часа\n# Создаем экземпляр OAuth2PasswordBearer для авторизации через Bearer token\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:",
+        "detail": "backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "backend.auth.jwt",
+        "description": "backend.auth.jwt",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 24 часа\n# Создаем экземпляр OAuth2PasswordBearer для авторизации через Bearer token\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)",
+        "detail": "backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "backend.auth.jwt",
+        "description": "backend.auth.jwt",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"auth/login\")\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    \"\"\"Создает JWT token с указанными данными и временем жизни\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "backend.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "class CourseCRUD:\n    async def get_student_courses(self, student_id: str) -> List[Dict[str, Any]]:\n        \"\"\"Получает список курсов, на которые записан студент\"\"\"\n        try:\n            logger.info(f\"Получение курсов для студента с ID: {student_id}\")\n            # Найти все записи о регистрации студента на курсы\n            course_ids = []\n            enrollments_cursor = enrollments_collection.find({\"student_id\": student_id})\n            async for enrollment in enrollments_cursor:\n                course_ids.append(ObjectId(enrollment[\"course_id\"]))",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Подключение к MongoDB\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons\n    assignments_collection = db.assignments\n    enrollments_collection = db.enrollments",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons\n    assignments_collection = db.assignments\n    enrollments_collection = db.enrollments\n    # Проверка соединения",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    courses_collection = db.courses\n    lessons_collection = db.lessons\n    assignments_collection = db.assignments\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "course_crud",
+        "kind": 5,
+        "importPath": "backend.crud.course_crud",
+        "description": "backend.crud.course_crud",
+        "peekOfCode": "course_crud = CourseCRUD()",
+        "detail": "backend.crud.course_crud",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCRUD",
+        "kind": 6,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "class StudentCRUD:\n    def verify_password(self, plain_password, hashed_password):\n        \"\"\"Проверяет, соответствует ли plaintext пароль хешированному паролю.\"\"\"\n        try:\n            return pwd_context.verify(plain_password, hashed_password)\n        except Exception as e:\n            logger.error(f\"Ошибка проверки пароля: {e}\")\n            return False\n    def get_password_hash(self, password):\n        \"\"\"Создает хеш пароля для безопасного хранения.\"\"\"",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Настройка хеширования паролей\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Подключение к MongoDB\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Подключение к MongoDB\nusername = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')\n    logger.info(\"MongoDB соединение установлено успешно\")",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\ntry:\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database  # Используем ту же базу данных, что и основное приложение\n    students_collection = db.students\n    enrollments_collection = db.enrollments\n    # Проверка соединения\n    client.admin.command('ping')\n    logger.info(\"MongoDB соединение установлено успешно\")\nexcept Exception as e:",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "student_crud",
+        "kind": 5,
+        "importPath": "backend.crud.student_crud",
+        "description": "backend.crud.student_crud",
+        "peekOfCode": "student_crud = StudentCRUD()",
+        "detail": "backend.crud.student_crud",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "backend.dependencies.database",
+        "description": "backend.dependencies.database",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"",
+        "detail": "backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "backend.dependencies.database",
+        "description": "backend.dependencies.database",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db",
+        "detail": "backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "backend.dependencies.database",
+        "description": "backend.dependencies.database",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:",
+        "detail": "backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.dependencies.database",
+        "description": "backend.dependencies.database",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами",
+        "detail": "backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.dependencies.database",
+        "description": "backend.dependencies.database",
+        "peekOfCode": "db = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"",
+        "detail": "backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentBase",
+        "kind": 6,
+        "importPath": "backend.models.assignment",
+        "description": "backend.models.assignment",
+        "peekOfCode": "class AssignmentBase(BaseModel):\n    title: str\n    description: str\n    lesson_id: str\n    code_editor: Optional[str] = None\n    attachments: Optional[List[str]] = None\nclass AssignmentCreate(AssignmentBase):\n    pass\nclass AssignmentUpdate(BaseModel):\n    title: Optional[str] = None",
+        "detail": "backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentCreate",
+        "kind": 6,
+        "importPath": "backend.models.assignment",
+        "description": "backend.models.assignment",
+        "peekOfCode": "class AssignmentCreate(AssignmentBase):\n    pass\nclass AssignmentUpdate(BaseModel):\n    title: Optional[str] = None\n    description: Optional[str] = None\n    lesson_id: Optional[str] = None\n    code_editor: Optional[str] = None\n    attachments: Optional[List[str]] = None\nclass AssignmentInDB(AssignmentBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentUpdate",
+        "kind": 6,
+        "importPath": "backend.models.assignment",
+        "description": "backend.models.assignment",
+        "peekOfCode": "class AssignmentUpdate(BaseModel):\n    title: Optional[str] = None\n    description: Optional[str] = None\n    lesson_id: Optional[str] = None\n    code_editor: Optional[str] = None\n    attachments: Optional[List[str]] = None\nclass AssignmentInDB(AssignmentBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime",
+        "detail": "backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentInDB",
+        "kind": 6,
+        "importPath": "backend.models.assignment",
+        "description": "backend.models.assignment",
+        "peekOfCode": "class AssignmentInDB(AssignmentBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():",
+        "detail": "backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionBase",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submission",
+        "description": "backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionBase(BaseModel):\n    student_id: str = Field(...)\n    lesson_id: str = Field(...)\n    assignment_id: str = Field(...)\n    is_submitted: bool = Field(default=False)\n    submit_date: Optional[datetime] = None\n    created_at: datetime = Field(default_factory=datetime.utcnow)\n    updated_at: datetime = Field(default_factory=datetime.utcnow)\n    @validator('submit_date', pre=True, always=True)\n    def set_submit_date(cls, v, values):",
+        "detail": "backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionCreate",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submission",
+        "description": "backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionCreate(AssignmentSubmissionBase):\n    pass\nclass AssignmentSubmissionUpdate(BaseModel):\n    is_submitted: Optional[bool] = None\n    submit_date: Optional[datetime] = None\n    @validator('submit_date', pre=True, always=True)\n    def set_submit_date(cls, v, values):\n        # Если is_submitted=True, но submit_date не указана, установить текущую дату\n        if values.get('is_submitted') and not v:\n            return datetime.utcnow()",
+        "detail": "backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionUpdate",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submission",
+        "description": "backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionUpdate(BaseModel):\n    is_submitted: Optional[bool] = None\n    submit_date: Optional[datetime] = None\n    @validator('submit_date', pre=True, always=True)\n    def set_submit_date(cls, v, values):\n        # Если is_submitted=True, но submit_date не указана, установить текущую дату\n        if values.get('is_submitted') and not v:\n            return datetime.utcnow()\n        return v\n    model_config = ConfigDict(",
+        "detail": "backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionInDB",
+        "kind": 6,
+        "importPath": "backend.models.assignment_submission",
+        "description": "backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionInDB(AssignmentSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():\n                if isinstance(v, ObjectId):\n                    data[k] = str(v)",
+        "detail": "backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "GradeBase",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeBase(BaseModel):\n    assignment_id: str\n    student_id: str\n    grade: int = Field(..., ge=0, le=100)  # Оценка от 0 до 100\nclass GradeCreate(GradeBase):\n    pass\nclass GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeCreate(GradeBase):\n    pass\nclass GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True\n        json_encoders = {\n            datetime: lambda v: v.isoformat()",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True\n        json_encoders = {\n            datetime: lambda v: v.isoformat()\n        }\n    @classmethod",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "StudentBase",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentBase(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\n    comment: Optional[str] = None\n    created_at: datetime = Field(default_factory=datetime.utcnow)\n    updated_at: datetime = Field(default_factory=datetime.utcnow)\nclass StudentLogin(BaseModel):",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentLogin",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentLogin(BaseModel):\n    username: str\n    password: str\nclass StudentCreate(StudentBase):\n    password: str\nclass StudentInDB(StudentBase):\n    id: str\n    password_hash: str\n    course_ids: List[str] = []  # Список ID курсов, на которые записан студент\nclass StudentResponse(StudentBase):",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCreate",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentCreate(StudentBase):\n    password: str\nclass StudentInDB(StudentBase):\n    id: str\n    password_hash: str\n    course_ids: List[str] = []  # Список ID курсов, на которые записан студент\nclass StudentResponse(StudentBase):\n    id: str\n    course_ids: List[str] = []\nclass StudentUpdate(BaseModel):",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentInDB(StudentBase):\n    id: str\n    password_hash: str\n    course_ids: List[str] = []  # Список ID курсов, на которые записан студент\nclass StudentResponse(StudentBase):\n    id: str\n    course_ids: List[str] = []\nclass StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentResponse",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentResponse(StudentBase):\n    id: str\n    course_ids: List[str] = []\nclass StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None\n    password: Optional[str] = None",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdate",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class StudentUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    phone: Optional[str] = None\n    comment: Optional[str] = None\n    password: Optional[str] = None\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    student_id: str\n    username: str",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "backend.models.student",
+        "description": "backend.models.student",
+        "peekOfCode": "class TokenData(BaseModel):\n    student_id: str\n    username: str",
+        "detail": "backend.models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionBase",
+        "kind": 6,
+        "importPath": "backend.models.student_code_submission",
+        "description": "backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionBase(BaseModel):\n    student_id: str\n    assignment_id: str\n    code: str\nclass StudentCodeSubmissionCreate(StudentCodeSubmissionBase):\n    pass\nclass StudentCodeSubmissionUpdate(BaseModel):\n    code: Optional[str] = None\nclass StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionCreate",
+        "kind": 6,
+        "importPath": "backend.models.student_code_submission",
+        "description": "backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionCreate(StudentCodeSubmissionBase):\n    pass\nclass StudentCodeSubmissionUpdate(BaseModel):\n    code: Optional[str] = None\nclass StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):",
+        "detail": "backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionUpdate",
+        "kind": 6,
+        "importPath": "backend.models.student_code_submission",
+        "description": "backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionUpdate(BaseModel):\n    code: Optional[str] = None\nclass StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:",
+        "detail": "backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionInDB",
+        "kind": 6,
+        "importPath": "backend.models.student_code_submission",
+        "description": "backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():",
+        "detail": "backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "dom",
+        "kind": 2,
+        "importPath": "backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "description": "backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "peekOfCode": "def dom():\n    lista = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']\n    a = random.choice(lista)\n    return a\nprint(dom())\ndef sort(przedmoit):\n    czasy = {\n        'karton': 'kartony',\n    }\n    if przedmoit in czasy:",
+        "detail": "backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "documentation": {}
+    },
+    {
+        "label": "sort",
+        "kind": 2,
+        "importPath": "backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "description": "backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "peekOfCode": "def sort(przedmoit):\n    czasy = {\n        'karton': 'kartony',\n    }\n    if przedmoit in czasy:\n        return f'{przedmoit} idze {czasy[przedmoit]}'\nprint(sort('karton'))",
+        "detail": "backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "documentation": {}
+    },
+    {
+        "label": "CustomJSONEncoder",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class CustomJSONEncoder(json.JSONEncoder):\n    def default(self, obj):\n        if isinstance(obj, ObjectId):\n            return str(obj)\n        if isinstance(obj, datetime):\n            return obj.isoformat()\n        return super().default(obj)\n# Создаем экземпляр FastAPI\napp = FastAPI(title=\"Student Portal API\")\n# Настраиваем CORS для frontend",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_encoder",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def custom_encoder(obj):\n    if isinstance(obj, ObjectId):\n        return str(obj)\n    if isinstance(obj, datetime):\n        return obj.isoformat()\n    return obj\napp.json_encoder = CustomJSONEncoder\n# Подключаем роутеры\napp.include_router(auth_router)\n# app.include_router(student_assignment_submit_router)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI(title=\"Student Portal API\")\n# Настраиваем CORS для frontend\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # При разработке разрешаем все источники\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n# Переопределяем стандартный JSON encoder для FastAPI",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.json_encoder",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app.json_encoder = CustomJSONEncoder\n# Подключаем роутеры\napp.include_router(auth_router)\n# app.include_router(student_assignment_submit_router)\napp.include_router(assignment_submission_router)\napp.include_router(student_code_router)\napp.include_router(grade_router, prefix=\"/grades\", tags=[\"grades\"])\n# app.include_router(students_router)\napp.include_router(courses_router)\napp.include_router(lessons_router)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_ID",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "STUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "ASSIGNMENT_ID",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "ASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,\n        \"assignment_id\": ASSIGNMENT_ID,",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_ID",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "STUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "ASSIGNMENT_ID",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "ASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,\n        \"assignment_id\": ASSIGNMENT_ID,",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "update_all_grades",
+        "description": "update_all_grades",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")",
+        "detail": "update_all_grades",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "update_all_grades",
+        "description": "update_all_grades",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")\n    # Обновляем каждую оценку",
+        "detail": "update_all_grades",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "update_all_grades",
+        "description": "update_all_grades",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")\n    # Обновляем каждую оценку\n    for grade in grades:",
+        "detail": "update_all_grades",
+        "documentation": {}
+    }
+]

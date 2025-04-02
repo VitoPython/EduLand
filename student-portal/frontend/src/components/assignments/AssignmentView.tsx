@@ -29,6 +29,15 @@ interface AssignmentSubmission {
   updated_at: string;
 }
 
+interface Grade {
+  _id: string;
+  assignment_id: string;
+  student_id: string;
+  grade: number;
+  created_at: string;
+  updated_at: string;
+}
+
 interface SubmitStatus {
   is_submitted: boolean;
   submit_date?: string;
@@ -321,6 +330,9 @@ const AssignmentView = () => {
   
   // Добавляем ref для хранения таймера дебаунса
   const debounceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Добавляем состояние для оценки
+  const [grade, setGrade] = useState<Grade | null>(null);
 
   // Функция принудительного обновления state, когда это действительно нужно
   const syncCodeState = useCallback(() => {
@@ -793,6 +805,50 @@ const AssignmentView = () => {
     return () => clearInterval(interval);
   }, [autoSaveCode]);
 
+  // Добавляем функцию получения оценки
+  const fetchGrade = useCallback(async () => {
+    try {
+      const studentId = localStorage.getItem('studentId');
+      const studentToken = localStorage.getItem('studentToken');
+      
+      if (!studentId || !studentToken || !assignmentId) {
+        return;
+      }
+
+      console.log("Запрашиваем оценку для:", studentId, assignmentId);
+      
+      const response = await axios.get(
+        `${API_URL}/grades/student/${studentId}/assignment/${assignmentId}`,
+        {
+          headers: {
+            'Authorization': `Bearer ${studentToken}`
+          }
+        }
+      );
+
+      console.log("Ответ API оценок:", response.data); // Добавлено для отладки
+      
+      // Принимаем любую оценку, которая возвращается API
+      if (response.data) {
+        setGrade(response.data);
+        console.log("Оценка установлена:", response.data);
+      } else {
+        setGrade(null);
+      }
+    } catch (error) {
+      console.error('Ошибка при получении оценки:', error);
+      setGrade(null);
+    }
+  }, [assignmentId]);
+
+  // Добавляем вызов функции получения оценки в useEffect
+  useEffect(() => {
+    // Сбрасываем оценку при смене задания
+    setGrade(null);
+    // Затем запрашиваем новую
+    fetchGrade();
+  }, [fetchGrade, assignmentId]);
+
   if (loading) {
     return (
       <Layout>
@@ -895,6 +951,18 @@ const AssignmentView = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <span>Задание еще не отправлялось</span>
+          </div>
+        )}
+        
+        {/* Добавляем отображение оценки после статуса отправки */}
+        {submitStatus?.is_submitted && grade && (
+          <div className="mb-4 flex items-center px-4 py-2 bg-purple-50 border border-purple-100 rounded-lg text-purple-700">
+            <svg className="w-5 h-5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>
+              Оценка за задание: <span className="font-bold">{grade.grade} / 10</span>
+            </span>
           </div>
         )}
         
