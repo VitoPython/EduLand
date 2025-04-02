@@ -49,11 +49,32 @@ async def get_assignment_by_id(
 async def update_assignment(
     assignment_id: str,
     assignment_data: AssignmentUpdate,
-    collection: AsyncIOMotorCollection = Depends(get_assignments_collection)
+    collection: AsyncIOMotorCollection = Depends(get_assignments_collection),
+    current_student: StudentInDB = Depends(get_current_student)
 ):
     """
     Обновление задания по ID.
     """
+    # Получаем задание для проверки, может ли студент его обновить
+    assignment = await crud.get_assignment(collection, assignment_id)
+    if assignment is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, 
+            detail="Assignment not found"
+        )
+    
+    # В текущей реализации, мы разрешаем студентам обновлять только attachments
+    # Преобразуем assignment_data к словарю для проверки полей
+    update_data_dict = assignment_data.dict(exclude_unset=True)
+    
+    # Если обновляются поля кроме attachments, проверяем права доступа
+    # В будущем можно добавить проверку роли (преподаватель/администратор)
+    if set(update_data_dict.keys()) != {"attachments"}:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Students can only update attachments field"
+        )
+    
     raw_assignment = await crud.update_assignment(collection, assignment_id, assignment_data)
     if raw_assignment is None:
         raise HTTPException(

@@ -328,6 +328,14 @@
         "documentation": {}
     },
     {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
         "label": "StudentLogin",
         "importPath": "models.student",
         "description": "models.student",
@@ -469,6 +477,14 @@
         "description": "models.assignment",
         "isExtraImport": true,
         "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
         "documentation": {}
     },
     {
@@ -1847,7 +1863,7 @@
         "kind": 5,
         "importPath": "backend.api.assignment_submission",
         "description": "backend.api.assignment_submission",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/assignment-submission\",\n    tags=[\"assignment submission\"]\n)\n@router.post(\"/\", response_model=AssignmentSubmissionInDB, status_code=status.HTTP_201_CREATED)\nasync def create_assignment_submission(\n    submission_data: AssignmentSubmissionCreate,\n    collection: AsyncIOMotorCollection = Depends(get_student_assignment_submit_collection)\n):\n    \"\"\"",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/assignment-submission\",\n    tags=[\"assignment submission\"]\n)\n@router.post(\"/\", response_model=AssignmentSubmissionInDB, status_code=status.HTTP_201_CREATED)\nasync def create_assignment_submission(\n    submission_data: AssignmentSubmissionCreate,\n    collection: AsyncIOMotorCollection = Depends(get_student_assignment_submit_collection),\n    current_student: StudentInDB = Depends(get_current_student)\n):",
         "detail": "backend.api.assignment_submission",
         "documentation": {}
     },
