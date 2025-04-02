@@ -200,6 +200,30 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -280,6 +304,14 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -313,6 +345,14 @@
     },
     {
         "label": "StudentResponse",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
         "importPath": "models.student",
         "description": "models.student",
         "isExtraImport": true,
@@ -480,6 +520,14 @@
         "documentation": {}
     },
     {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
         "label": "course_crud",
         "importPath": "crud.course_crud",
         "description": "crud.course_crud",
@@ -585,6 +633,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -721,6 +777,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -778,6 +842,14 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -890,6 +962,30 @@
     },
     {
         "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
         "importPath": "motor.motor_asyncio",
         "description": "motor.motor_asyncio",
         "isExtraImport": true,
@@ -913,11 +1009,51 @@
         "documentation": {}
     },
     {
+        "label": "get_database",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
         "label": "get_student_code_submit_collection",
         "importPath": "dependencies.database",
         "description": "dependencies.database",
         "isExtraImport": true,
         "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
         "documentation": {}
     },
     {
@@ -1169,6 +1305,46 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "OAuth2PasswordRequestForm",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
@@ -1233,6 +1409,94 @@
         "importPath": "uuid",
         "description": "uuid",
         "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "create_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_assignment_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "update_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "delete_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
         "documentation": {}
     },
     {
@@ -1399,6 +1663,22 @@
         "documentation": {}
     },
     {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "EmailStr",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -1506,6 +1786,14 @@
     },
     {
         "label": "router",
+        "importPath": "api.grade",
+        "description": "api.grade",
+        "isExtraImport": true,
+        "detail": "api.grade",
+        "documentation": {}
+    },
+    {
+        "label": "router",
         "importPath": "api.courses",
         "description": "api.courses",
         "isExtraImport": true,
@@ -1534,6 +1822,15 @@
         "description": "api.files",
         "isExtraImport": true,
         "detail": "api.files",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -1588,6 +1885,15 @@
         "description": "backend.api.files",
         "peekOfCode": "UPLOAD_DIR = \"uploads\"\n# Создаем директорию, если она не существует\nos.makedirs(UPLOAD_DIR, exist_ok=True)\n@router.post(\"/upload\", status_code=status.HTTP_201_CREATED)\nasync def upload_file(file: UploadFile = File(...)):\n    \"\"\"\n    Загрузка файла на сервер.\n    Возвращает путь к загруженному файлу, который можно затем использовать\n    для прикрепления к заданию в поле attachments.\n    \"\"\"",
         "detail": "backend.api.files",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.grade",
+        "description": "backend.api.grade",
+        "peekOfCode": "router = APIRouter(\n    tags=[\"grades\"]\n)\n@router.post(\"/\", response_model=GradeInDB)\nasync def create_grade_endpoint(\n    grade_data: GradeCreate,\n    current_student: StudentInDB = Depends(get_current_student)\n):\n    # Проверка прав (в реальной системе здесь должна быть проверка, \n    # что текущий пользователь - преподаватель)",
+        "detail": "backend.api.grade",
         "documentation": {}
     },
     {
@@ -1775,7 +2081,7 @@
         "kind": 5,
         "importPath": "backend.dependencies.database",
         "description": "backend.dependencies.database",
-        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"",
         "detail": "backend.dependencies.database",
         "documentation": {}
     },
@@ -1784,7 +2090,7 @@
         "kind": 5,
         "importPath": "backend.dependencies.database",
         "description": "backend.dependencies.database",
-        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"\n    return db.student_assignment_submit ",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db",
         "detail": "backend.dependencies.database",
         "documentation": {}
     },
@@ -1793,7 +2099,7 @@
         "kind": 5,
         "importPath": "backend.dependencies.database",
         "description": "backend.dependencies.database",
-        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"\n    return db.student_assignment_submit \nasync def get_assignments_collection():",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:",
         "detail": "backend.dependencies.database",
         "documentation": {}
     },
@@ -1802,7 +2108,7 @@
         "kind": 5,
         "importPath": "backend.dependencies.database",
         "description": "backend.dependencies.database",
-        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"\n    return db.student_assignment_submit \nasync def get_assignments_collection():\n    \"\"\"\n    Получение коллекции assignments из MongoDB.",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами",
         "detail": "backend.dependencies.database",
         "documentation": {}
     },
@@ -1811,7 +2117,7 @@
         "kind": 5,
         "importPath": "backend.dependencies.database",
         "description": "backend.dependencies.database",
-        "peekOfCode": "db = client.crm_database\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"\n    return db.student_assignment_submit \nasync def get_assignments_collection():\n    \"\"\"\n    Получение коллекции assignments из MongoDB.\n    \"\"\"",
+        "peekOfCode": "db = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"",
         "detail": "backend.dependencies.database",
         "documentation": {}
     },
@@ -1885,6 +2191,42 @@
         "description": "backend.models.assignment_submission",
         "peekOfCode": "class AssignmentSubmissionInDB(AssignmentSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():\n                if isinstance(v, ObjectId):\n                    data[k] = str(v)",
         "detail": "backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "GradeBase",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeBase(BaseModel):\n    assignment_id: str\n    student_id: str\n    grade: int = Field(..., ge=0, le=100)  # Оценка от 0 до 100\nclass GradeCreate(GradeBase):\n    pass\nclass GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeCreate(GradeBase):\n    pass\nclass GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True\n        json_encoders = {\n            datetime: lambda v: v.isoformat()",
+        "detail": "backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "kind": 6,
+        "importPath": "backend.models.grade",
+        "description": "backend.models.grade",
+        "peekOfCode": "class GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True\n        json_encoders = {\n            datetime: lambda v: v.isoformat()\n        }\n    @classmethod",
+        "detail": "backend.models.grade",
         "documentation": {}
     },
     {
@@ -2045,7 +2387,7 @@
         "kind": 5,
         "importPath": "backend.main",
         "description": "backend.main",
-        "peekOfCode": "app.json_encoder = CustomJSONEncoder\n# Подключаем роутеры\napp.include_router(auth_router)\n# app.include_router(student_assignment_submit_router)\napp.include_router(assignment_submission_router)\napp.include_router(student_code_router)\n# app.include_router(students_router)\napp.include_router(courses_router)\napp.include_router(lessons_router)\napp.include_router(assignments_router)",
+        "peekOfCode": "app.json_encoder = CustomJSONEncoder\n# Подключаем роутеры\napp.include_router(auth_router)\n# app.include_router(student_assignment_submit_router)\napp.include_router(assignment_submission_router)\napp.include_router(student_code_router)\napp.include_router(grade_router, prefix=\"/grades\", tags=[\"grades\"])\n# app.include_router(students_router)\napp.include_router(courses_router)\napp.include_router(lessons_router)",
         "detail": "backend.main",
         "documentation": {}
     },
@@ -2083,6 +2425,123 @@
         "description": "frontend.node_modules.flatted.python.flatted",
         "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
         "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_ID",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "STUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "ASSIGNMENT_ID",
+        "kind": 5,
+        "importPath": "add_grade",
+        "description": "add_grade",
+        "peekOfCode": "ASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,\n        \"assignment_id\": ASSIGNMENT_ID,",
+        "detail": "add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_ID",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "STUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "ASSIGNMENT_ID",
+        "kind": 5,
+        "importPath": "add_grade_for_current_url",
+        "description": "add_grade_for_current_url",
+        "peekOfCode": "ASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,\n        \"assignment_id\": ASSIGNMENT_ID,",
+        "detail": "add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "update_all_grades",
+        "description": "update_all_grades",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")",
+        "detail": "update_all_grades",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "update_all_grades",
+        "description": "update_all_grades",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")\n    # Обновляем каждую оценку",
+        "detail": "update_all_grades",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "update_all_grades",
+        "description": "update_all_grades",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")\n    # Обновляем каждую оценку\n    for grade in grades:",
+        "detail": "update_all_grades",
         "documentation": {}
     }
 ]

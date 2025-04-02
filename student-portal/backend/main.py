@@ -12,6 +12,7 @@ from api.auth import router as auth_router
 # from api.student_assignment_submit import router as student_assignment_submit_router
 from api.assignment_submission import router as assignment_submission_router
 from api.student_code_submission import router as student_code_router
+from api.grade import router as grade_router
 # from api.students import router as students_router
 from api.courses import router as courses_router
 from api.lessons import router as lessons_router
@@ -56,6 +57,7 @@ app.include_router(auth_router)
 # app.include_router(student_assignment_submit_router)
 app.include_router(assignment_submission_router)
 app.include_router(student_code_router)
+app.include_router(grade_router, prefix="/grades", tags=["grades"])
 # app.include_router(students_router)
 app.include_router(courses_router)
 app.include_router(lessons_router)
