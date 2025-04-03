@@ -25,6 +25,8 @@ async def create_assignment_submit(
     """Создает новую отправку задания"""
     try:
         logger.info(f"Creating submit for student {student_id}, lesson {lesson_id}, assignment {assignment_id}")
+        logger.info(f"Submit data: is_submitted={submit_data.is_submitted}, has_code={bool(submit_data.code)}, code_length={len(submit_data.code or '')}")
+        
         submit = await assignment_submit_crud.create_submit(
             student_id=student_id,
             lesson_id=lesson_id,
@@ -37,7 +39,7 @@ async def create_assignment_submit(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="Failed to create submit"
             )
-        logger.info("Submit created successfully")
+        logger.info(f"Submit created successfully with id {submit.get('id')}")
         return submit
     except Exception as e:
         logger.error(f"Error creating submit: {str(e)}")

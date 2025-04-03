@@ -288,6 +288,38 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -328,6 +360,78 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -400,7 +504,15 @@
         "documentation": {}
     },
     {
-        "label": "Depends",
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -409,6 +521,14 @@
     },
     {
         "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -448,6 +568,62 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -473,6 +649,14 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -649,6 +833,30 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -968,6 +1176,22 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -977,6 +1201,94 @@
     },
     {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1016,6 +1328,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Dict",
         "importPath": "typing",
         "description": "typing",
@@ -1024,7 +1344,55 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1089,6 +1457,46 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1153,6 +1561,14 @@
     },
     {
         "label": "verify_token",
+        "importPath": "auth.dependencies",
+        "description": "auth.dependencies",
+        "isExtraImport": true,
+        "detail": "auth.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
         "importPath": "auth.dependencies",
         "description": "auth.dependencies",
         "isExtraImport": true,
@@ -1273,6 +1689,240 @@
         "documentation": {}
     },
     {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorCollection",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
         "label": "verify_token",
         "importPath": "auth.clerk",
         "description": "auth.clerk",
@@ -1377,7 +2027,103 @@
         "documentation": {}
     },
     {
+        "label": "GradeCreate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "importPath": "models.grade",
+        "description": "models.grade",
+        "isExtraImport": true,
+        "detail": "models.grade",
+        "documentation": {}
+    },
+    {
         "label": "grade_crud",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "create_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_assignment_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "update_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "delete_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_grades",
         "importPath": "crud.grade",
         "description": "crud.grade",
         "isExtraImport": true,
@@ -1545,6 +2291,14 @@
         "documentation": {}
     },
     {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
         "label": "StudentLogin",
         "importPath": "models.student",
         "description": "models.student",
@@ -1562,6 +2316,22 @@
     },
     {
         "label": "StudentResponse",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
+        "importPath": "models.student",
+        "description": "models.student",
+        "isExtraImport": true,
+        "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "StudentInDB",
         "importPath": "models.student",
         "description": "models.student",
         "isExtraImport": true,
@@ -1630,6 +2400,214 @@
         "description": "models.student",
         "isExtraImport": true,
         "detail": "models.student",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
         "documentation": {}
     },
     {
@@ -1763,15 +2741,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -1925,14 +2894,6 @@
     },
     {
         "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1964,6 +2925,14 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -1972,212 +2941,107 @@
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "ObjectId",
-        "importPath": "bson",
-        "description": "bson",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "bson",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncIOMotorClient",
-        "importPath": "motor.motor_asyncio",
-        "description": "motor.motor_asyncio",
-        "isExtraImport": true,
-        "detail": "motor.motor_asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "urllib.parse",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "detail": "urllib.parse",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -2366,6 +3230,78 @@
         "documentation": {}
     },
     {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "EmailStr",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -2375,6 +3311,30 @@
     },
     {
         "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -2494,19 +3454,11 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "student_code",
+        "importPath": "api",
+        "description": "api",
         "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "api",
         "documentation": {}
     },
     {
@@ -2603,6 +3555,54 @@
         "documentation": {}
     },
     {
+        "label": "AssignmentUpdate",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentInDB",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentCreate",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentUpdate",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentInDB",
+        "importPath": "models.assignment",
+        "description": "models.assignment",
+        "isExtraImport": true,
+        "detail": "models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
         "label": "get_current_student",
         "importPath": "auth.jwt",
         "description": "auth.jwt",
@@ -2643,6 +3643,210 @@
         "documentation": {}
     },
     {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_student",
+        "importPath": "auth.jwt",
+        "description": "auth.jwt",
+        "isExtraImport": true,
+        "detail": "auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "crud.assignments",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crud.assignments",
+        "description": "crud.assignments",
+        "detail": "crud.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "get_assignments_collection",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_assignment_submit_collection",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_code_submit_collection",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "dependencies.database",
+        "description": "dependencies.database",
+        "isExtraImport": true,
+        "detail": "dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionCreate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionUpdate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionInDB",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionCreate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionUpdate",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionInDB",
+        "importPath": "models.assignment_submission",
+        "description": "models.assignment_submission",
+        "isExtraImport": true,
+        "detail": "models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "assignment_submission",
+        "importPath": "crud",
+        "description": "crud",
+        "isExtraImport": true,
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionCreate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionUpdate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionInDB",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionCreate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionUpdate",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionInDB",
+        "importPath": "models.student_code_submission",
+        "description": "models.student_code_submission",
+        "isExtraImport": true,
+        "detail": "models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "crud.student_code_submission",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crud.student_code_submission",
+        "description": "crud.student_code_submission",
+        "detail": "crud.student_code_submission",
+        "documentation": {}
+    },
+    {
         "label": "JWTError",
         "importPath": "jose",
         "description": "jose",
@@ -2659,11 +3863,52 @@
         "documentation": {}
     },
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "importPath": "api.auth",
         "description": "api.auth",
         "isExtraImport": true,
         "detail": "api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.assignment_submission",
+        "description": "api.assignment_submission",
+        "isExtraImport": true,
+        "detail": "api.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.student_code_submission",
+        "description": "api.student_code_submission",
+        "isExtraImport": true,
+        "detail": "api.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.grade",
+        "description": "api.grade",
+        "isExtraImport": true,
+        "detail": "api.grade",
         "documentation": {}
     },
     {
@@ -2688,6 +3933,23 @@
         "description": "api.assignments",
         "isExtraImport": true,
         "detail": "api.assignments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.files",
+        "description": "api.files",
+        "isExtraImport": true,
+        "detail": "api.files",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -2733,6 +3995,24 @@
         "description": "backend.api.courses",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/courses\",\n    tags=[\"courses\"],\n    dependencies=[Depends(get_current_user())]\n)\n@router.post(\"/\")\nasync def create_course(course: Course):\n    try:\n        created_course = await course_crud.create_course(course)\n        return created_course",
         "detail": "backend.api.courses",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "kind": 2,
+        "importPath": "backend.api.database",
+        "description": "backend.api.database",
+        "peekOfCode": "def get_database():\n    try:\n        # Данные для подключения к MongoDB\n        username = urllib.parse.quote_plus(os.getenv(\"MONGO_USERNAME\", \"vitaliipodgornii\"))\n        password = urllib.parse.quote_plus(os.getenv(\"MONGO_PASSWORD\", \"Vitalik199712\"))\n        MONGODB_URL = os.getenv(\"MONGODB_URL\", f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net\")\n        # Подключаемся к MongoDB\n        client = AsyncIOMotorClient(MONGODB_URL)\n        db = client.crm_database\n        logger.info(\"Connected to MongoDB\")",
+        "detail": "backend.api.database",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.database",
+        "description": "backend.api.database",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Подключение к MongoDB\ndef get_database():\n    try:\n        # Данные для подключения к MongoDB\n        username = urllib.parse.quote_plus(os.getenv(\"MONGO_USERNAME\", \"vitaliipodgornii\"))\n        password = urllib.parse.quote_plus(os.getenv(\"MONGO_PASSWORD\", \"Vitalik199712\"))\n        MONGODB_URL = os.getenv(\"MONGODB_URL\", f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net\")\n        # Подключаемся к MongoDB\n        client = AsyncIOMotorClient(MONGODB_URL)",
+        "detail": "backend.api.database",
         "documentation": {}
     },
     {
@@ -2796,6 +4076,24 @@
         "description": "backend.api.students",
         "peekOfCode": "router = APIRouter(prefix=\"/students\", tags=[\"students\"])\n@router.post(\"/\", response_model=StudentInDB)\nasync def create_student(\n    student: Student,\n    current_user: dict = Depends(get_current_user)\n):\n    existing_student = await student_crud.get_user_by_email(student.email)\n    if existing_student:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    existing_username = await student_crud.get_user_by_username(student.username)",
         "detail": "backend.api.students",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.student_code",
+        "description": "backend.api.student_code",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nrouter = APIRouter(\n    prefix=\"/api/code-viewer\",\n    tags=[\"student-code\"]\n)\n@router.get(\"/students/{student_id}/assignments/{assignment_id}\", response_model=Dict[str, Any])\nasync def get_student_code(\n    student_id: str,\n    assignment_id: str,\n    current_user: dict = Depends(get_current_user)",
+        "detail": "backend.api.student_code",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.student_code",
+        "description": "backend.api.student_code",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/api/code-viewer\",\n    tags=[\"student-code\"]\n)\n@router.get(\"/students/{student_id}/assignments/{assignment_id}\", response_model=Dict[str, Any])\nasync def get_student_code(\n    student_id: str,\n    assignment_id: str,\n    current_user: dict = Depends(get_current_user)\n):",
+        "detail": "backend.api.student_code",
         "documentation": {}
     },
     {
@@ -3532,7 +4830,7 @@
         "kind": 6,
         "importPath": "backend.models.assignment_submit",
         "description": "backend.models.assignment_submit",
-        "peekOfCode": "class AssignmentSubmitBase(BaseModel):\n    is_submitted: bool = False\n    submit_date: Optional[datetime] = None\nclass AssignmentSubmitCreate(AssignmentSubmitBase):\n    pass\nclass AssignmentSubmit(AssignmentSubmitBase):\n    id: str\n    student_id: str\n    lesson_id: str\n    assignment_id: str",
+        "peekOfCode": "class AssignmentSubmitBase(BaseModel):\n    is_submitted: bool = False\n    submit_date: Optional[datetime] = None\n    code: Optional[str] = None\nclass AssignmentSubmitCreate(AssignmentSubmitBase):\n    pass\nclass AssignmentSubmit(AssignmentSubmitBase):\n    id: str\n    student_id: str\n    lesson_id: str",
         "detail": "backend.models.assignment_submit",
         "documentation": {}
     },
@@ -3813,6 +5111,15 @@
         "description": "backend.models.user",
         "peekOfCode": "class UserInDB(User):\n    id: str",
         "detail": "backend.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Загружаем переменные окружения\nload_dotenv()\n# Получаем переменные окружения для Clerk\nCLERK_PEM_PUBLIC_KEY = os.getenv(\"CLERK_PEM_PUBLIC_KEY\")\nCLERK_AUDIENCE = os.getenv(\"CLERK_AUDIENCE\")\nCLERK_ISSUER = os.getenv(\"CLERK_ISSUER\")\napp = FastAPI(\n    title=\"Student Back Portal API\",\n    description=\"API для управления студентами, курсами, оценками и посещаемостью\",",
+        "detail": "backend.main",
         "documentation": {}
     },
     {
@@ -4304,6 +5611,15 @@
     {
         "label": "router",
         "kind": 5,
+        "importPath": "student-portal.backend.api.assignment_submission",
+        "description": "student-portal.backend.api.assignment_submission",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/assignment-submission\",\n    tags=[\"assignment submission\"]\n)\n@router.post(\"/\", response_model=AssignmentSubmissionInDB, status_code=status.HTTP_201_CREATED)\nasync def create_assignment_submission(\n    submission_data: AssignmentSubmissionCreate,\n    collection: AsyncIOMotorCollection = Depends(get_student_assignment_submit_collection),\n    current_student: StudentInDB = Depends(get_current_student)\n):",
+        "detail": "student-portal.backend.api.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
         "importPath": "student-portal.backend.api.auth",
         "description": "student-portal.backend.api.auth",
         "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"auth\"])\n@router.post(\"/login\", response_model=Token)\nasync def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()) -> Any:\n    \"\"\"Аутентификация студента и выдача JWT токена\"\"\"\n    # Аутентифицируем студента по username и password\n    student = await student_crud.authenticate_student(form_data.username, form_data.password)\n    if not student:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Неверное имя пользователя или пароль\",",
@@ -4322,10 +5638,46 @@
     {
         "label": "router",
         "kind": 5,
+        "importPath": "student-portal.backend.api.files",
+        "description": "student-portal.backend.api.files",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/files\",\n    tags=[\"files\"]\n)\n# Базовая директория для загрузки файлов\nUPLOAD_DIR = \"uploads\"\n# Создаем директорию, если она не существует\nos.makedirs(UPLOAD_DIR, exist_ok=True)\n@router.post(\"/upload\", status_code=status.HTTP_201_CREATED)\nasync def upload_file(file: UploadFile = File(...)):",
+        "detail": "student-portal.backend.api.files",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.files",
+        "description": "student-portal.backend.api.files",
+        "peekOfCode": "UPLOAD_DIR = \"uploads\"\n# Создаем директорию, если она не существует\nos.makedirs(UPLOAD_DIR, exist_ok=True)\n@router.post(\"/upload\", status_code=status.HTTP_201_CREATED)\nasync def upload_file(file: UploadFile = File(...)):\n    \"\"\"\n    Загрузка файла на сервер.\n    Возвращает путь к загруженному файлу, который можно затем использовать\n    для прикрепления к заданию в поле attachments.\n    \"\"\"",
+        "detail": "student-portal.backend.api.files",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.grade",
+        "description": "student-portal.backend.api.grade",
+        "peekOfCode": "router = APIRouter(\n    tags=[\"grades\"]\n)\n@router.post(\"/\", response_model=GradeInDB)\nasync def create_grade_endpoint(\n    grade_data: GradeCreate,\n    current_student: StudentInDB = Depends(get_current_student)\n):\n    # Проверка прав (в реальной системе здесь должна быть проверка, \n    # что текущий пользователь - преподаватель)",
+        "detail": "student-portal.backend.api.grade",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
         "importPath": "student-portal.backend.api.lessons",
         "description": "student-portal.backend.api.lessons",
         "peekOfCode": "router = APIRouter(prefix=\"/lessons\", tags=[\"lessons\"])\n@router.get(\"/{lesson_id}\", response_model=Dict[str, Any])\nasync def get_lesson_by_id(\n    lesson_id: str,\n    current_student: StudentInDB = Depends(get_current_student)\n) -> Any:\n    \"\"\"Получает информацию о конкретном уроке по его ID\"\"\"\n    # Получаем урок\n    lesson = await course_crud.get_lesson_by_id(lesson_id)\n    if not lesson:",
         "detail": "student-portal.backend.api.lessons",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "student-portal.backend.api.student_code_submission",
+        "description": "student-portal.backend.api.student_code_submission",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/student-code\",\n    tags=[\"student code submission\"]\n)\n@router.post(\"/\", response_model=StudentCodeSubmissionInDB, status_code=status.HTTP_201_CREATED)\nasync def create_code_submission(\n    code_data: StudentCodeSubmissionCreate,\n    current_student: StudentInDB = Depends(get_current_student),\n    collection: AsyncIOMotorCollection = Depends(get_student_code_submit_collection)\n):",
+        "detail": "student-portal.backend.api.student_code_submission",
         "documentation": {}
     },
     {
@@ -4491,6 +5843,159 @@
         "documentation": {}
     },
     {
+        "label": "username",
+        "kind": 5,
+        "importPath": "student-portal.backend.dependencies.database",
+        "description": "student-portal.backend.dependencies.database",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"",
+        "detail": "student-portal.backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "student-portal.backend.dependencies.database",
+        "description": "student-portal.backend.dependencies.database",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db",
+        "detail": "student-portal.backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "student-portal.backend.dependencies.database",
+        "description": "student-portal.backend.dependencies.database",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# Создаем клиент MongoDB\nclient = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:",
+        "detail": "student-portal.backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "student-portal.backend.dependencies.database",
+        "description": "student-portal.backend.dependencies.database",
+        "peekOfCode": "client = AsyncIOMotorClient(MONGO_URI)\ndb = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами",
+        "detail": "student-portal.backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "student-portal.backend.dependencies.database",
+        "description": "student-portal.backend.dependencies.database",
+        "peekOfCode": "db = client.crm_database\nasync def get_database():\n    \"\"\"\n    Возвращает объект базы данных MongoDB.\n    \"\"\"\n    return db\nasync def get_student_assignment_submit_collection() -> AsyncIOMotorCollection:\n    \"\"\"\n    Возвращает коллекцию для сдачи заданий студентами\n    \"\"\"",
+        "detail": "student-portal.backend.dependencies.database",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentBase",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment",
+        "description": "student-portal.backend.models.assignment",
+        "peekOfCode": "class AssignmentBase(BaseModel):\n    title: str\n    description: str\n    lesson_id: str\n    code_editor: Optional[str] = None\n    attachments: Optional[List[str]] = None\nclass AssignmentCreate(AssignmentBase):\n    pass\nclass AssignmentUpdate(BaseModel):\n    title: Optional[str] = None",
+        "detail": "student-portal.backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentCreate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment",
+        "description": "student-portal.backend.models.assignment",
+        "peekOfCode": "class AssignmentCreate(AssignmentBase):\n    pass\nclass AssignmentUpdate(BaseModel):\n    title: Optional[str] = None\n    description: Optional[str] = None\n    lesson_id: Optional[str] = None\n    code_editor: Optional[str] = None\n    attachments: Optional[List[str]] = None\nclass AssignmentInDB(AssignmentBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "student-portal.backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentUpdate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment",
+        "description": "student-portal.backend.models.assignment",
+        "peekOfCode": "class AssignmentUpdate(BaseModel):\n    title: Optional[str] = None\n    description: Optional[str] = None\n    lesson_id: Optional[str] = None\n    code_editor: Optional[str] = None\n    attachments: Optional[List[str]] = None\nclass AssignmentInDB(AssignmentBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime",
+        "detail": "student-portal.backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentInDB",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment",
+        "description": "student-portal.backend.models.assignment",
+        "peekOfCode": "class AssignmentInDB(AssignmentBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():",
+        "detail": "student-portal.backend.models.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionBase",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment_submission",
+        "description": "student-portal.backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionBase(BaseModel):\n    student_id: str = Field(...)\n    lesson_id: str = Field(...)\n    assignment_id: str = Field(...)\n    is_submitted: bool = Field(default=False)\n    submit_date: Optional[datetime] = None\n    created_at: datetime = Field(default_factory=datetime.utcnow)\n    updated_at: datetime = Field(default_factory=datetime.utcnow)\n    @validator('submit_date', pre=True, always=True)\n    def set_submit_date(cls, v, values):",
+        "detail": "student-portal.backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionCreate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment_submission",
+        "description": "student-portal.backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionCreate(AssignmentSubmissionBase):\n    pass\nclass AssignmentSubmissionUpdate(BaseModel):\n    is_submitted: Optional[bool] = None\n    submit_date: Optional[datetime] = None\n    @validator('submit_date', pre=True, always=True)\n    def set_submit_date(cls, v, values):\n        # Если is_submitted=True, но submit_date не указана, установить текущую дату\n        if values.get('is_submitted') and not v:\n            return datetime.utcnow()",
+        "detail": "student-portal.backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionUpdate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment_submission",
+        "description": "student-portal.backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionUpdate(BaseModel):\n    is_submitted: Optional[bool] = None\n    submit_date: Optional[datetime] = None\n    @validator('submit_date', pre=True, always=True)\n    def set_submit_date(cls, v, values):\n        # Если is_submitted=True, но submit_date не указана, установить текущую дату\n        if values.get('is_submitted') and not v:\n            return datetime.utcnow()\n        return v\n    model_config = ConfigDict(",
+        "detail": "student-portal.backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "AssignmentSubmissionInDB",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.assignment_submission",
+        "description": "student-portal.backend.models.assignment_submission",
+        "peekOfCode": "class AssignmentSubmissionInDB(AssignmentSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():\n                if isinstance(v, ObjectId):\n                    data[k] = str(v)",
+        "detail": "student-portal.backend.models.assignment_submission",
+        "documentation": {}
+    },
+    {
+        "label": "GradeBase",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.grade",
+        "description": "student-portal.backend.models.grade",
+        "peekOfCode": "class GradeBase(BaseModel):\n    assignment_id: str\n    student_id: str\n    grade: int = Field(..., ge=0, le=100)  # Оценка от 0 до 100\nclass GradeCreate(GradeBase):\n    pass\nclass GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "student-portal.backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeCreate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.grade",
+        "description": "student-portal.backend.models.grade",
+        "peekOfCode": "class GradeCreate(GradeBase):\n    pass\nclass GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True",
+        "detail": "student-portal.backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeUpdate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.grade",
+        "description": "student-portal.backend.models.grade",
+        "peekOfCode": "class GradeUpdate(BaseModel):\n    grade: Optional[int] = Field(None, ge=0, le=100)\nclass GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True\n        json_encoders = {\n            datetime: lambda v: v.isoformat()",
+        "detail": "student-portal.backend.models.grade",
+        "documentation": {}
+    },
+    {
+        "label": "GradeInDB",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.grade",
+        "description": "student-portal.backend.models.grade",
+        "peekOfCode": "class GradeInDB(GradeBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True\n        json_encoders = {\n            datetime: lambda v: v.isoformat()\n        }\n    @classmethod",
+        "detail": "student-portal.backend.models.grade",
+        "documentation": {}
+    },
+    {
         "label": "StudentBase",
         "kind": 6,
         "importPath": "student-portal.backend.models.student",
@@ -4563,11 +6068,92 @@
         "documentation": {}
     },
     {
+        "label": "StudentCodeSubmissionBase",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student_code_submission",
+        "description": "student-portal.backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionBase(BaseModel):\n    student_id: str\n    assignment_id: str\n    code: str\nclass StudentCodeSubmissionCreate(StudentCodeSubmissionBase):\n    pass\nclass StudentCodeSubmissionUpdate(BaseModel):\n    code: Optional[str] = None\nclass StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")",
+        "detail": "student-portal.backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionCreate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student_code_submission",
+        "description": "student-portal.backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionCreate(StudentCodeSubmissionBase):\n    pass\nclass StudentCodeSubmissionUpdate(BaseModel):\n    code: Optional[str] = None\nclass StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):",
+        "detail": "student-portal.backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionUpdate",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student_code_submission",
+        "description": "student-portal.backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionUpdate(BaseModel):\n    code: Optional[str] = None\nclass StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:",
+        "detail": "student-portal.backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCodeSubmissionInDB",
+        "kind": 6,
+        "importPath": "student-portal.backend.models.student_code_submission",
+        "description": "student-portal.backend.models.student_code_submission",
+        "peekOfCode": "class StudentCodeSubmissionInDB(StudentCodeSubmissionBase):\n    id: str = Field(alias=\"_id\")\n    created_at: datetime\n    updated_at: datetime\n    @classmethod\n    def from_mongo(cls, data: dict):\n        \"\"\"Преобразует данные из MongoDB в модель Pydantic\"\"\"\n        if data:\n            # Преобразуем все ObjectId в строки\n            for k, v in data.items():",
+        "detail": "student-portal.backend.models.student_code_submission",
+        "documentation": {}
+    },
+    {
+        "label": "dom",
+        "kind": 2,
+        "importPath": "student-portal.backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "description": "student-portal.backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "peekOfCode": "def dom():\n    lista = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']\n    a = random.choice(lista)\n    return a\nprint(dom())\ndef sort(przedmoit):\n    czasy = {\n        'karton': 'kartony',\n    }\n    if przedmoit in czasy:",
+        "detail": "student-portal.backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "documentation": {}
+    },
+    {
+        "label": "sort",
+        "kind": 2,
+        "importPath": "student-portal.backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "description": "student-portal.backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "peekOfCode": "def sort(przedmoit):\n    czasy = {\n        'karton': 'kartony',\n    }\n    if przedmoit in czasy:\n        return f'{przedmoit} idze {czasy[przedmoit]}'\nprint(sort('karton'))",
+        "detail": "student-portal.backend.uploads.0c51b5fb-1caa-4d26-afac-b4fe1ded21d3",
+        "documentation": {}
+    },
+    {
+        "label": "CustomJSONEncoder",
+        "kind": 6,
+        "importPath": "student-portal.backend.main",
+        "description": "student-portal.backend.main",
+        "peekOfCode": "class CustomJSONEncoder(json.JSONEncoder):\n    def default(self, obj):\n        if isinstance(obj, ObjectId):\n            return str(obj)\n        if isinstance(obj, datetime):\n            return obj.isoformat()\n        return super().default(obj)\n# Создаем экземпляр FastAPI\napp = FastAPI(title=\"Student Portal API\")\n# Настраиваем CORS для frontend",
+        "detail": "student-portal.backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "custom_encoder",
+        "kind": 2,
+        "importPath": "student-portal.backend.main",
+        "description": "student-portal.backend.main",
+        "peekOfCode": "def custom_encoder(obj):\n    if isinstance(obj, ObjectId):\n        return str(obj)\n    if isinstance(obj, datetime):\n        return obj.isoformat()\n    return obj\napp.json_encoder = CustomJSONEncoder\n# Подключаем роутеры\napp.include_router(auth_router)\n# app.include_router(student_assignment_submit_router)",
+        "detail": "student-portal.backend.main",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "student-portal.backend.main",
         "description": "student-portal.backend.main",
-        "peekOfCode": "app = FastAPI(title=\"Student Portal API\")\n# Настраиваем CORS для frontend\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Разрешаем все источники в режиме разработки\n    allow_credentials=False,  # Отключаем credentials, так как используем allow_origins=[\"*\"]\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n    expose_headers=[\"*\"]\n)",
+        "peekOfCode": "app = FastAPI(title=\"Student Portal API\")\n# Настраиваем CORS для frontend\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # При разработке разрешаем все источники\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n# Переопределяем стандартный JSON encoder для FastAPI",
+        "detail": "student-portal.backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.json_encoder",
+        "kind": 5,
+        "importPath": "student-portal.backend.main",
+        "description": "student-portal.backend.main",
+        "peekOfCode": "app.json_encoder = CustomJSONEncoder\n# Подключаем роутеры\napp.include_router(auth_router)\n# app.include_router(student_assignment_submit_router)\napp.include_router(assignment_submission_router)\napp.include_router(student_code_router)\napp.include_router(grade_router, prefix=\"/grades\", tags=[\"grades\"])\n# app.include_router(students_router)\napp.include_router(courses_router)\napp.include_router(lessons_router)",
         "detail": "student-portal.backend.main",
         "documentation": {}
     },
@@ -4605,6 +6191,123 @@
         "description": "student-portal.frontend.node_modules.flatted.python.flatted",
         "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
         "detail": "student-portal.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "student-portal.add_grade",
+        "description": "student-portal.add_grade",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database",
+        "detail": "student-portal.add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "student-portal.add_grade",
+        "description": "student-portal.add_grade",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки",
+        "detail": "student-portal.add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "student-portal.add_grade",
+        "description": "student-portal.add_grade",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из веб-интерфейса\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()",
+        "detail": "student-portal.add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_ID",
+        "kind": 5,
+        "importPath": "student-portal.add_grade",
+        "description": "student-portal.add_grade",
+        "peekOfCode": "STUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,",
+        "detail": "student-portal.add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "ASSIGNMENT_ID",
+        "kind": 5,
+        "importPath": "student-portal.add_grade",
+        "description": "student-portal.add_grade",
+        "peekOfCode": "ASSIGNMENT_ID = \"67e41e292ae5c11f88a645b7\"  # Правильный ID задания из базы данных\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,\n        \"assignment_id\": ASSIGNMENT_ID,",
+        "detail": "student-portal.add_grade",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "student-portal.add_grade_for_current_url",
+        "description": "student-portal.add_grade_for_current_url",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database",
+        "detail": "student-portal.add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "student-portal.add_grade_for_current_url",
+        "description": "student-portal.add_grade_for_current_url",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки",
+        "detail": "student-portal.add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "student-portal.add_grade_for_current_url",
+        "description": "student-portal.add_grade_for_current_url",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\n# ID студента и задания из URL\nSTUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()",
+        "detail": "student-portal.add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_ID",
+        "kind": 5,
+        "importPath": "student-portal.add_grade_for_current_url",
+        "description": "student-portal.add_grade_for_current_url",
+        "peekOfCode": "STUDENT_ID = \"67d4063e1f3d08c137402d52\"  \nASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,",
+        "detail": "student-portal.add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "ASSIGNMENT_ID",
+        "kind": 5,
+        "importPath": "student-portal.add_grade_for_current_url",
+        "description": "student-portal.add_grade_for_current_url",
+        "peekOfCode": "ASSIGNMENT_ID = \"67e3f447481c9342bf5cbcc1\"  # ID из URL\nasync def add_grade():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Данные для оценки\n    now = datetime.utcnow()\n    grade_data = {\n        \"student_id\": STUDENT_ID,\n        \"assignment_id\": ASSIGNMENT_ID,",
+        "detail": "student-portal.add_grade_for_current_url",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "student-portal.update_all_grades",
+        "description": "student-portal.update_all_grades",
+        "peekOfCode": "username = urllib.parse.quote_plus(\"vitaliipodgornii\")\npassword = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")",
+        "detail": "student-portal.update_all_grades",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "student-portal.update_all_grades",
+        "description": "student-portal.update_all_grades",
+        "peekOfCode": "password = urllib.parse.quote_plus(\"Vitalik199712\")\nMONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")\n    # Обновляем каждую оценку",
+        "detail": "student-portal.update_all_grades",
+        "documentation": {}
+    },
+    {
+        "label": "MONGO_URI",
+        "kind": 5,
+        "importPath": "student-portal.update_all_grades",
+        "description": "student-portal.update_all_grades",
+        "peekOfCode": "MONGO_URI = f\"mongodb+srv://{username}:{password}@cluster0.jcrsrzo.mongodb.net/\"\nasync def update_all_grades():\n    # Создаем клиент MongoDB\n    client = AsyncIOMotorClient(MONGO_URI)\n    db = client.crm_database\n    # Получаем все оценки\n    grades = await db.grades.find().to_list(100)\n    print(f\"Найдено {len(grades)} оценок\")\n    # Обновляем каждую оценку\n    for grade in grades:",
+        "detail": "student-portal.update_all_grades",
         "documentation": {}
     }
 ]
