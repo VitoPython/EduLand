@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useAuth } from "@clerk/clerk-react";
 import api from '../services/api';
 import { Table, Tag, Button, Spin, message } from 'antd';
@@ -9,7 +9,8 @@ const SubmitsTable = ({ lessonId, assignments, students }) => {
     const [loading, setLoading] = useState(true);
     const { getToken } = useAuth();
 
-    const fetchSubmits = async () => {
+    // Мемоизируем функцию получения отправок
+    const fetchSubmits = useCallback(async () => {
         if (!lessonId || !assignments.length || !students.length) {
             setLoading(false);
             return;
@@ -48,35 +49,35 @@ const SubmitsTable = ({ lessonId, assignments, students }) => {
         } finally {
             setLoading(false);
         }
-    };
-
-    useEffect(() => {
-        fetchSubmits();
     }, [lessonId, assignments, students, getToken]);
 
-    const handleSubmit = async (studentId, assignmentId, isSubmitted, submitId = null) => {
+    // Используем useEffect только для начальной загрузки
+    useEffect(() => {
+        fetchSubmits();
+    }, [fetchSubmits]);
+
+    // Мемоизируем функцию обработки отправки
+    const handleSubmit = useCallback(async (studentId, assignmentId, isSubmitted, submitId = null) => {
         try {
             setLoading(true);
             const token = await getToken();
             
             if (isSubmitted && submitId) {
-                // Если уже отправлено - отменяем отправку
                 await api.delete(`/assignment-submit/submits/${submitId}`, {
                     headers: { Authorization: `Bearer ${token}` }
                 });
                 message.success('Submission cancelled successfully');
             } else {
-                // Если не отправлено - создаем новую отправку
                 await api.post(`/assignment-submit/students/${studentId}/lessons/${lessonId}/assignments/${assignmentId}/submit`, {
                     is_submitted: true,
-                    submit_date: new Date().toISOString()
+                    submit_date: new Date().toISOString(),
+                    code: "Example code for submission"
                 }, {
                     headers: { Authorization: `Bearer ${token}` }
                 });
                 message.success('Assignment submitted successfully');
             }
             
-            // Обновляем список отправок
             await fetchSubmits();
         } catch (error) {
             console.error('Error handling submit:', error);
@@ -84,9 +85,10 @@ const SubmitsTable = ({ lessonId, assignments, students }) => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [lessonId, fetchSubmits, getToken]);
 
-    const columns = [
+    // Мемоизируем колонки таблицы
+    const columns = useMemo(() => [
         {
             title: 'Student',
             dataIndex: 'student_name',
@@ -133,7 +135,14 @@ const SubmitsTable = ({ lessonId, assignments, students }) => {
                 </Button>
             )
         }
-    ];
+    ], [handleSubmit]);
+
+    // Мемоизируем настройки пагинации
+    const paginationConfig = useMemo(() => ({
+        pageSize: 10,
+        showSizeChanger: true,
+        showTotal: (total) => `Total ${total} submissions`
+    }), []);
 
     if (!lessonId || !assignments.length || !students.length) {
         return (
@@ -150,11 +159,7 @@ const SubmitsTable = ({ lessonId, assignments, students }) => {
                     columns={columns}
                     dataSource={submits}
                     rowKey={(record) => `${record.student_id}-${record.assignment_id}`}
-                    pagination={{
-                        pageSize: 10,
-                        showSizeChanger: true,
-                        showTotal: (total) => `Total ${total} submissions`
-                    }}
+                    pagination={paginationConfig}
                 />
             </Spin>
         </div>

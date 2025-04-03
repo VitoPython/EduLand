@@ -1,8 +1,15 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+# Импортируем каждый модуль отдельно для гарантированной загрузки
 from api import users, courses, lessons, assignments, students, enrollments, groups, attendance, grades, assignment_submit
+# Явно импортируем student_code
+from api import student_code
 from dotenv import load_dotenv
 import os
+import logging
+
+# Настройка логирования
+logger = logging.getLogger(__name__)
 
 # Загружаем переменные окружения
 load_dotenv()
@@ -26,17 +33,19 @@ app = FastAPI(
         {"name": "groups", "description": "Операции с группами"},
         {"name": "attendance", "description": "Операции с посещаемостью"},
         {"name": "grades", "description": "Операции с оценками"},
-        {"name": "assignment_submit", "description": "Операции с отправкой заданий"}
+        {"name": "assignment_submit", "description": "Операции с отправкой заданий"},
+        {"name": "student_code", "description": "Операции с кодом заданий студентов"}
     ]
 )
 
 # Настройка CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "http://localhost:3000", "http://localhost:5174", "http://127.0.0.1:5173"],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*", "Authorization", "Content-Type"],
+    expose_headers=["*"],
 )
 
 # Подключаем все роутеры
@@ -50,6 +59,7 @@ app.include_router(groups.router)
 app.include_router(attendance.router)
 app.include_router(grades.router)
 app.include_router(assignment_submit.router)
+app.include_router(student_code.router)
 
 if __name__ == "__main__":
     import uvicorn

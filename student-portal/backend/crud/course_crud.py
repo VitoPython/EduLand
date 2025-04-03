@@ -57,10 +57,20 @@ class CourseCRUD:
             courses = []
             courses_cursor = courses_collection.find({"_id": {"$in": course_ids}})
             async for course in courses_cursor:
+                # Подсчитываем количество уроков для курса
+                lessons_count = await lessons_collection.count_documents({"course_id": course["_id"]})
+                
+                # Поиск завершенных уроков
+                # Здесь можно будет добавить логику подсчета завершенных уроков, 
+                # когда будет реализовано отслеживание прогресса
+                completed_lessons_count = 0
+                
                 course_data = {
                     "id": str(course["_id"]),
                     "title": course.get("title", ""),
                     "description": course.get("description", ""),
+                    "lessons_count": lessons_count,
+                    "completed_lessons_count": completed_lessons_count
                 }
                 courses.append(course_data)
             

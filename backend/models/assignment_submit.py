@@ -5,6 +5,7 @@ from typing import Optional
 class AssignmentSubmitBase(BaseModel):
     is_submitted: bool = False
     submit_date: Optional[datetime] = None
+    code: Optional[str] = None
 
 class AssignmentSubmitCreate(AssignmentSubmitBase):
     pass

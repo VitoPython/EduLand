@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react';
-import { Table, Button, Input, Alert, Space, Typography } from 'antd';
+import { useEffect, useState, useCallback } from 'react';
+import { Table, Button, Input, Alert, Space, Typography, Modal, Spin } from 'antd';
 import PropTypes from 'prop-types';
 import useGradesStore from '../stores/gradesStore';
 import styled from 'styled-components';
+import api from '../services/api';
+import { useAuth } from "@clerk/clerk-react";
+import { CodeBlock, atomOneDark } from 'react-code-blocks';
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const StyledTable = styled(Table)`
   .ant-table {
@@ -63,6 +66,25 @@ const StyledTable = styled(Table)`
   }
 `;
 
+const CodeModalContent = styled.div`
+  max-height: 70vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  
+  pre {
+    margin: 0;
+    border-radius: 8px;
+  }
+`;
+
+const GradingFooter = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+`;
+
 const GradeInput = styled(Input)`
   width: 70px !important;
   height: 32px;
@@ -107,6 +129,17 @@ const QuickGradeButton = styled(Button)`
   }
 `;
 
+const ViewCodeButton = styled(Button)`
+  border-radius: 6px;
+  margin-right: 8px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+`;
+
 const EditButton = styled(Button)`
   &.ant-btn-link {
     color: #4096ff;
@@ -125,12 +158,67 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
   const { grades, isLoading, error, fetchGradesByAssignment, createGrade, updateGrade } = useGradesStore();
   const [editingId, setEditingId] = useState(null);
   const [editValues, setEditValues] = useState({});
+  const [codeSubmissions, setCodeSubmissions] = useState({});
+  const [loadingSubmissions, setLoadingSubmissions] = useState(false);
+  const [codeModalVisible, setCodeModalVisible] = useState(false);
+  const [currentSubmission, setCurrentSubmission] = useState(null);
+  const [currentGradeValue, setCurrentGradeValue] = useState('');
+  const { getToken } = useAuth();
 
+  // Загрузка оценок
   useEffect(() => {
     if (assignmentId) {
       fetchGradesByAssignment(assignmentId);
     }
   }, [assignmentId, fetchGradesByAssignment]);
+
+  // Загрузка кода заданий
+  const fetchCodeSubmissions = useCallback(async () => {
+    if (!assignmentId || !students.length) return;
+    
+    try {
+      setLoadingSubmissions(true);
+      const token = await getToken();
+      
+      // Используем основной эндпоинт для получения кода студентов
+      const submissionsPromises = students.map(student => {
+        const url = `/code-viewer/students/${student.student_id}/assignments/${assignmentId}`;
+        
+        return api.get(url, {
+          headers: { Authorization: `Bearer ${token}` }
+        })
+        .then(response => {
+          return {
+            ...response.data,
+            student_id: student.student_id
+          };
+        })
+        .catch(() => {
+          return null;
+        });
+      });
+      
+      const results = await Promise.all(submissionsPromises);
+      
+      // Создаем объект с кодом для каждого студента
+      const submissionsObject = {};
+      results.forEach(submission => {
+        if (submission && (submission.has_submission || submission.code)) {
+          submissionsObject[submission.student_id] = submission;
+        }
+      });
+      
+      setCodeSubmissions(submissionsObject);
+    } catch (error) {
+      console.error('Error fetching code submissions:', error);
+    } finally {
+      setLoadingSubmissions(false);
+    }
+  }, [assignmentId, students, getToken]);
+
+  useEffect(() => {
+    fetchCodeSubmissions();
+  }, [fetchCodeSubmissions]);
 
   const handleEdit = (record) => {
     setEditingId(record.student_id);
@@ -203,21 +291,90 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
     }
   };
 
+  const handleViewCode = (record) => {
+    const submission = codeSubmissions[record.student_id];
+    if (submission) {
+      setCurrentSubmission(submission);
+      setCurrentGradeValue(record.grade?.toString() || '');
+      setCodeModalVisible(true);
+    }
+  };
+
+  const handleGradeFromModal = async () => {
+    if (!currentSubmission) return;
+    
+    try {
+      const gradeValue = parseInt(currentGradeValue);
+      if (isNaN(gradeValue) || gradeValue < 0 || gradeValue > 10) {
+        throw new Error('Grade must be a number between 0 and 10');
+      }
+
+      const gradeData = {
+        assignment_id: assignmentId,
+        student_id: currentSubmission.student_id,
+        grade: gradeValue
+      };
+
+      // Ищем существующую оценку по student_id И assignment_id
+      const existingGrade = grades.find(g => 
+        g.student_id === currentSubmission.student_id && 
+        g.assignment_id === assignmentId
+      );
+      
+      if (existingGrade && existingGrade._id) {
+        await updateGrade(existingGrade._id, gradeData);
+      } else {
+        await createGrade(gradeData);
+      }
+      
+      setCodeModalVisible(false);
+      await fetchGradesByAssignment(assignmentId);
+    } catch (err) {
+      console.error('Error saving grade from modal:', err);
+    }
+  };
+
   const columns = [
     {
       title: 'Student',
       dataIndex: 'student_name',
       key: 'student_name',
-      width: '30%',
+      width: '25%',
       render: (text, record) => (
         <span style={{ fontWeight: 500 }}>{`${record.first_name} ${record.last_name}`}</span>
       ),
     },
     {
+      title: 'Submission',
+      dataIndex: 'code',
+      key: 'code',
+      width: '25%',
+      render: (text, record) => {
+        const hasSubmission = !!codeSubmissions[record.student_id];
+        
+        return (
+          <Space>
+            <ViewCodeButton 
+              type="primary" 
+              onClick={() => handleViewCode(record)}
+              disabled={!hasSubmission}
+            >
+              {hasSubmission ? 'View Code' : 'No Submission'}
+            </ViewCodeButton>
+            {codeSubmissions[record.student_id]?.submit_date && (
+              <Text type="secondary" style={{ fontSize: '12px' }}>
+                Submitted: {new Date(codeSubmissions[record.student_id].submit_date).toLocaleString()}
+              </Text>
+            )}
+          </Space>
+        );
+      },
+    },
+    {
       title: 'Grade',
       dataIndex: 'grade',
       key: 'grade',
-      width: '50%',
+      width: '30%',
       render: (text, record) => {
         if (editingId === record.student_id) {
           return (
@@ -289,7 +446,8 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
       last_name: student.last_name,
       grade: studentGrade?.grade,
       assignment_id: assignmentId,
-      _id: studentGrade?._id
+      _id: studentGrade?._id,
+      has_submission: !!codeSubmissions[student.student_id]
     };
   });
 
@@ -318,8 +476,78 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
         pagination={false}
         size="middle"
         rowKey="student_id"
-        loading={isLoading}
+        loading={isLoading || loadingSubmissions}
       />
+
+      {/* Модальное окно для просмотра кода */}
+      <Modal
+        title={currentSubmission ? `Code Submission - ${students.find(s => s.student_id === currentSubmission.student_id)?.first_name} ${students.find(s => s.student_id === currentSubmission.student_id)?.last_name}` : 'Code Submission'}
+        open={codeModalVisible}
+        onCancel={() => setCodeModalVisible(false)}
+        width={800}
+        footer={null}
+      >
+        {currentSubmission ? (
+          <>
+            <CodeModalContent>
+              <pre style={{ marginBottom: '10px' }}>
+                {currentSubmission.submit_date && (
+                  <Text>Submitted: {new Date(currentSubmission.submit_date).toLocaleDateString()} {new Date(currentSubmission.submit_date).toLocaleTimeString()}</Text>
+                )}
+              </pre>
+              
+              <CodeBlock
+                text={
+                  currentSubmission && 'code' in currentSubmission && currentSubmission.code
+                    ? currentSubmission.code
+                    : 'No code submitted'
+                }
+                language="javascript"
+                theme={atomOneDark}
+                showLineNumbers={true}
+              />
+            </CodeModalContent>
+            <GradingFooter>
+              <Space>
+                <Text>Grade:</Text>
+                <GradeInput
+                  value={currentGradeValue}
+                  onChange={e => setCurrentGradeValue(e.target.value)}
+                  placeholder="0-10"
+                  onPressEnter={handleGradeFromModal}
+                />
+                <QuickGradeButton
+                  type="primary"
+                  size="small"
+                  className="max-grade"
+                  onClick={() => {
+                    setCurrentGradeValue('10');
+                    handleGradeFromModal();
+                  }}
+                >
+                  10
+                </QuickGradeButton>
+                <QuickGradeButton
+                  type="primary"
+                  size="small"
+                  className="min-grade"
+                  onClick={() => {
+                    setCurrentGradeValue('3');
+                    handleGradeFromModal();
+                  }}
+                >
+                  3
+                </QuickGradeButton>
+              </Space>
+              <Button type="primary" onClick={handleGradeFromModal}>
+                Save Grade
+              </Button>
+            </GradingFooter>
+          </>
+        ) : (
+          <Spin />
+        )}
+      </Modal>
     </div>
   );
 };

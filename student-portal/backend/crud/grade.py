@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime
 from bson import ObjectId
 from models.grade import GradeCreate, GradeUpdate, GradeInDB
@@ -74,4 +74,17 @@ async def delete_grade(grade_id: str) -> bool:
         return result.deleted_count > 0
     except Exception as e:
         print(f"Ошибка при удалении оценки: {e}")
-        return False 
+        return False
+
+async def get_student_grades(student_id: str) -> List[GradeInDB]:
+    """Получает все оценки студента из базы данных"""
+    db = await get_database()
+    try:
+        cursor = db.grades.find({"student_id": student_id})
+        grades = []
+        async for grade in cursor:
+            grades.append(GradeInDB.from_mongo(grade))
+        return grades
+    except Exception as e:
+        print(f"Ошибка при получении оценок студента: {e}")
+        return [] 

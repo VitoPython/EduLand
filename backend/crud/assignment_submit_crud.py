@@ -34,6 +34,7 @@ class AssignmentSubmitCRUD:
                 "lesson_id": lesson_id,
                 "assignment_id": assignment_id,
                 "is_submitted": submit_data.is_submitted,
+                "code": submit_data.code or "",
                 "submit_date": submit_data.submit_date or datetime.utcnow(),
                 "created_at": datetime.utcnow(),
                 "updated_at": datetime.utcnow()
@@ -123,6 +124,7 @@ class AssignmentSubmitCRUD:
             update_data = {
                 "$set": {
                     "is_submitted": submit_data.is_submitted,
+                    "code": submit_data.code or "",
                     "submit_date": submit_data.submit_date or datetime.utcnow(),
                     "updated_at": datetime.utcnow()
                 }
