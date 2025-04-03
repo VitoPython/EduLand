@@ -657,6 +657,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -794,6 +802,14 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1509,6 +1525,14 @@
     },
     {
         "label": "delete_grade",
+        "importPath": "crud.grade",
+        "description": "crud.grade",
+        "isExtraImport": true,
+        "detail": "crud.grade",
+        "documentation": {}
+    },
+    {
+        "label": "get_student_grades",
         "importPath": "crud.grade",
         "description": "crud.grade",
         "isExtraImport": true,

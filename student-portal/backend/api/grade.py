@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
-from typing import Optional
+from typing import Optional, List
 from models.grade import GradeCreate, GradeUpdate, GradeInDB
 from models.student import StudentInDB
 from crud.grade import (
@@ -7,7 +7,8 @@ from crud.grade import (
     get_grade,
     get_student_assignment_grade,
     update_grade,
-    delete_grade
+    delete_grade,
+    get_student_grades
 )
 from auth.jwt import get_current_student
 from dependencies.database import get_database
@@ -55,4 +56,17 @@ async def read_grade(
     if grade.student_id != current_student.id:
         raise HTTPException(status_code=403, detail="Недостаточно прав")
     
-    return grade 
+    return grade
+
+@router.get("/student/{student_id}", response_model=List[GradeInDB])
+async def read_student_grades(
+    student_id: str,
+    current_student: StudentInDB = Depends(get_current_student)
+):
+    """Получение всех оценок студента"""
+    # Проверяем, что студент запрашивает свои оценки
+    if current_student.id != student_id:
+        raise HTTPException(status_code=403, detail="Недостаточно прав")
+    
+    grades = await get_student_grades(student_id)
+    return grades 
