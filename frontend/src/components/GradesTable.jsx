@@ -76,6 +76,77 @@ const CodeModalContent = styled.div`
     margin: 0;
     border-radius: 8px;
   }
+  
+  /* Стили для CodeBlock */
+  .code-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+  }
+  
+  /* Переопределение стилей CodeBlock */
+  .codeBlock {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .codeBlockLines {
+    line-height: 1.6 !important;
+    font-size: 14px !important;
+  }
+  
+  .codeBlockContent {
+    padding: 16px !important;
+  }
+  
+  .linenumber {
+    color: #636d83 !important;
+    opacity: 0.85 !important;
+    min-width: 40px !important;
+    padding-right: 16px !important;
+  }
+`;
+
+const CodeBlockWrapper = styled.div`
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  
+  & pre {
+    border-radius: 8px;
+    margin: 0 !important;
+  }
+  
+  & code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+`;
+
+const LanguageTag = styled.span`
+  display: inline-flex;
+  align-items: center;
+  background: #1f1f1f;
+  color: #d4d4d4;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-family: monaco, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+  &.python { background: #306998; color: white; }
+  &.javascript { background: #f7df1e; color: #000; }
+  &.java { background: #5382a1; color: white; }
+  &.cpp { background: #00599c; color: white; }
+  &.csharp { background: #9b4f96; color: white; }
+  &.html { background: #e34c26; color: white; }
+  &.css { background: #264de4; color: white; }
+  &.json { background: #1e1e1e; color: #8bc34a; }
 `;
 
 const GradingFooter = styled.div`
@@ -164,6 +235,8 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
   const [currentSubmission, setCurrentSubmission] = useState(null);
   const [currentGradeValue, setCurrentGradeValue] = useState('');
   const { getToken } = useAuth();
+  const [detectedLanguage, setDetectedLanguage] = useState('python');
+  const codeTheme = atomOneDark;
 
   // Загрузка оценок
   useEffect(() => {
@@ -296,6 +369,13 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
     if (submission) {
       setCurrentSubmission(submission);
       setCurrentGradeValue(record.grade?.toString() || '');
+      
+      // Определяем язык кода
+      if (submission.code) {
+        const language = detectLanguage(submission.code);
+        setDetectedLanguage(language);
+      }
+      
       setCodeModalVisible(true);
     }
   };
@@ -332,6 +412,87 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
     } catch (err) {
       console.error('Error saving grade from modal:', err);
     }
+  };
+
+  // Функция определения языка программирования по коду
+  const detectLanguage = (code) => {
+    if (!code) return 'python';
+    
+    const firstLines = code.trim().split('\n').slice(0, 5).join('\n').toLowerCase();
+    const firstLine = code.trim().split('\n')[0].toLowerCase();
+    
+    // Пытаемся определить язык по первым строкам
+    
+    // Python
+    if (firstLine.includes('#!/usr/bin/env python') || firstLine.includes('# -*- coding:')) {
+      return 'python';
+    } else if (firstLines.includes('import ') && (firstLines.includes('from ') || firstLines.includes('as '))) {
+      return 'python';
+    } else if (firstLines.includes('def ') && firstLines.includes(':')) {
+      return 'python';
+    } else if (firstLines.includes('class ') && firstLines.includes(':')) {
+      return 'python';
+    } else if (firstLines.includes('import turtle') || firstLines.includes('from turtle import')) {
+      return 'python';
+    }
+    
+    // JavaScript/TypeScript
+    if (firstLines.includes('import ') && (firstLines.includes('from \'') || firstLines.includes('from "') || firstLines.includes('react'))) {
+      return 'javascript';
+    } else if (firstLines.includes('function ') || firstLines.includes('=>') || 
+               firstLines.includes('const ') || firstLines.includes('let ') || 
+               firstLines.includes('var ')) {
+      return 'javascript';
+    } else if (firstLines.includes('class ') && firstLines.includes('extends ') && 
+              (firstLines.includes('{') || firstLines.includes('constructor'))) {
+      return 'javascript';
+    }
+    
+    // Java
+    if (firstLines.includes('public class ') || firstLines.includes('private class ') || 
+        firstLines.includes('import java.') || firstLines.includes('package ')) {
+      return 'java';
+    } else if (firstLines.includes('public static void main')) {
+      return 'java';
+    }
+    
+    // C/C++
+    if (firstLines.includes('#include <') || firstLines.includes('using namespace std')) {
+      return 'cpp';
+    } else if (firstLines.includes('int main(') || firstLines.includes('void main(')) {
+      return 'cpp';
+    }
+    
+    // C#
+    if (firstLines.includes('using System;') || firstLines.includes('namespace ')) {
+      return 'csharp';
+    } else if (firstLines.includes('public class ') && firstLines.includes('static void Main')) {
+      return 'csharp';
+    }
+    
+    // HTML/XML
+    if (firstLine.includes('<html') || firstLine.includes('<!doctype') || 
+        firstLine.includes('<?xml')) {
+      return 'html';
+    } else if (firstLines.match(/<\w+>.*<\/\w+>/s) || firstLines.includes('</')) {
+      return 'html';
+    }
+    
+    // CSS
+    if (firstLines.includes('{') && 
+        (firstLines.includes('margin:') || firstLines.includes('padding:') || 
+         firstLines.includes('color:') || firstLines.includes('background:'))) {
+      return 'css';
+    }
+    
+    // JSON
+    if ((firstLine.startsWith('{') && firstLines.includes('"')) || 
+        (firstLine.startsWith('[') && firstLines.includes('"'))) {
+      return 'json';
+    }
+    
+    // По умолчанию используем Python
+    return 'python';
   };
 
   const columns = [
@@ -486,26 +647,41 @@ const GradesTable = ({ assignmentId, students, assignmentName }) => {
         onCancel={() => setCodeModalVisible(false)}
         width={800}
         footer={null}
+        styles={{ body: { padding: '16px' } }}
       >
         {currentSubmission ? (
           <>
             <CodeModalContent>
-              <pre style={{ marginBottom: '10px' }}>
-                {currentSubmission.submit_date && (
-                  <Text>Submitted: {new Date(currentSubmission.submit_date).toLocaleDateString()} {new Date(currentSubmission.submit_date).toLocaleTimeString()}</Text>
-                )}
-              </pre>
+              <Space style={{ marginBottom: '10px', display: 'flex', justifyContent: 'space-between' }}>
+                <div>
+                  <LanguageTag className={detectedLanguage}>{detectedLanguage}</LanguageTag>
+                  {currentSubmission.submit_date && (
+                    <Text>Submitted: {new Date(currentSubmission.submit_date).toLocaleDateString()} {new Date(currentSubmission.submit_date).toLocaleTimeString()}</Text>
+                  )}
+                </div>
+              </Space>
               
-              <CodeBlock
-                text={
-                  currentSubmission && 'code' in currentSubmission && currentSubmission.code
-                    ? currentSubmission.code
-                    : 'No code submitted'
-                }
-                language="javascript"
-                theme={atomOneDark}
-                showLineNumbers={true}
-              />
+              <CodeBlockWrapper>
+                <CodeBlock
+                  text={currentSubmission && 'code' in currentSubmission && currentSubmission.code ? currentSubmission.code : 'No code submitted'}
+                  language={detectedLanguage}
+                  showLineNumbers={true}
+                  theme={codeTheme}
+                  wrapLongLines={false}
+                  customStyle={{
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontFamily: "'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace",
+                    lineHeight: 1.6,
+                    paddingLeft: '8px',
+                    paddingRight: '16px'
+                  }}
+                  codeBlockStyle={{
+                    fontSize: '14px',
+                    fontFamily: "'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace"
+                  }}
+                />
+              </CodeBlockWrapper>
             </CodeModalContent>
             <GradingFooter>
               <Space>
